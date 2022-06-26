@@ -1,7 +1,5 @@
 # Notes
 
-整理：林楠
-
 ## 课程规划
 
 1. 大一上
@@ -42,7 +40,3 @@
 
    - 无机化学
    - Chimie tout-en-un
-
-4. Python
-   - Python 编程 从入门到实践
-   - Python 学习手册
