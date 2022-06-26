@@ -586,3 +586,5 @@
 
 % restore the tt default family to lmodern tt family
 \renewcommand\ttdefault{lmtt}
+
+\RequirePackage{tcolorbox}
