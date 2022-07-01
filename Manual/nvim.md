@@ -42,7 +42,7 @@
    i       竖直窗口 一个新窗口打开选中文件，并跳到该窗口
    gi      竖直窗口 一个新窗口打开选中文件，但不跳到该窗口
    s       水平窗口 一个新窗口打开选中文件，并跳到该窗口
-   gs      水平窗口 一个新 窗口打开选中文件，但不跳到该窗口
+   gs      水平窗口 一个新窗口打开选中文件，但不跳到该窗口
    ```
 
 3. __How to reveal or show current file in nerdtree window?__ [F2]（自定义）
@@ -55,15 +55,4 @@
 
 ### Vim-Fugitive - git in vim
 
-1. `git status`
-
-   The `:Gstatus` command opens a status window. The contents closely resemble the output from running `git status` in the shell, but fugitive makes the window interactive. 
-
-   | command   | affect                                    |
-   | --------- | ----------------------------------------- |
-   | `-`       | add/reset file (works in visual mode too) |
-   | `<Enter>` | open current file in the window below     |
-   | `p`       | run `git add –patch` for current file     |
-   | `C`       | invoke `:Gcommit`                         |
-
-2. 
+1. 将 `git` 命令转换：`:Git ......`
