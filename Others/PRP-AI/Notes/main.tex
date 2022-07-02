@@ -1,0 +1,174 @@
+\documentclass[11pt, a4paper]{article}
+
+% Set the title of the current document to be produced.
+\newcommand{\doctitle}{Neural Networks}
+% Command for the due date of the homework.
+\newcommand{\duedate}{\color{rltred}{\faCalendarCheckO { }Due date: May 1st, before midnight \faCalendarCheckO	}}
+
+%------------------------------------------------------------
+% Import commands for both teacher and course information.  | 
+% NOTE: Change your teacher and course info in these files. |
+%------>------>------>------>------>------>------>------>-->|
+\newcommand{\instructor}{Lin Nan} 
+\newcommand{\college}{Shanghai Jiao Tong University}
+\newcommand{\semester}{Summer 2022}
+\newcommand{\coursetitle}{Neural Networks} 
+\newcommand{\coursenumber}{PRP}                              %|   
+%
+%------------------------------------------------------------
+%-- Import packages and custom command definitons.          |
+%------>------>------>------>------>------>------>------>-->|
+\input{includes/packages}                                  %|  
+\input{includes/custom-commands}   
+%
+%---> Genereate & inject metadata describing                |
+%     the produced document                                 |
+\input{includes/metadata}                                  %|
+%------------------------------------------------------------
+
+\topmargin      -60pt
+
+\begin{document} 
+    
+%-------------------------------------------------------------
+%-- Make the header of the document                          |
+%------>------>------>------>------>------>------>------>--> |
+\input{includes/document-header}
+
+\vskip .3in
+%
+\tableofcontents
+
+\clearpage
+
+%-------------------------------------------------------------
+%-- Begin here!                          |
+%------>------>------>------>------>------>------>------>--> |
+
+\section{Bases}
+\subsection{Architectures}
+\begin{figure}[H] %h:当前位置, t:顶部, b:底部, p:浮动页
+    \centering
+    \includegraphics[width=\textwidth]{./fig/neural-networks-architectures.png}
+    \caption{neural-networks-architectures}
+    \label{fig:neural-networks-architectures}
+\end{figure}
+
+We will focus on one node, by noting:
+
+\begin{itemize}
+    \item $i$ : the  $i$-th layer of the network
+    \item $j$ : the $j$-th hidden units of the layer
+    \item $(\vec{x},y)$ : datasets, where $\vec{x}$ is the input and $y$ is the desired output. $\vec{x}\in \mathcal{R}^{n_x}$ has $n_x$ variables
+    \item $\vec{w}\in \mathcal{R}^{n_x}$ : weight, each $w$ corresponds to one $x$
+    \item $b\in \mathcal{R}$ :  bias
+    \item $z$ : output
+\end{itemize}
+
+We have:
+
+\begin{tcolorbox}
+    \textbf{Forward propagation} (before using the activation function):
+   \[
+       z_j^{[i]} = (\vec{w}_j^{[i]})^{T} \cdot \vec{x} + b_j^{[i]}
+   \]
+\end{tcolorbox}
+
+And then, \textbf{activation functions} $\hat{y}=g(z)$ are used at the end of a hidden unit to introduce non-linear complexities to the model.
+
+\begin{figure}[H] %h:当前位置, t:顶部, b:底部, p:浮动页
+    \centering
+    \includegraphics[width=\textwidth]{./fig/activation-functions.png}
+    \caption{activation-functions}
+    \label{fig:activation-functions}
+\end{figure}
+
+Suming up:
+
+\begin{tcolorbox}
+    We have dataset $(\vec{x},y)$. With input $x\in \mathcal{R}^{n_x}$, and the help of $\vec{w},b$ and $g$,
+\[
+    \vec{x} \mapsto z \mapsto \hat{y} = g(z)
+\]
+    In this way having $\hat{y}$ in our model and $y$ in reality.
+\end{tcolorbox}
+\subsection{Cross-entropy loss}
+Here, we are going to measure the difference between $y$ and $\hat{y}$, by calculating the \textbf{Cross-entropy loss} $L(\hat{y},y)$.
+
+\begin{tcolorbox}
+    \textbf{Cross-entropy loss}: to measure how well our algorithm is doing
+    \[
+    L(\hat{y},y) = -[y\log \hat{y}+(1-y)\log (1-\hat{y})]
+    \]
+\end{tcolorbox}
+
+Also, we have the \textbf{cost function} based on a number of samples:
+
+\begin{tcolorbox}
+    \textbf{Cost function}: to measure how well you're doing in the entire training set.
+
+    Here, $n$ means the $n$-th sample, and $m$ is the total number of the samples.
+    \[
+        J(w,b) = \frac{1}{m} \sum_{n=1}^{m} L(\hat{y}^{[n]}, y ^{[n]})
+    \]
+\end{tcolorbox}
+
+\subsection{Gradient Descent}
+
+\textbf{Gradient Descent} is based on a convex function and tweaks its parameters iteratively to minimize a given function (here, the cost function) to its local minimum.
+\begin{figure}[H]
+\begin{minipage}[t]{0.5\linewidth} 
+\centering 
+\includegraphics[width=2.0in]{./fig/gradient-descent-1D.png} 
+\caption{gradient-descent-1D} 
+\label{fig:gradient-descent-1D} 
+\end{minipage}% 
+\begin{minipage}[t]{0.5\linewidth} 
+\centering 
+\includegraphics[width=2.5in]{./fig/gradient-descent-3D.png} 
+\caption{gradient-descent-3D} 
+\label{fig:gradient-descent-3D} 
+\end{minipage} 
+\end{figure}
+
+We note :
+\begin{itemize}
+    \item $a$ : current position
+    \item $b$ : the next position
+    \item $\alpha$ : a waiting factor
+    \item $\nabla  f(a)$ : the direction of the steepest descent at $a$
+\end{itemize}
+\begin{tcolorbox}
+    What \textbf{gradient descent} does:
+    \[
+        b = a - \alpha \cdot \nabla f(a)
+    \]
+\end{tcolorbox}
+
+We define $\alpha$ as the \textbf{learning rate}, which indicates at which space the weights get updated.
+
+It is very important for us to select a appropriate value of $\alpha$.
+\begin{figure}[H] %h:当前位置, t:顶部, b:底部, p:浮动页
+    \centering
+    \includegraphics[width=0.5\textwidth]{./fig/gradient-descent-learning-rate.png}
+    \caption{gradient-descent-learning-rate}
+    \label{fig:gradient-descent-learning-rate}
+\end{figure}
+
+After several iterations, $|\nabla f|< \varepsilon$, which means it has converged.
+
+\subsection{Backpropogation}
+
+\textbf{Backpropogation} is an algorithm for supervised learning of artificial neural networks using \textbf{gradient descent}.
+
+
+\begin{tcolorbox}
+The weights $w$ are updated as follows :
+\begin{enumerate}
+    \item Take a batch of training data
+    \item Perform \textbf{forward propagation} to obtain the corresponding loss
+    \item \textbf{Backpropagate} the loss to get the gradients
+    \item Use the gradients to update the weights of the network
+\end{enumerate}
+\end{tcolorbox}
+\end{document}
