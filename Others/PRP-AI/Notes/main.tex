@@ -170,7 +170,7 @@ Here, we have :
 \hat{y} = g(z), z = w^{T}x+b
 \]
 
-For one single node with $(x\in \mathcal{R}^{n_x},y)$, we focus on one variable $w_k$ which correspond to $x_k \in \{x_1, \ldots,x_{n_x}\}$:
+For one single node with $(x\in \mathcal{R}^{n_x},y)$, we focus on one variable $w_k$ which correspond to $x_k \in \{x_1, \ldots,x_{n_x}\}$ by using the \textbf{chain rule of differentiation}:
 \begin{align*}
     \nabla_w = \frac{\partial L(\hat{y},y)}{\partial w_k}
     &= \frac{\partial L(\hat{y},y)}{\partial \hat{y}} \cdot \frac{\text{d}\hat{y}}{\text{d}z} \cdot \frac{\partial z}{\partial w_k} \\
