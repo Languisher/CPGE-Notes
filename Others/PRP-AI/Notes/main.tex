@@ -92,16 +92,20 @@ Suming up:
 \]
     In this way having $\hat{y}$ in our model and $y$ in reality.
 \end{tcolorbox}
-\subsection{Cross-entropy loss}
-Here, we are going to measure the difference between $y$ and $\hat{y}$, by calculating the \textbf{Cross-entropy loss} $L(\hat{y},y)$.
-
+\subsection{Loss functions}
+Here, we are going to measure the difference between $y$ and $\hat{y}$. \textbf{Loss functions} are to measure how well our algorithm is doing based on one single sample.
 \begin{tcolorbox}
-    \textbf{Cross-entropy loss}: to measure how well our algorithm is doing
+    \textbf{Cross-entropy loss}:
     \[
     L(\hat{y},y) = -[y\log \hat{y}+(1-y)\log (1-\hat{y})]
     \]
 \end{tcolorbox}
-
+\begin{tcolorbox}
+    \textbf{Mean squared error loss}:
+    \[
+    L(\hat{y},y) = (y - \hat{y})^{2}
+    \]
+\end{tcolorbox}
 Also, we have the \textbf{cost function} based on a number of samples:
 
 \begin{tcolorbox}
@@ -155,15 +159,36 @@ It is very important for us to select a appropriate value of $\alpha$.
     \label{fig:gradient-descent-learning-rate}
 \end{figure}
 
-After several iterations, $|\nabla f|< \varepsilon$, which means it has converged.
+After several iterations by repeating the method until $|\nabla f|< \varepsilon$, which means it has converged, then stop.
 
 \subsection{Backpropogation}
 
 \textbf{Backpropogation} is an algorithm for supervised learning of artificial neural networks using \textbf{gradient descent}.
 
+Here, we have :
+\[
+\hat{y} = g(z), z = w^{T}x+b
+\]
+
+For one single node with $(x\in \mathcal{R}^{n_x},y)$, we focus on one variable $w_k$ which correspond to $x_k \in \{x_1, \ldots,x_{n_x}\}$:
+\begin{align*}
+    \nabla_w = \frac{\partial L(\hat{y},y)}{\partial w_k}
+    &= \frac{\partial L(\hat{y},y)}{\partial \hat{y}} \cdot \frac{\text{d}\hat{y}}{\text{d}z} \cdot \frac{\partial z}{\partial w_k} \\
+    &= \frac{\partial L(\hat{y},y)}{\partial z} \cdot x_k 
+\end{align*}
+
+If $g$ is the sigmoid function, and the loss function is the cross-entropy loss function, then for each $w_k$,
+\[
+\nabla_w =\frac{\partial L(\hat{y},y)}{\partial w_k} = (\hat{y}-y) \cdot x_k
+\]
+\[ \begin{cases}
+    w_k &:= w_k - \alpha(\hat{y}-y)x_k \\
+    b_k &:= b_k - \alpha(\hat{y}-y)
+\end{cases}
+\]
 
 \begin{tcolorbox}
-The weights $w$ are updated as follows :
+$w$ and $b$ are updated as follows :
 \begin{enumerate}
     \item Take a batch of training data
     \item Perform \textbf{forward propagation} to obtain the corresponding loss
@@ -171,4 +196,36 @@ The weights $w$ are updated as follows :
     \item Use the gradients to update the weights of the network
 \end{enumerate}
 \end{tcolorbox}
+The whole process is:
+\begin{verbatim}
+    ---Initializing---
+    g = (an activation function)
+    J = 0
+    L = (Cross-entropy loss)
+    For p = 1 to (the total number of inputs)
+        dw_p = 0
+        w_p = (random but appropriate number)
+    db = 0
+    alpha = (learning rate)
+
+    ---For all the samples---
+    For n = 1 to m
+        ---Forward Propagation---
+        z = wx + b
+        a = g(z)
+        J += L(a,y)
+        ---Backpropagation---
+        dz = (after calculation)
+        For p = 1 to (the total number of inputs)
+            dw_p += x_p * dz
+        db += dz
+    
+    ---Update w and b by using the gradients---
+    J /= m
+    For p = 1 to (the total number of inputs)
+        dw_p /= m
+        w_p := w_p - alpha * dw_p
+    b := b - alpha * db
+\end{verbatim}
+
 \end{document}

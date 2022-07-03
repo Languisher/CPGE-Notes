@@ -1,14 +1,18 @@
 # Fdb version 3
-["xdvipdfmx"] 1656770554 "build/main.xdv" "build/main.pdf" "build/main" 1656770556
-  "build/main.xdv" 1656770554 32192 563288365b5e98cc39530d5eff341e72 "xelatex"
+["xdvipdfmx"] 1656808236 "build/main.xdv" "build/main.pdf" "build/main" 1656808237
+  "build/main.xdv" 1656808235 36956 b0d8cda411f5853207fc38900e089281 "xelatex"
   (generated)
   "build/main.pdf"
-["xelatex"] 1656770551 "main.tex" "build/main.xdv" "main" 1656770556
+["xelatex"] 1656808232 "main.tex" "build/main.xdv" "main" 1656808237
   "/System/Library/Fonts/Menlo.ttc" 1652131848 2155812 30e8e1ead3db825f24e1d4bdb001343e ""
   "/System/Library/Fonts/PingFang.ttc" 1652131848 77143236 99e2de86304bbeebc5f20fc3e427d415 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm" 1136768653 1384 4632f5e54900a7dadbb83f555bc61e56 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
@@ -106,6 +110,11 @@
   "/usr/local/texlive/2022/texmf-dist/tex/generic/xstring/xstring.tex" 1626900402 48190 9b86e8476d1d94df049e99d192261166 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/acronym/acronym.sty" 1586643638 22582 38093488dbdcb4eb85c03bbc38fc7305 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/amscls/amsthm.sty" 1591045760 12594 0d51ac3a545aaaa555021326ff22a6cc ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1654720880 2222 78b930a5a6e3dc2ac69b78c2057b94d7 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty" 1654720880 4173 c989ee3ced31418e3593916ab26c793a ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty" 1654720880 88393 1adf6fa3f245270d06e3d4f8910f7fc5 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty" 1654720880 4474 f04cd1cc7bd76eb033e6fb12eb6a0d77 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty" 1654720880 2444 70065bddd85997dc1fd0bb7ae634e5fa ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/atveryend/atveryend.sty" 1576191570 19336 ce7ae9438967282886b3b036cfad1e4d ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty" 1576625391 3935 57aa3c3e203a5c2effb4d2bd2efbc323 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls" 1654720880 20144 7555b7429d80bef287ebb82117811acc ""
@@ -194,6 +203,7 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty" 1601326656 325 f9f16d12354225b7dd52a3321f085955 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/pmboxdraw/pmboxdraw.sty" 1575674250 85722 674bb1bdd5ee2d78383a11e280d8251f ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/pifont.sty" 1586716065 2283 62e73848f29fd8cd37fb7974c7cf2221 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/t1pcr.fd" 1137110629 798 d5895e9edc628f2be019beb2c0ec66df ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/times.sty" 1586716065 856 8e0e5c8cca7b18e0400f97f5a2b90a99 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/upsy.fd" 1137110629 148 2da0acd77cba348f34823f44cabf0058 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/upzd.fd" 1137110629 148 b2a94082cb802f90d3daf6dd0c7188a0 ""
@@ -228,8 +238,8 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1655629763 5459476 783cf268605e3478e2099c4cdff1b12f ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "build/main.aux" 1656770554 2571 161630aea0d675e258e85f9aa2aa4331 "xelatex"
-  "build/main.toc" 1656770554 387 3d91cd39cd4432e941b2e95f59ddacf1 "xelatex"
+  "build/main.aux" 1656808235 2567 a18c1829ca2f029127d4f03c6debcd64 "xelatex"
+  "build/main.toc" 1656808235 383 0618c83affd8b5eb313770cf668a8389 "xelatex"
   "fig/activation-functions.png" 1656729673 106002 0c23602582344acd5c4d5635c8f48053 ""
   "fig/gradient-descent-1D.png" 1656751584 34117 640e4cf3d086cbc4c77c45009536dd02 ""
   "fig/gradient-descent-3D.png" 1656751680 236481 776b4303d9fc068aa32e3eab9315b010 ""
@@ -238,8 +248,8 @@
   "includes/custom-commands.tex" 1656647046 8672 c51458c8f3426ab09a57cb3ffdb76872 ""
   "includes/document-header.tex" 1656688837 1064 42c63a1183d44cb741ee214675ca2bba ""
   "includes/metadata.tex" 1656676895 579 b1f97fe6ffec170b86160646fd87278b ""
-  "includes/packages.tex" 1656729333 2333 ad3a618024f6377829e83138b537d447 ""
-  "main.tex" 1656770550 6168 f9b4d70849d96ee9589301b3b956dbff ""
+  "includes/packages.tex" 1656775067 2354 e5265883548bdfbd9faef527e1330cce ""
+  "main.tex" 1656808231 7875 68a300c4bac227047bb1e6cd8d54f36c ""
   (generated)
   "build/main.aux"
   "build/main.log"
