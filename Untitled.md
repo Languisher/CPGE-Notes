@@ -1,0 +1,1 @@
+Née le 19 juin 1959 à Espagne, elle s'installée à Lyon en 1961. Elle est arrivée à Paris en 1984. Depuis 1994, ella a adhéré au Parti socialiste, et a été nominée comme conseillère au ministère de l'Emploi et de la Solidarité en 1997. 6 ans après, elle a obteni la double nationalité française et espagnole. Elle a élu à la mairie de Paris en 2014.
