@@ -1,10 +1,11 @@
 This folder contains these files :
 
-## Courses and references 
+## Courses
 
 1. Math 
-    - Mathématiques I - Fonctions réelles et géométrie 高等数学 I([MATH1301P-2022 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1002))
-    - Mathématiques II - Nombre complexes et calcul infinitésimal 高等数学 II([MATH1302P-2022 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1003))
+    - Bases scientifiques pour ingénieurs 数学基础 ([FL1902P-2021 autumn](http://moodle.speit.sjtu.edu.cn/mod/folder/view.php?id=12589))
+    - Mathématiques I - Fonctions réelles et géométrie 高等数学 I ([MATH1301P-2022 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1002))
+    - Mathématiques II - Nombre complexes et calcul infinitésimal 高等数学 II ([MATH1302P-2022 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1003))
     - Algèbre linéaire et bilinéaire 线性代数 ([MATH2306P-2022 autumn](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1065))
     - Suites et Séries 数列和级数 ([MATH2305P-2022 autumn](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1064))
     - Algèbre linéaire et bilinéaire avancé 高等线性代数 ([MATH2307P-2023 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1166))
@@ -22,3 +23,9 @@ This folder contains these files :
     - Optique ondulatoire 波动光学 ([PHY2303P-2023 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1170))
     - Mécanique II 力学 II （[PHY2304P-2023 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1171))
     - Électromagnétisme en régime statique 静电磁学 ([PHY2304P-2023 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1171))
+
+## Materials 
+
+1. Livres 
+    - [Math](./Livres/Math/)
+    - [Physics](./Livres/Physics/)
