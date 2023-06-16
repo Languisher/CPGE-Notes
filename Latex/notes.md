@@ -51,7 +51,31 @@
 
 ## Tikz 绘图
 
-
+详情请见 7.2 节
+1. 点
+    - 直角坐标系 `(x,y)`，极坐标 `(angle:radius)`
+    - 命名点：`\coordinate (name) at (coordinate);`
+2. 直线
+    - 直线：`\draw (coordinate) -- (coordinate);`
+    - 箭头：`\draw[->, thick, color] (coordinate) -- (coordinate);`
+3. 矩形、圆、椭圆、正弦曲线
+    - 矩形：`\draw (coordinate) rectangle (coordinate);`
+    - 圆：`\draw (coordinate) circle (radius);`
+    - 椭圆：`\draw (coordinate) ellipse (x radius and y radius);`
+    - 正弦曲线：`\draw (coordinate) sin (coordinate);`
+4. 网格、函数图像
+    - 网格：`\draw[step=1cm, gray, very thin] (coordinate) grid (coordinate);`
+    - 函数图像：`\draw[domain=0:2*pi] plot (\x, {sin(\x r)});`
+5. 填充
+    - 填充：`\fill[color] (coordinate) -- (coordinate) -- (coordinate) -- cycle;`
+    - 填充：`\filldraw[fill=yellow,draw=red] (coordinate) -- (coordinate) -- (coordinate) -- cycle;`
+6. 节点
+    ```latex
+        \node[options] (name) at (coordinate) {text};
+        \draw (name) -- (name);
+    ```
+7. 线条类型 `solid/dashed/dotted/dash dot/dash dot dot`
+  
 ## 排版模版
 
 [template-of-latex](template.tex)
