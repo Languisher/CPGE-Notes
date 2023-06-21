@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"aa770de9c6799836","x":81,"y":-995,"width":404,"height":1152,"type":"file","file":"Physique - Chimie/P06 Optique Ondulatoire/Notes/Assets/PHY2303P_TD1_corrigÃ©_dd.pdf"},
+		{"id":"c86db0d432c142af","x":-319,"y":-995,"width":400,"height":1152,"type":"file","file":"Physique - Chimie/P06 Optique Ondulatoire/Notes/Assets/PHY2303P_TD1_Chap1.pdf"},
+		{"id":"05e3103d6eb24787","x":-719,"y":-995,"width":400,"height":1152,"type":"file","file":"Physique - Chimie/P06 Optique Ondulatoire/Notes/Assets/TD1 Note.pdf"}
+	],
+	"edges":[]
+}

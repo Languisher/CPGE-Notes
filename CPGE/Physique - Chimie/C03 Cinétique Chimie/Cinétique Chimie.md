@@ -1,0 +1,11 @@
+1. [[00 Notations Basiques]]
+2. [[01 Vitesses et temps dans un système réactionnel]]
+3. [[02 Loi de Vitesse]]
+4. [[03 Exemples de réactions complexes]]
+5. [[04 Mécanismes Réactionnels]]
+
+> Date : 2023-02-15 Matérial : [[Thermochimie_Cours_CH1_Partie1.pdf]]
+> Date : 2023-02-22 Matériaux : [[Thermochimie_Cours_reaction_rappels.pdf]], [[Thermochimie_Cours_CH1_Partie2.pdf]]
+> Date : 2023-03-01 Matériaux : [[Thermochimie_Cours_CH1_Partie3.pdf]]
+> Date : 2023-03-08 Matériaux : [[Thermochimie_Cours_CH1_Partie4.pdf]]
+> Date : 2023-03-03 TD : [[TD1_cinetique.pdf]], [[TD1_cinetique_ex4_correction.pdf]]

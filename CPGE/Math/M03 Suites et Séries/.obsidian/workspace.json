@@ -1,0 +1,166 @@
+{
+  "main": {
+    "id": "7d9020801c781213",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8a4a618dc9f6fd6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af7a3b03232b10ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours de Suites et Séries.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7e2c7d0bba31380",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "def/Probabilité Discrète.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "617ffa8c560a201a",
+    "type": "split",
+    "children": [
+      {
+        "id": "79811d7d387d2aa3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c91505e90207c1f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "739a54f111c92bac",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ab75e8996fa2028d",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 240.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "75e9a33fc0125319",
+    "type": "split",
+    "children": [
+      {
+        "id": "af6274cad75dfd1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc3d84bc36231c6e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "def/Probabilité Discrète.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8f5e256d66d5b332",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "def/Probabilité Discrète.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0abb885fbdd66850",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cb4741179ca5f66d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "def/Probabilité Discrète.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "d7e2c7d0bba31380",
+  "lastOpenFiles": [
+    "def/Dénombrement.md",
+    "def/Probabilité Discrète.md",
+    "Cours de Suites et Séries.md",
+    "files/séries-numériques.pdf",
+    "files/courstd_series_numeriques.pdf",
+    "def/Sommable.md",
+    "exe/EXE-Suites Récurrentes.md",
+    "exe/EXE-Nature des Séries.md",
+    "exe/EXE-Séries Télescopiques.md",
+    "exe/EXE-Équivalents des sommes et restes.md"
+  ]
+}
