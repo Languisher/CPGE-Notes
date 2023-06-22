@@ -21,7 +21,7 @@ This folder contains these files :
   
 1. Physics and Chemistry
 	- Y1S1
-		- Optique géométrique 几何光学 ([FL1902P-2021 autumn](http://moodle.speit.sjtu.edu.cn/course/view.php?id=945))
+		- (P01) Optique géométrique 几何光学 ([FL1902P-2021 autumn](http://moodle.speit.sjtu.edu.cn/course/view.php?id=945))
 	- Y1S2
 		- Électricité fondamentale circuits 电子电路基础([PHY1301P-2022 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1004))
 		- Mécanique I 力学 I ([PHY1301P-2022 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1004))
