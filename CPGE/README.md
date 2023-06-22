@@ -39,10 +39,6 @@ This folder contains these files :
 		- Fondements de l'électromagnétisme 电磁学基础 ([PHY3305P-2023 autumn])
 		- 量子力学导论 ([PHY3306P-2023 autumn])
 
-## Materials 
+## Concours Site
 
-1. Livres et Exercices 
-    - [Math](./Livres-et-Exercices/Math/)
-    - [Physics](./Livres-et-Exercices/Physics/)
-
-2. Livres et Matérials Utils 
+https://gargantua.polytechnique.fr/siatel-web/app/explorer/fVaJXpYYYK

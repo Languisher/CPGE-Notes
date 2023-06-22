@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fdfd7ea3c2e34469",
+        "id": "a2cd7ea21cd7acc7",
         "type": "tabs",
         "children": [
           {
-            "id": "8445f91b62b40881",
+            "id": "3aafdc6eaa8faaf2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
+                "file": "CPGE/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
+                "file": "CPGE/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
+                "file": "CPGE/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md"
+                "file": "CPGE/README.md"
               }
             }
           }
@@ -146,8 +146,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d31fcb4c70e93b65",
+  "active": "3aafdc6eaa8faaf2",
   "lastOpenFiles": [
+    "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
     "CPGE/Physique - Chimie/P04 Signaux + Ondes Unidimensionnelles/Programme_S9.pdf",
     "CPGE/Physique - Chimie/P04 Signaux + Ondes Unidimensionnelles/Prgrm_S16-PHY2302P-p2021.pdf",
     "CPGE/Physique - Chimie/P05 Thermodynamique/Exercices/PH2301P_Programme_Colles_S6.pdf",
@@ -158,7 +159,6 @@
     "CPGE/Math/M06 Topologie/Exercices/TD8_espaces vectoriels_normÃ©s_Riesz.pdf",
     "CPGE/Math/M06 Topologie/Exercices/TD8_espaces vectoriels_normÃ©s_Riesz-corr.pdf",
     "CPGE/Math/M06 Topologie/Exercices/TD7_compacts_espaces vectoriels_normÃ©s-corr.pdf",
-    "CPGE/Math/M06 Topologie/Exercices/TD7_compacts_espaces vectoriels_normÃ©s-3.pdf",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-cor1.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-1.png",
     "CPGE/README.md",
@@ -177,7 +177,6 @@
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/01 Espace Vectoriel/01C Linear Dependence, Basis, Complement, Direct Sum, Dimension.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/01 Espace Vectoriel/01A Vector Space, Subspace, Span.md",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/4A Interféromètre de Michelson - Structure et considérations générales.md",
-    "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
     "CPGE/Math/M05 Calcul Différentiel/Calcul Différentiel.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/06 Dualité/06A Dualité.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/06 Dualité/Assets/截屏2023-02-11 16.22.16.png",
