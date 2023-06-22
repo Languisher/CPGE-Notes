@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPGE/README.md",
+                "file": "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPGE/README.md",
+                "file": "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPGE/README.md",
+                "file": "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPGE/README.md"
+                "file": "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md"
               }
             }
           }
@@ -146,22 +146,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8445f91b62b40881",
+  "active": "d31fcb4c70e93b65",
   "lastOpenFiles": [
+    "CPGE/Physique - Chimie/P04 Signaux + Ondes Unidimensionnelles/Programme_S9.pdf",
+    "CPGE/Physique - Chimie/P04 Signaux + Ondes Unidimensionnelles/Prgrm_S16-PHY2302P-p2021.pdf",
+    "CPGE/Physique - Chimie/P05 Thermodynamique/Exercices/PH2301P_Programme_Colles_S6.pdf",
+    "CPGE/Physique - Chimie/P05 Thermodynamique/Exercices/Colles_thermodynamique_S13.pdf",
+    "CPGE/Physique - Chimie/P05 Thermodynamique/Exercices/Colles_thermodynamique_S13-2.pdf",
+    "CPGE/Math/M06 Topologie/Livres/MATH2308P.pdf",
+    "CPGE/Math/M06 Topologie/Exercices/TD_3_fonctions_convexes_corrige.pdf",
     "CPGE/Math/M06 Topologie/Exercices/TD8_espaces vectoriels_normÃ©s_Riesz.pdf",
     "CPGE/Math/M06 Topologie/Exercices/TD8_espaces vectoriels_normÃ©s_Riesz-corr.pdf",
-    "CPGE/Math/M06 Topologie/Exercices/TD8_espaces vectoriels_normÃ©s_Riesz-2.pdf",
     "CPGE/Math/M06 Topologie/Exercices/TD7_compacts_espaces vectoriels_normÃ©s-corr.pdf",
-    "CPGE/Math/M06 Topologie/Exercices/TD7_compacts_espaces vectoriels_normÃ©s-4.pdf",
     "CPGE/Math/M06 Topologie/Exercices/TD7_compacts_espaces vectoriels_normÃ©s-3.pdf",
-    "CPGE/Math/M06 Topologie/Exercices/TD6_fonctions_continues_compacts-corr.pdf",
-    "CPGE/Math/M06 Topologie/Exercices/TD6_fonctions_continues_compacts-4.pdf",
-    "CPGE/Math/M06 Topologie/Exercices/TD6_fonctions_continues_compacts.pdf",
-    "CPGE/Math/M06 Topologie/Exercices/TD6_fonctions_continues_compacts-3.pdf",
-    "CPGE/Math/M06 Topologie/Exercices/TD5_ouverts_interieur_frontiere_voisinage_isole_dense.pdf",
-    "README.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-cor1.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-1.png",
+    "CPGE/README.md",
+    "README.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD 2/TD-TP 1 Introduction à la dualité.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/Assets/截屏2023-03-06 00.17.55.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/Assets/截屏2023-03-06 00.15.01.png",
@@ -175,7 +176,6 @@
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/01 Espace Vectoriel/01B Sous-espace Affines.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/01 Espace Vectoriel/01C Linear Dependence, Basis, Complement, Direct Sum, Dimension.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/01 Espace Vectoriel/01A Vector Space, Subspace, Span.md",
-    "CPGE/README.md",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/4A Interféromètre de Michelson - Structure et considérations générales.md",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
     "CPGE/Math/M05 Calcul Différentiel/Calcul Différentiel.md",

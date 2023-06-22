@@ -23,18 +23,18 @@ This folder contains these files :
 	- Y1S1
 		- (P01) Optique géométrique 几何光学 ([FL1902P-2021 autumn](http://moodle.speit.sjtu.edu.cn/course/view.php?id=945))
 	- Y1S2
-		- Électricité fondamentale circuits 电子电路基础([PHY1301P-2022 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1004))
-		- Mécanique I 力学 I ([PHY1301P-2022 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1004))
-		- Structure de la matière 物质结构导论 ([PHY1302P-2022 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1005))
+		- (P02) Électricité fondamentale circuits 电子电路基础([PHY1301P-2022 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1004))
+		- (P03) Mécanique I 力学 I ([PHY1301P-2022 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1004))
+		- (C01) Structure de la matière 物质结构导论 ([PHY1302P-2022 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1005))
 	- Y2S1
-		- Thermodynamique 热力学 ([PHY2301P-2022 autumn](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1066))
-		- Molécules et cristaux 晶体 ([PHY2301P-2022 autumn](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1066))
-		- Signaux (Électrocinétique des signaux, Ondes unidimensionnelles) 信号学 ([PHY2302P-2022 autumn](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1068))
+		- (P04) Signaux (Électrocinétique des signaux, Ondes unidimensionnelles) 信号学 ([PHY2302P-2022 autumn](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1068))
+		- (P05) Thermodynamique 热力学 ([PHY2301P-2022 autumn](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1066))
+		- (C02) Molécules et cristaux 晶体 ([PHY2301P-2022 autumn](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1066))
 	- Y2S2
-		- Thermodynamique et cinétique chimiques 热动力学 ([PHY2303P-2023 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1170))
-		- Optique ondulatoire 波动光学 ([PHY2303P-2023 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1170))
-		- Mécanique II 力学 II （[PHY2304P-2023 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1171))
-		- Électromagnétisme en régime statique 静电磁学 ([PHY2304P-2023 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1171))
+		- (P05) Thermodynamique et cinétique chimiques 热动力学 ([PHY2303P-2023 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1170))
+		- (P06) Optique ondulatoire 波动光学 ([PHY2303P-2023 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1170))
+		- (P07) Mécanique II 力学 II （[PHY2304P-2023 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1171))
+		- (P08) Électromagnétisme en régime statique 静电磁学 ([PHY2304P-2023 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1171))
 	- Y3S1
 		- Fondements de l'électromagnétisme 电磁学基础 ([PHY3305P-2023 autumn])
 		- 量子力学导论 ([PHY3306P-2023 autumn])
