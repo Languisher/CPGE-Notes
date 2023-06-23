@@ -142,12 +142,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,7 +159,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d31fcb4c70e93b65",
+  "active": "c90dafc0979e533e",
   "lastOpenFiles": [
     "CPGE/README.md",
     "Tools/Vim.md",
