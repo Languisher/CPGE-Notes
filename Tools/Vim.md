@@ -15,6 +15,45 @@
 
 ## Vim 笔记
 
+### 普通模式
+
+- 大小写：
+    - 反转大小写：`g~`
+    - 转换为大小写：`gu`, `gU`，作用于行：`gugu`, `gUgU`
+- 注释：
+    - `gc{motion}`，例如 `gcc` 当前行，`gcap` 当前段落的注释状态，`gcG` 当前行到文章所有范围
+
+### 插入模式
+
+- 退格键（通用）
+    - `<C-h>` 前一个字符 = Backspace
+    - `<C-w>` 前一个单词
+    - `<C-u>` 删至行首
+
+- 不离开插入模式粘贴寄存器中的文本
+    - `<C-r>0`
+        
+#### 插入-普通模式
+
+在插入模式中执行一次普通模式指令：`<C-o>`，例如：
+```
+<C-o>zz：重绘屏幕，使当前行居于正中
+```
+
+### 可视模式
+
+- 重新选择上一次的高亮选区：`gv`
+#### 列可视模式
+
+使用 `<C-v>` 进入列块可视模式
+- 同时往若干行插入文本
+- 不局限于操作方形文本区域
+    ```
+    {start}
+    <C-v>jj$
+    A;
+    <Esc>
+    ```
 ### 命令行模式、Ex 命令
 > 在命令行模式执行的命令称为 **Ex 命令**。
 
@@ -63,6 +102,23 @@ address 可以是：0, 1, $, ., 'm, '<, '>, %
 #### 命令行窗口
 - 按 `q:` 调出窗口
 - 可以编辑历史命令，然后按 `@:` 重复上一次命令，如 `write| !ruby %`
+
+#### 运行 shell 程序
+- 给命令加 `!` 前缀，如：`:!ls`
+- 在 `shell` 中运行 `{cmd}`，读入命令的输出：`:read !{cmd}`
+- 在 `shell` 中运行 `{cmd}`，以 `[range]` 作为标准输入：`:[range]write !{cmd}`
+- 使用外部程序 `{filter}` 过滤指定的 `[range]`：`:[range]!{filter}`
+
+#### 批处理运行 Ex 命令
+
+```
+----------
+batch.vim
+%normal A: http://vimcasts.org
+%normal yi"$p
+%substitute/\v^[^\>]+\>\s//g
+```
+并运行：`:source batch.vim`
 ## 参考资料
 1. [CS 自学指南](https://csdiy.wiki/必学工具/Vim/)
 2. [Practical Vim, Second Edition Edit Text at the Speed of Thought by Drew Neil](https://pragprog.com/titles/dnvim2/practical-vim-second-edition/)
