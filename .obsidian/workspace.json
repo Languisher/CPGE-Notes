@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e1eab4270dd9cc67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vim.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPGE/README.md",
+                "file": "Vim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPGE/README.md",
+                "file": "Vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPGE/README.md"
+                "file": "Vim.md"
               }
             }
           }
@@ -146,8 +159,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3aafdc6eaa8faaf2",
+  "active": "e1eab4270dd9cc67",
   "lastOpenFiles": [
+    "CPGE/README.md",
+    "Vim.md",
+    "Tools",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
     "CPGE/Physique - Chimie/P04 Signaux + Ondes Unidimensionnelles/Programme_S9.pdf",
     "CPGE/Physique - Chimie/P04 Signaux + Ondes Unidimensionnelles/Prgrm_S16-PHY2302P-p2021.pdf",
@@ -158,10 +174,8 @@
     "CPGE/Math/M06 Topologie/Exercices/TD_3_fonctions_convexes_corrige.pdf",
     "CPGE/Math/M06 Topologie/Exercices/TD8_espaces vectoriels_normÃ©s_Riesz.pdf",
     "CPGE/Math/M06 Topologie/Exercices/TD8_espaces vectoriels_normÃ©s_Riesz-corr.pdf",
-    "CPGE/Math/M06 Topologie/Exercices/TD7_compacts_espaces vectoriels_normÃ©s-corr.pdf",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-cor1.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-1.png",
-    "CPGE/README.md",
     "README.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD 2/TD-TP 1 Introduction à la dualité.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/Assets/截屏2023-03-06 00.17.55.png",
