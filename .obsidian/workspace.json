@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "dbb3fdc245c3dc9f",
@@ -163,6 +162,7 @@
   "active": "e1eab4270dd9cc67",
   "lastOpenFiles": [
     "Vim/00 vim_intro.md",
+    "Vim/01 vim_mode.md",
     "Vim/02 vim_file.md",
     "CPGE/README.md",
     "Tools/Vim.md",
@@ -207,7 +207,6 @@
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/04 Déterminant/04 Déterminant.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/07 Endormorphisme particuliers/Assets/7TD7 2023-03-16 16.59.18.excalidraw.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/07 Endormorphisme particuliers/Assets/Appendix 2023-03-18 18.09.02.excalidraw.md",
-    "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/07 Endormorphisme particuliers/7A Endormorphisme Adjointe.md",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/1TD1.canvas"
   ]
 }
