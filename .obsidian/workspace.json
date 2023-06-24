@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Vim.md",
+                "file": "Vim/01 vim_mode.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "dbb3fdc245c3dc9f",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/Vim.md",
+                "file": "Vim/01 vim_mode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools/Vim.md",
+                "file": "Vim/01 vim_mode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Vim.md"
+                "file": "Vim/01 vim_mode.md"
               }
             }
           }
@@ -147,7 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,6 +162,8 @@
   },
   "active": "e1eab4270dd9cc67",
   "lastOpenFiles": [
+    "Vim/00 vim_intro.md",
+    "Vim/02 vim_file.md",
     "CPGE/README.md",
     "Tools/Vim.md",
     "Tools",
@@ -205,8 +208,6 @@
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/07 Endormorphisme particuliers/Assets/7TD7 2023-03-16 16.59.18.excalidraw.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/07 Endormorphisme particuliers/Assets/Appendix 2023-03-18 18.09.02.excalidraw.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/07 Endormorphisme particuliers/7A Endormorphisme Adjointe.md",
-    "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/07 Endormorphisme particuliers/7TD7.md",
-    "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/07 Endormorphisme particuliers/7C Automorphismes Orthogonaux.md",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/1TD1.canvas"
   ]
 }
