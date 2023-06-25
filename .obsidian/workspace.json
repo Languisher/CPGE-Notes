@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPGE/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1eab4270dd9cc67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vim/README.md",
+                "file": "Latex/Notes on Latex.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vim/README.md",
+                "file": "Latex/Notes on Latex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vim/README.md",
+                "file": "Latex/Notes on Latex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vim/README.md"
+                "file": "Latex/Notes on Latex.md"
               }
             }
           }
@@ -159,13 +146,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e1eab4270dd9cc67",
+  "active": "3aafdc6eaa8faaf2",
   "lastOpenFiles": [
-    "Vim/00 vim_intro.md",
+    "Latex/README.md",
+    "CPGE/README.md",
+    "Latex/build/template.pdf",
+    "Latex/Notes on Latex.md",
     "Vim/README.md",
+    "Vim/00 vim_intro.md",
     "Vim/01 vim_mode.md",
     "Vim/02 vim_file.md",
-    "CPGE/README.md",
     "Tools/Vim.md",
     "Tools",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
@@ -177,7 +167,6 @@
     "CPGE/Math/M06 Topologie/Livres/MATH2308P.pdf",
     "CPGE/Math/M06 Topologie/Exercices/TD_3_fonctions_convexes_corrige.pdf",
     "CPGE/Math/M06 Topologie/Exercices/TD8_espaces vectoriels_normÃ©s_Riesz.pdf",
-    "CPGE/Math/M06 Topologie/Exercices/TD8_espaces vectoriels_normÃ©s_Riesz-corr.pdf",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-cor1.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-1.png",
     "README.md",
@@ -204,9 +193,6 @@
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/02 Application Linéaire/02E Factorisation des applications linéaires.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/02 Application Linéaire/02 Application Linéaire.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/05 Espace Euclidien/05B Orthogonalité, Orthonormalisation.md",
-    "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/05 Espace Euclidien/05A Produit Scalaire et Norme.md",
-    "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/04 Déterminant/04 Déterminant.md",
-    "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/07 Endormorphisme particuliers/Assets/7TD7 2023-03-16 16.59.18.excalidraw.md",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/1TD1.canvas"
   ]
 }
