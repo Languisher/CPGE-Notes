@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vim/README.md",
-                "mode": "source",
+                "file": "Vim/03 vim_truc.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vim/README.md",
+                "file": "Vim/03 vim_truc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vim/README.md",
+                "file": "Vim/03 vim_truc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vim/README.md"
+                "file": "Vim/03 vim_truc.md"
               }
             }
           }
@@ -151,6 +151,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -161,10 +162,10 @@
   },
   "active": "37fa081485b92f07",
   "lastOpenFiles": [
+    "Vim/README.md",
     "Vim/03 vim_truc.md",
     "Vim/01 vim_mode.md",
     "Vim/00 vim_intro.md",
-    "Vim/README.md",
     "Vim/02 vim_file.md",
     "Latex/Notes on Latex.md",
     "Latex/README.md",
