@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vim/03 vim_truc.md",
+                "file": "Vim/02 vim_file.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vim/03 vim_truc.md",
+                "file": "Vim/02 vim_file.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vim/03 vim_truc.md",
+                "file": "Vim/02 vim_file.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vim/03 vim_truc.md"
+                "file": "Vim/02 vim_file.md"
               }
             }
           }
@@ -162,8 +162,8 @@
   },
   "active": "37fa081485b92f07",
   "lastOpenFiles": [
-    "Vim/README.md",
     "Vim/03 vim_truc.md",
+    "Vim/README.md",
     "Vim/01 vim_mode.md",
     "Vim/00 vim_intro.md",
     "Vim/02 vim_file.md",
