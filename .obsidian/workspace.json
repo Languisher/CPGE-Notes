@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Latex/Notes on Latex.md",
+                "file": "Vim/01 vim_mode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37fa081485b92f07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vim/README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Latex/Notes on Latex.md",
+                "file": "Vim/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Latex/Notes on Latex.md",
+                "file": "Vim/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Latex/Notes on Latex.md"
+                "file": "Vim/README.md"
               }
             }
           }
@@ -146,16 +159,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3aafdc6eaa8faaf2",
+  "active": "37fa081485b92f07",
   "lastOpenFiles": [
+    "Vim/03 vim_truc.md",
+    "Vim/01 vim_mode.md",
+    "Vim/00 vim_intro.md",
+    "Vim/README.md",
+    "Vim/02 vim_file.md",
+    "Latex/Notes on Latex.md",
     "Latex/README.md",
     "CPGE/README.md",
     "Latex/build/template.pdf",
-    "Latex/Notes on Latex.md",
-    "Vim/README.md",
-    "Vim/00 vim_intro.md",
-    "Vim/01 vim_mode.md",
-    "Vim/02 vim_file.md",
     "Tools/Vim.md",
     "Tools",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",

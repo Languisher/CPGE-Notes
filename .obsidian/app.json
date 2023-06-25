@@ -1,5 +1,8 @@
 {
   "promptDelete": false,
   "vimMode": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./assets"
 }

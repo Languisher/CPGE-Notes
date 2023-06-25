@@ -15,4 +15,3 @@
 
 ## 参考资料
 1. [CS 自学指南](https://csdiy.wiki/必学工具/Vim/)
-2. [Practical Vim, Second Edition Edit Text at the Speed of Thought by Drew Neil](https://pragprog.com/titles/dnvim2/practical-vim-second-edition/)
