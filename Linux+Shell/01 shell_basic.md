@@ -1,10 +1,11 @@
-- 使用多个命令：分号分开 `;`
-```bash
-data ; who
-```
 
 ## shell 脚本文件
 
+### 使用多个命令
+- 分号分开 `;`
+```bash
+data ; who
+```
 ### 创建文件
 
 - 文件第一行指定需要使用的 shell，格式：
@@ -40,7 +41,7 @@ data ; who
 		today=$(date +%y%m%d)
 		```
 
-### 重定向
+### 输入输出重定向
 - **输出重定向**：将命令的输出发送到一个文件中：`>`
 - 将输出追加到文件：`>>`
 - **输入重定向**：`<`
@@ -92,3 +93,61 @@ command < inputfile
 ### 退出脚本
 - `$?` 查看上一个命令的退出码，缺省值是 0
 - 可以通过设置 `exit NUM` 来返回自己的退出码
+
+## 结构化命令
+
+### if 语句
+
+#### if-then
+```bash
+if command
+then 
+	commands
+fi
+```
+
+#### if-then-else
+
+```bash
+if command
+then
+	commands
+else
+	commands
+fi
+```
+
+#### 嵌套 if
+
+```bash
+if command1
+then commands
+elif command2
+then
+	commands
+fi
+```
+
+#### 条件——test 命令
+```bash
+test condition
+```
+- `if` 语句中除了普通 shell 命令，还可以用 `test` 命令，如果条件成立则正常退出、返回状态码 0；反之退出且返回非零状态码
+
+也可以写成：（注意第一个方括号后、第二个方括号前的空格！）
+```bash
+if [ condition ]
+then 
+	commands
+fi
+```
+#### 数值比较
+```bash
+n1 -eq n2
+n1 -ge n2 >=
+n1 -gt n2 >
+n1 -le n2 <=
+n1 -lt n2 <
+n1 -ne n2
+```
+ 
