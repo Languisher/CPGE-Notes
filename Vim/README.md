@@ -7,6 +7,6 @@
 | 文件     | [02 vim_file](02%20vim_file.md)       | 缓冲区、标签页、打开文件                 |
 | 技巧     | [03 vim_truc](03%20vim_truc.md)       | 在文件中移动                             |
 |          |                                       | 复制与粘贴                               |
-|          |                                       | 宏                                       |
+|          |                                       | 重复之前的修改                                       |
 | 模式     | [04 vim_pattern](04%20vim_pattern.md) | 模式                                         |
 
