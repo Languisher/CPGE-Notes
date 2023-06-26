@@ -34,5 +34,61 @@ data ; who
 	- 不能出现空格！`var3=testing`
 	- 仍然需要用美元符号引用
 
-- **命令替换**：从命令输出中提取信息，并赋给变量
+- **命令替换**：获取命令输出的信息，并赋给变量
 	- 反引号或用 `$()` 格式
+		```
+		today=$(date +%y%m%d)
+		```
+
+### 重定向
+- **输出重定向**：将命令的输出发送到一个文件中：`>`
+- 将输出追加到文件：`>>`
+- **输入重定向**：`<`
+
+> 重定向符号指向数据流动的方向
+
+```
+command > outputfile
+command < inputfile
+```
+
+- **内联输入重定向**：将数据作为输入导入命令中
+
+### 管道
+- **管道**：将命令输出直接重定向到另一个命令（同时运行，不是依次运行：一有前面命令的输出，立即执行后面命令的操作）
+	- 最常见的用法发送至 `more` 命令显示内容
+
+### 数学运算
+- `expr` 命令：略
+- 整数运算：用 `$[expression]` 格式，例如：`var1=$[2/10]`
+- 浮点运算：bc 计算器，格式 `varialbe=$(echo "options; expression" | bc)`
+	- `options` 中可以指定：
+		- 小数位值，默认：`scale=0` 
+  
+	```bash
+	var1=$(echo "scale=4; 3.44 / 5" | bc)
+	echo The answer is: $var1
+	```
+
+- 内联输入重定向，`EOF` 标记重定向数据的起止：
+	```bash
+	variable=$(bc << EOF
+	options
+	statements
+	expressions
+	EOF)
+	#------例子------
+	vara=10
+	varb=0.1
+	var1=$(bc << EOF
+	scale = 4
+	a1 = $vara * $varb
+	a2 = $vara / $varb
+	a1 + a2
+	EOF
+	)
+	```
+
+### 退出脚本
+- `$?` 查看上一个命令的退出码，缺省值是 0
+- 可以通过设置 `exit NUM` 来返回自己的退出码

@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8665e59c2dd65c0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 shell_logic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux+Shell/01 shell_basic.md",
+                "file": "02 shell_logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux+Shell/01 shell_basic.md",
+                "file": "02 shell_logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux+Shell/01 shell_basic.md"
+                "file": "02 shell_logic.md"
               }
             }
           }
@@ -172,12 +184,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d0b8b4528104ebd8",
+  "active": "8665e59c2dd65c0e",
   "lastOpenFiles": [
+    "Linux+Shell/01 shell_basic.md",
+    "02 shell_logic.md",
     "Vim/02 vim_file.md",
     "Vim/README.md",
     "Vim/01 vim_mode.md",
-    "Linux+Shell/01 shell_basic.md",
     "Linux+Shell/README.md",
     "Vim/Vim实用技巧_高清_中文版.pdf",
     "Vim/assets",
@@ -218,7 +231,6 @@
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/01 Espace Vectoriel/01C Linear Dependence, Basis, Complement, Direct Sum, Dimension.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/01 Espace Vectoriel/01A Vector Space, Subspace, Span.md",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/4A Interféromètre de Michelson - Structure et considérations générales.md",
-    "CPGE/Math/M05 Calcul Différentiel/Calcul Différentiel.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/06 Dualité/Assets/截屏2023-02-11 16.22.16.png",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/1TD1.canvas"
   ]
