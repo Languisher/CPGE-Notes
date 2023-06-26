@@ -13,5 +13,3 @@
 - 等你完全适应 Vim 之后新的世界便向你敞开了大门，你可以按需配置自己的 Vim（修改 `.vimrc` 文件），网上有数不胜数的资源可以借鉴。
 - 如果你想对配置 Vim 有更加深入的了解，[_Learn Vim Script the Hard Way_](https://learnvimscriptthehardway.stevelosh.com/) 是一个很好的资源。
 
-## 参考资料
-1. [CS 自学指南](https://csdiy.wiki/必学工具/Vim/)

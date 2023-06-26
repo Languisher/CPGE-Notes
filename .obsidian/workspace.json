@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "ae17e586807504ae",
+            "id": "d0b8b4528104ebd8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux+Shell/README.md",
+                "file": "Linux+Shell/01 shell_basic.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux+Shell/README.md",
+                "file": "Linux+Shell/01 shell_basic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux+Shell/README.md",
+                "file": "Linux+Shell/01 shell_basic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux+Shell/README.md"
+                "file": "Linux+Shell/01 shell_basic.md"
               }
             }
           }
@@ -172,10 +172,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ae17e586807504ae",
+  "active": "d0b8b4528104ebd8",
   "lastOpenFiles": [
+    "Vim/02 vim_file.md",
     "Vim/README.md",
+    "Vim/01 vim_mode.md",
+    "Linux+Shell/01 shell_basic.md",
     "Linux+Shell/README.md",
+    "Vim/Vim实用技巧_高清_中文版.pdf",
+    "Vim/assets",
+    "Vim/00 vim_intro.md",
+    "README.md",
     "Linux+Shell",
     "Vim/04 vim_pattern.md",
     "00Old-version/CS/C:C++/C程序设计语言 (Kernighan, Ritchie) (z-lib.org).pdf",
@@ -183,11 +190,7 @@
     "00Old-version/Untitled.md",
     "00Old-version/Une histoire passé.md",
     "Vim/03 vim_truc.md",
-    "Vim/02 vim_file.md",
     "Vim/04 vim_register.md",
-    "Vim/01 vim_mode.md",
-    "README.md",
-    "Vim/00 vim_intro.md",
     "Latex/Notes on Latex.md",
     "Latex/README.md",
     "CPGE/README.md",
@@ -199,8 +202,6 @@
     "CPGE/Physique - Chimie/P04 Signaux + Ondes Unidimensionnelles/Prgrm_S16-PHY2302P-p2021.pdf",
     "CPGE/Physique - Chimie/P05 Thermodynamique/Exercices/PH2301P_Programme_Colles_S6.pdf",
     "CPGE/Physique - Chimie/P05 Thermodynamique/Exercices/Colles_thermodynamique_S13.pdf",
-    "CPGE/Physique - Chimie/P05 Thermodynamique/Exercices/Colles_thermodynamique_S13-2.pdf",
-    "CPGE/Math/M06 Topologie/Livres/MATH2308P.pdf",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-cor1.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-1.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD 2/TD-TP 1 Introduction à la dualité.md",
@@ -218,7 +219,6 @@
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/01 Espace Vectoriel/01A Vector Space, Subspace, Span.md",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/4A Interféromètre de Michelson - Structure et considérations générales.md",
     "CPGE/Math/M05 Calcul Différentiel/Calcul Différentiel.md",
-    "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/06 Dualité/06A Dualité.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/06 Dualité/Assets/截屏2023-02-11 16.22.16.png",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/1TD1.canvas"
   ]

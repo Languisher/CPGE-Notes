@@ -10,3 +10,7 @@
 |          |                                       | 重复之前的修改                                       |
 | 模式     | [04 vim_pattern](04%20vim_pattern.md) | 模式                                         |
 
+
+## 参考资料
+1. [CS 自学指南](https://csdiy.wiki/必学工具/Vim/)
+2. [Vim实用技巧_高清_中文版](Vim实用技巧_高清_中文版.pdf)
