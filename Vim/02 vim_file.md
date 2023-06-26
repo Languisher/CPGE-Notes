@@ -57,16 +57,16 @@ vim *.txt 通配符打开多个文件
 
 - 活动缓冲区的完整路径：`%`，若要去除文件名：`%:h`
 
-```
-:edit {file} 用 <Tab> 自动补全
-:edit %:h<Tab> 当前文件所在目录的路径
-:find {file}<Tab> 通过文件名打开一个文件，无需输入完整路径
-```
+	```
+	:edit {file} 用 <Tab> 自动补全
+	:edit %:h<Tab> 当前文件所在目录的路径
+	:find {file}<Tab> 通过文件名打开一个文件，无需输入完整路径
+	```
 
 - 保存文件到不存在的文件夹
-    ```
-    :edit madeup/dir/doesnotexist.yet
-    :!mkdir -p %:h 一定要加上 -p
-    :write
-    ``` 
+	```
+	:edit madeup/dir/doesnotexist.yet
+	:!mkdir -p %:h 一定要加上 -p
+	:write
+	``` 
 

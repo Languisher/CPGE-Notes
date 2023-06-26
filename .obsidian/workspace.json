@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vim/03 vim_truc.md",
+                "file": "Vim/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8bd67d73783735f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vim/README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vim/03 vim_truc.md",
+                "file": "Vim/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vim/03 vim_truc.md",
+                "file": "Vim/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vim/03 vim_truc.md"
+                "file": "Vim/README.md"
               }
             }
           }
@@ -172,13 +184,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ae17e586807504ae",
+  "active": "c8bd67d73783735f",
   "lastOpenFiles": [
+    "Vim/04 vim_pattern.md",
     "Vim/README.md",
-    "Vim/04 vim_register.md",
     "Vim/03 vim_truc.md",
-    "Vim/01 vim_mode.md",
     "Vim/02 vim_file.md",
+    "Vim/04 vim_register.md",
+    "Vim/01 vim_mode.md",
     "README.md",
     "Vim/00 vim_intro.md",
     "Latex/Notes on Latex.md",
@@ -219,7 +232,6 @@
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/06 Dualité/06APP Isomorphisme.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/02 Application Linéaire/01B Null Spaces, Column Spaces.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/02 Application Linéaire/02E Factorisation des applications linéaires.md",
-    "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/02 Application Linéaire/02 Application Linéaire.md",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/1TD1.canvas"
   ]
 }
