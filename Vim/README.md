@@ -5,4 +5,7 @@
 | 简单介绍 | [00 vim_intro](00%20vim_intro.md) | 为什么使用 Vim、如何学习 Vim             |
 | 模式     | [01 vim_mode](01%20vim_mode.md)   | 普通模式、插入模式、可视模式、命令行模式 |
 | 文件     | [02 vim_file](02%20vim_file.md)   | 缓冲区、标签页、打开文件                 |
-| 技巧     | [03 vim_truc](03%20vim_truc.md)   | 在文件中移动                                         |
+| 技巧     | [03 vim_truc](03%20vim_truc.md)   | 在文件中移动                             |
+|          |                                   | 复制与粘贴                               |
+|          |                                   | 宏                                         |
+

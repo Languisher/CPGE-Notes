@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vim/04 vim_register.md",
+                "file": "Vim/03 vim_truc.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vim/04 vim_register.md",
+                "file": "Vim/03 vim_truc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vim/04 vim_register.md",
+                "file": "Vim/03 vim_truc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vim/04 vim_register.md"
+                "file": "Vim/03 vim_truc.md"
               }
             }
           }
@@ -174,11 +174,11 @@
   },
   "active": "ae17e586807504ae",
   "lastOpenFiles": [
-    "Vim/03 vim_truc.md",
+    "Vim/README.md",
     "Vim/04 vim_register.md",
+    "Vim/03 vim_truc.md",
     "Vim/01 vim_mode.md",
     "Vim/02 vim_file.md",
-    "Vim/README.md",
     "README.md",
     "Vim/00 vim_intro.md",
     "Latex/Notes on Latex.md",
