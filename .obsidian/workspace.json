@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vim/02 vim_file.md",
+                "file": "Vim/03 vim_truc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae17e586807504ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vim/04 vim_register.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vim/02 vim_file.md",
+                "file": "Vim/04 vim_register.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vim/02 vim_file.md",
+                "file": "Vim/04 vim_register.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vim/02 vim_file.md"
+                "file": "Vim/04 vim_register.md"
               }
             }
           }
@@ -160,13 +172,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "37fa081485b92f07",
+  "active": "ae17e586807504ae",
   "lastOpenFiles": [
     "Vim/03 vim_truc.md",
-    "Vim/README.md",
     "Vim/01 vim_mode.md",
-    "Vim/00 vim_intro.md",
+    "Vim/04 vim_register.md",
     "Vim/02 vim_file.md",
+    "Vim/README.md",
+    "README.md",
+    "Vim/00 vim_intro.md",
     "Latex/Notes on Latex.md",
     "Latex/README.md",
     "CPGE/README.md",
@@ -184,7 +198,6 @@
     "CPGE/Math/M06 Topologie/Exercices/TD8_espaces vectoriels_normÃ©s_Riesz.pdf",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-cor1.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-1.png",
-    "README.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD 2/TD-TP 1 Introduction à la dualité.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/Assets/截屏2023-03-06 00.17.55.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/Assets/截屏2023-03-06 00.15.01.png",
@@ -207,7 +220,6 @@
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/02 Application Linéaire/01B Null Spaces, Column Spaces.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/02 Application Linéaire/02E Factorisation des applications linéaires.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/02 Application Linéaire/02 Application Linéaire.md",
-    "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/05 Espace Euclidien/05B Orthogonalité, Orthonormalisation.md",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/1TD1.canvas"
   ]
 }
