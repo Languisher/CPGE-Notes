@@ -223,4 +223,5 @@ do
 done
 ```
 
-- 修改变量：增加值：`list=$list" variable"`
+- 修改变量：
+	- 增加值：`list=$list" variable"`
