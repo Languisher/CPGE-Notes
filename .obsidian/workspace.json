@@ -37,26 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux+Shell/01 shell_basic.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8665e59c2dd65c0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux+Shell/README.md",
+                "file": "French/Travel Note.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "dbb3fdc245c3dc9f",
@@ -122,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux+Shell/README.md",
+                "file": "French/Travel Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux+Shell/README.md",
+                "file": "French/Travel Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux+Shell/README.md"
+                "file": "French/Travel Note.md"
               }
             }
           }
@@ -171,7 +160,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,10 +174,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8665e59c2dd65c0e",
+  "active": "d0b8b4528104ebd8",
   "lastOpenFiles": [
-    "Linux+Shell/02 shell_logic.md",
+    "French/旅游法语.pdf",
+    "French/Travel Note.md",
     "Linux+Shell/README.md",
+    "Diary",
+    "French",
+    "Linux+Shell/02 shell_logic.md",
     "Linux+Shell/01 shell_basic.md",
     "Vim/02 vim_file.md",
     "Vim/README.md",
@@ -212,9 +206,6 @@
     "Tools",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
     "CPGE/Physique - Chimie/P04 Signaux + Ondes Unidimensionnelles/Programme_S9.pdf",
-    "CPGE/Physique - Chimie/P04 Signaux + Ondes Unidimensionnelles/Prgrm_S16-PHY2302P-p2021.pdf",
-    "CPGE/Physique - Chimie/P05 Thermodynamique/Exercices/PH2301P_Programme_Colles_S6.pdf",
-    "CPGE/Physique - Chimie/P05 Thermodynamique/Exercices/Colles_thermodynamique_S13.pdf",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-cor1.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-1.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD 2/TD-TP 1 Introduction à la dualité.md",
@@ -229,8 +220,6 @@
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Algèbre Linéaire.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/01 Espace Vectoriel/01B Sous-espace Affines.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/01 Espace Vectoriel/01C Linear Dependence, Basis, Complement, Direct Sum, Dimension.md",
-    "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/01 Espace Vectoriel/01A Vector Space, Subspace, Span.md",
-    "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/4A Interféromètre de Michelson - Structure et considérations générales.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/06 Dualité/Assets/截屏2023-02-11 16.22.16.png",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/1TD1.canvas"
   ]
