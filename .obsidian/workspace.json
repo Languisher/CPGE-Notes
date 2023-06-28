@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "df2f0d67b5ccb27a",
+        "id": "86ebc1a5b5e0c3c3",
         "type": "tabs",
         "children": [
           {
-            "id": "2d0fb3746258ef33",
+            "id": "b34c71b958890e08",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "CPGE/Math/M02 Nombres Complexes.md",
-                "mode": "source",
-                "source": false
+                "file": "CPGE/Math/CL/M02 Math I+II/Livres/Y1S2 Math II.pdf"
               }
             }
           }
@@ -86,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPGE/Math/M02 Nombres Complexes.md",
+                "file": "CPGE/Math/CL/M02 Math I+II/Livres/Y1S2 Math II.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPGE/Math/M02 Nombres Complexes.md",
+                "file": "CPGE/Math/CL/M02 Math I+II/Livres/Y1S2 Math II.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPGE/Math/M02 Nombres Complexes.md"
+                "file": "CPGE/Math/CL/M02 Math I+II/Livres/Y1S2 Math II.pdf"
               }
             }
           }
@@ -149,47 +147,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "floating": {
-    "id": "6e597f7e276fb87a",
-    "type": "floating",
-    "children": [
-      {
-        "id": "ff2056eede963b45",
-        "type": "window",
-        "children": [
-          {
-            "id": "14bc774cb4a89ba8",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "001e8ee9e27cc8e1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Latex/Notes on Latex.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1525,
-        "y": 91,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "2d0fb3746258ef33",
+  "active": "b34c71b958890e08",
   "lastOpenFiles": [
-    "CPGE/Math/README.md",
+    "CPGE/Math/CL/M01 Bases/Livres/Y1S1 Math (Bases).pdf",
     "CPGE/Math/M02 Nombres Complexes.md",
+    "CPGE/Math/README.md",
     "Latex/Notes on Latex.md",
     "Vim/03 vim_truc.md",
     "CPGE/Math/M02 Nombres Complexes",
@@ -232,7 +194,6 @@
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD 2/Assets/截屏2023-03-06 00.13.37.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Livres/Assets/Pasted image 20230315210405.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Algèbre Linéaire.md",
-    "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/01 Espace Vectoriel/01B Sous-espace Affines.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/06 Dualité/Assets/截屏2023-02-11 16.22.16.png",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/1TD1.canvas"
   ]
