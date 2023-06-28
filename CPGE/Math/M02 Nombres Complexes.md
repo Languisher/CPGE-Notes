@@ -27,5 +27,5 @@
 	$$
 	- **Vecteur image** : $\vec{v} = a \vec{i}+b \vec{j}$ du nombre complexe $z = a+ib$
 	- **Point image** : $M$ du $z$
-	- **Affixe** : $z$ du vecteur $\vec{v}$ et du point $M$
+	- **Affixe** : $z$ est appelé **affixe du vecteur** $\vec{v}$ et **affixe du point $M$
 
