@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a2cd7ea21cd7acc7",
+        "id": "df2f0d67b5ccb27a",
         "type": "tabs",
         "children": [
           {
-            "id": "3aafdc6eaa8faaf2",
+            "id": "2d0fb3746258ef33",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vim/01 vim_mode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "37fa081485b92f07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vim/03 vim_truc.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0b8b4528104ebd8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "French/Travel Note.md",
+                "file": "CPGE/Math/M02 Nombres Complexes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "French/Travel Note.md",
+                "file": "CPGE/Math/M02 Nombres Complexes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "French/Travel Note.md",
+                "file": "CPGE/Math/M02 Nombres Complexes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "French/Travel Note.md"
+                "file": "CPGE/Math/M02 Nombres Complexes.md"
               }
             }
           }
@@ -174,10 +149,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d0b8b4528104ebd8",
+  "floating": {
+    "id": "6e597f7e276fb87a",
+    "type": "floating",
+    "children": [
+      {
+        "id": "ff2056eede963b45",
+        "type": "window",
+        "children": [
+          {
+            "id": "14bc774cb4a89ba8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "001e8ee9e27cc8e1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Latex/Notes on Latex.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1525,
+        "y": 91,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "2d0fb3746258ef33",
   "lastOpenFiles": [
-    "French/旅游法语.pdf",
+    "CPGE/Math/README.md",
+    "CPGE/Math/M02 Nombres Complexes.md",
+    "Latex/Notes on Latex.md",
+    "Vim/03 vim_truc.md",
+    "CPGE/Math/M02 Nombres Complexes",
+    "CPGE/Math/CL",
     "French/Travel Note.md",
+    "French/旅游法语.pdf",
     "Linux+Shell/README.md",
     "Diary",
     "French",
@@ -196,18 +214,14 @@
     "00Old-version/Manual/nvim.md",
     "00Old-version/Untitled.md",
     "00Old-version/Une histoire passé.md",
-    "Vim/03 vim_truc.md",
     "Vim/04 vim_register.md",
-    "Latex/Notes on Latex.md",
     "Latex/README.md",
     "CPGE/README.md",
     "Latex/build/template.pdf",
     "Tools/Vim.md",
-    "Tools",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
-    "CPGE/Physique - Chimie/P04 Signaux + Ondes Unidimensionnelles/Programme_S9.pdf",
-    "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-cor1.png",
-    "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-1.png",
+    "CPGE/Math/CL/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-cor1.png",
+    "CPGE/Math/CL/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-1.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD 2/TD-TP 1 Introduction à la dualité.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/Assets/截屏2023-03-06 00.17.55.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/Assets/截屏2023-03-06 00.15.01.png",
@@ -219,7 +233,6 @@
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Livres/Assets/Pasted image 20230315210405.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Algèbre Linéaire.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/01 Espace Vectoriel/01B Sous-espace Affines.md",
-    "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/01 Espace Vectoriel/01C Linear Dependence, Basis, Complement, Direct Sum, Dimension.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/06 Dualité/Assets/截屏2023-02-11 16.22.16.png",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/1TD1.canvas"
   ]
