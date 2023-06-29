@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.19)  28 JUN 2023 13:55
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.19)  29 JUN 2023 11:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1210,37 +1210,34 @@ LaTeX Font Warning: Font shape `TU/lmr/bx/sc' undefined
 
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
-(build/template.toc
-Missing character: There is no ; ("3B) in font nullfont!
-)
+(build/template.toc)
 \tf@toc=\write5
 \openout5 = `template.toc'.
 
  [1
 
 ]
-Chapter 1.
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 6 ("36) in font nullfont!
-[2
 
-]
-\g__tikzsymbols_savebox_F_gray 0_10_Laughey_1_none_none_box=\box144
- [3]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
-(./M02.tex [4]) [5] (build/template.aux)
+! LaTeX Error: File `M01.tex' not found.
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
 
- ) 
+Enter file name: 
+./template.tex:20: Emergency stop.
+<read *> 
+         
+l.20 \input{M01}
+                ^^M
+*** (cannot \read from terminal in nonstop modes)
+
+ 
 Here is how much of TeX's memory you used:
- 36538 strings out of 475883
- 739085 string characters out of 5802515
- 1148999 words of memory out of 5000000
- 56886 multiletter control sequences out of 15000+600000
- 525889 words of font info for 139 fonts, out of 8000000 for 9000
+ 36088 strings out of 475883
+ 729676 string characters out of 5802515
+ 1116166 words of memory out of 5000000
+ 56485 multiletter control sequences out of 15000+600000
+ 488702 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 96i,12n,102p,466b,1750s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on build/template.xdv (6 pages, 137724 bytes).
+ 96i,7n,102p,466b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
+Output written on build/template.xdv (2 pages, 15052 bytes).
