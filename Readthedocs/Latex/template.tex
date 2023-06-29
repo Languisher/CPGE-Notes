@@ -1,0 +1,94 @@
+\documentclass{article}
+
+\usepackage{sidenotes}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{thmtools}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{framed}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhead{} % 初始化页眉
+\fancyhead[R]{\textsl{\rightmark}}
+\fancyhead[L]{\textsl{\leftmark}}
+\usepackage{tikz}
+\usepackage{pgfplots}
+
+\colorlet{LightGray}{White!90!Periwinkle}
+\colorlet{LightOrange}{Orange!15}
+\colorlet{LightGreen}{Green!15}
+
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+
+\declaretheoremstyle[name=Théorème,]{thmsty}
+\declaretheorem[style=thmsty,numberwithin=section]{theorem}
+\tcolorboxenvironment{theorem}{colback=LightGray}
+
+\declaretheoremstyle[name=Proposition,]{prosty}
+\declaretheorem[style=prosty,numberlike=theorem]{proposition}
+\tcolorboxenvironment{proposition}{colback=LightOrange}
+
+\declaretheoremstyle[name=Propriété,]{prcpsty}
+\declaretheorem[style=prcpsty,numberlike=theorem]{principle}
+\tcolorboxenvironment{principle}{colback=LightOrange}
+
+\declaretheoremstyle[name=Définition,]{defisty}
+\declaretheorem[style=defisty,numberlike=theorem]{definition}
+\tcolorboxenvironment{definition}{colback=LightGreen}
+
+\setstretch{1.2}
+\geometry{
+    textheight=9in,
+    textwidth=5.5in,
+    top=1in,
+    headheight=12pt,
+    headsep=25pt,
+    footskip=30pt
+}
+
+\newgeometry{top=20mm,bottom=25mm,right=30mm,left=30mm}
+\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
+
+% ------------------------------------------------------------------------------
+
+\begin{document}
+
+% ------------------------------------------------------------------------------
+% Cover Page and ToC
+% ------------------------------------------------------------------------------
+
+% Remeber to change these parts:
+% 1. Input head title here
+% 2. Input second head title here
+% 3. Author Name
+
+\title{ \normalsize \textsc{}
+        \\ [2.0cm]
+        \HRule{1.5pt} \
+        \LARGE \textbf{\uppercase{Input head title here} 
+        \HRule{2.0pt} \\ [0.6cm] \LARGE{Input second head title here} \vspace*{10\baselineskip}}
+        }
+\date{\today}
+\author{\textbf{Author} \ 
+        Brandon Lin}
+\maketitle
+\newpage
+
+\tableofcontents
+\newpage
+
+% ------------------------------------------------------------------------------
+
+Test
+
+% ------------------------------------------------------------------------------
+
+\end{document}

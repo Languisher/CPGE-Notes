@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "86ebc1a5b5e0c3c3",
+        "id": "9daa634f7177dbf1",
         "type": "tabs",
         "children": [
           {
-            "id": "b34c71b958890e08",
+            "id": "bfbfeca01a976bb7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "CPGE/Math/CL/M02 Math I+II/Livres/Y1S2 Math II.pdf"
+                "file": "CPGE/Math/README.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "dbb3fdc245c3dc9f",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPGE/Math/CL/M02 Math I+II/Livres/Y1S2 Math II.pdf",
+                "file": "CPGE/Math/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPGE/Math/CL/M02 Math I+II/Livres/Y1S2 Math II.pdf",
+                "file": "CPGE/Math/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPGE/Math/CL/M02 Math I+II/Livres/Y1S2 Math II.pdf"
+                "file": "CPGE/Math/README.md"
               }
             }
           }
@@ -147,38 +148,37 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b34c71b958890e08",
+  "active": "bfbfeca01a976bb7",
   "lastOpenFiles": [
+    "README.md",
+    "Readthedocs/Vim/Vim实用技巧_高清_中文版.pdf",
+    "Readthedocs/Latex/README.md",
+    "Readthedocs/Manim",
+    "Readthedocs/Manim/Manim-Plot3D.ipynb",
+    "Readthedocs/Vim/README.md",
+    "Readthedocs/Pyechart-Plot.ipynb",
+    "Readthedocs",
+    "French/Travel Note.md",
+    "CPGE/Math/README.md",
+    "CPGE/Math/CL/M02 Math I+II/Livres/Y1S2 Math II.pdf",
     "CPGE/Math/build/template.synctex(busy)",
     "CPGE/Math/build/xelatex33869.fls",
     "CPGE/Math/build/xelatex33867.fls",
     "CPGE/Math/build/xelatex33814.fls",
-    "CPGE/Math/build/xelatex33813.fls",
-    "CPGE/Math/build/xelatex33762.fls",
-    "CPGE/Math/build/xelatex33739.fls",
-    "CPGE/Math/build/xelatex33734.fls",
-    "CPGE/Math/build/xelatex33184.fls",
-    "CPGE/Math/build/xelatex29161.fls",
-    "CPGE/Math/build/xelatex29126.fls",
     "CPGE/Math/M02 Nombres Complexes.md",
-    "CPGE/Math/README.md",
     "Latex/Notes on Latex.md",
-    "Vim/03 vim_truc.md",
-    "French/Travel Note.md",
-    "Linux+Shell/README.md",
-    "Linux+Shell/02 shell_logic.md",
-    "Linux+Shell/01 shell_basic.md",
-    "Vim/02 vim_file.md",
-    "Vim/README.md",
-    "Vim/01 vim_mode.md",
-    "Vim/00 vim_intro.md",
-    "README.md",
-    "Vim/04 vim_pattern.md",
+    "Readthedocs/Vim/03 vim_truc.md",
+    "Readthedocs/Linux+Shell/README.md",
+    "Readthedocs/Linux+Shell/02 shell_logic.md",
+    "Readthedocs/Linux+Shell/01 shell_basic.md",
+    "Readthedocs/Vim/02 vim_file.md",
+    "Readthedocs/Vim/01 vim_mode.md",
+    "Readthedocs/Vim/00 vim_intro.md",
+    "Readthedocs/Vim/04 vim_pattern.md",
     "00Old-version/Manual/nvim.md",
     "00Old-version/Untitled.md",
     "00Old-version/Une histoire passé.md",
     "Vim/04 vim_register.md",
-    "Latex/README.md",
     "CPGE/README.md",
     "Tools/Vim.md",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
