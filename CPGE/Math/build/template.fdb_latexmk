@@ -1,16 +1,20 @@
 # Fdb version 3
-["xdvipdfmx"] 1688011313 "build/template.xdv" "build/template.pdf" "build/template" 1688011314
-  "build/template.xdv" 1688011313 18428 afab39efb55afcad596c438c761927db "xelatex"
+["xdvipdfmx"] 1688020307 "build/template.xdv" "build/template.pdf" "build/template" 1688020308
+  "build/template.xdv" 1688020307 46396 792e5ac69d5e57b61d5bce65197241e1 "xelatex"
   (generated)
   "build/template.pdf"
-["xelatex"] 1688011312 "template.tex" "build/template.xdv" "template" 1688011314
+["xelatex"] 1688020305 "template.tex" "build/template.xdv" "template" 1688020308
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1246382020 928 2dc8d444221b7a635bb58038579b861a ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1246382020 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1246382020 940 228d6584342e91276bf566bcf9716b83 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm" 1254269338 11868 4f81e9b6033c032bdaf9884f4d7ef412 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm" 1254269338 11888 6841b91e46b65cf41a49b160e6e74130 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/rm-lmr6.tfm" 1254269338 11836 e3b6ce3e601aec94f64a536e7f4224d5 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm" 1254269338 11852 5a9022f105fd1ee2797df861e79ae9a0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/rm-lmr9.tfm" 1254269338 11884 c93929a6974dce79eabb778f219d7e18 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm" 1589834291 760 1bbb6b93780440b947a1a84c0a1886d8 ""
@@ -234,9 +238,9 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1655629763 5459476 783cf268605e3478e2099c4cdff1b12f ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "M01.tex" 1688011308 31 b2babd8eb559f7ee45566d6464c29a57 ""
-  "build/template.aux" 1688011313 956 e478b0c020921e24a9b7cfd1f923240c "xelatex"
-  "build/template.toc" 1688011313 93 8b0f1a6f43071fe7a69259c1fcd42c06 "xelatex"
+  "M01.tex" 1688020304 567 9fe7508e38b809831780754e0fe18837 ""
+  "build/template.aux" 1688020307 1065 0ff29df9228f96730427b10c8704af3a "xelatex"
+  "build/template.toc" 1688020307 161 6a8ba54ff9ea22ee826061f3207f5c34 "xelatex"
   "letterfonts.tex" 1687931548 8702 ef32ca12e97530ef5734ca4adcb1f6b1 ""
   "macros.tex" 1687931548 3389 93000260d2aea292d29c76d4ace77a29 ""
   "preamble.tex" 1687931548 20053 cac64cd8837854e12008c40220fda887 ""

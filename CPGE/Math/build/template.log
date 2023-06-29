@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.19)  29 JUN 2023 12:01
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.19)  29 JUN 2023 14:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1220,6 +1220,8 @@ Missing character: There is no ; ("3B) in font nullfont!
 
 ] (./M01.tex
 Chapter 1.
+Missing character: There is no 2 ("32) in font nullfont!
+Missing character: There is no 6 ("36) in font nullfont!
 ) [2
 
 ] (build/template.aux)
@@ -1228,12 +1230,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 36116 strings out of 475883
- 730229 string characters out of 5802515
- 1116262 words of memory out of 5000000
- 56502 multiletter control sequences out of 15000+600000
- 488750 words of font info for 72 fonts, out of 8000000 for 9000
+ 36399 strings out of 475883
+ 736417 string characters out of 5802515
+ 1123262 words of memory out of 5000000
+ 56777 multiletter control sequences out of 15000+600000
+ 507786 words of font info for 104 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 96i,7n,102p,466b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 96i,7n,102p,466b,1712s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/template.xdv (3 pages, 18428 bytes).
+Output written on build/template.xdv (3 pages, 46396 bytes).
