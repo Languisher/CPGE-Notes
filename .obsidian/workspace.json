@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "84c4fc35110a1be7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPGE/Math/README.md",
+                "file": "1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPGE/Math/README.md",
+                "file": "1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPGE/Math/README.md"
+                "file": "1.md"
               }
             }
           }
@@ -139,17 +152,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bfbfeca01a976bb7",
+  "active": "84c4fc35110a1be7",
   "lastOpenFiles": [
+    "CPGE/Math/README.md",
+    "1.md",
+    "Notes",
     "README.md",
     "Readthedocs/Vim/Vim实用技巧_高清_中文版.pdf",
     "Readthedocs/Latex/README.md",
@@ -159,12 +175,10 @@
     "Readthedocs/Pyechart-Plot.ipynb",
     "Readthedocs",
     "French/Travel Note.md",
-    "CPGE/Math/README.md",
     "CPGE/Math/CL/M02 Math I+II/Livres/Y1S2 Math II.pdf",
     "CPGE/Math/build/template.synctex(busy)",
     "CPGE/Math/build/xelatex33869.fls",
     "CPGE/Math/build/xelatex33867.fls",
-    "CPGE/Math/build/xelatex33814.fls",
     "CPGE/Math/M02 Nombres Complexes.md",
     "Latex/Notes on Latex.md",
     "Readthedocs/Vim/03 vim_truc.md",
