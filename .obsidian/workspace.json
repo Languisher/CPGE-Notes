@@ -16,8 +16,48 @@
                 "file": "CPGE/Math/Mathématiques MPSI Tout-en-un - 4e édition (Claude Deschamps, François Moulin etc.) (Z-Library).pdf"
               }
             }
+          },
+          {
+            "id": "1606231f29a76d39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPGE/Math/CL/M02 Math I+II/Notes/Fonction réelles de la variable réele.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "a4addcd74be6a629",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbb5cd10244ca87c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "CPGE/Math/CL/M02 Math I+II/Livres/Y1S2 Math I.pdf"
+              }
+            }
+          },
+          {
+            "id": "b4fb179cd2bf46d1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "CPGE/Math/CL/M01 Bases/Livres/Y1S1 Math (Bases).pdf"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPGE/Math/Mathématiques MPSI Tout-en-un - 4e édition (Claude Deschamps, François Moulin etc.) (Z-Library).pdf",
+                "file": "CPGE/Math/CL/M01 Bases/Livres/Y1S1 Math (Bases).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPGE/Math/Mathématiques MPSI Tout-en-un - 4e édition (Claude Deschamps, François Moulin etc.) (Z-Library).pdf",
+                "file": "CPGE/Math/CL/M01 Bases/Livres/Y1S1 Math (Bases).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPGE/Math/Mathématiques MPSI Tout-en-un - 4e édition (Claude Deschamps, François Moulin etc.) (Z-Library).pdf"
+                "file": "CPGE/Math/CL/M01 Bases/Livres/Y1S1 Math (Bases).pdf"
               }
             }
           }
@@ -146,9 +186,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "95f7c16724d3f234",
+  "active": "b4fb179cd2bf46d1",
   "lastOpenFiles": [
+    "CPGE/Math/CL/M02 Math I+II/Livres/Y1S2 Math I.pdf",
+    "CPGE/Math/CL/M01 Bases/Livres/Y1S1 Math (Bases).pdf",
+    "CPGE/Math/CL/M02 Math I+II/Notes/Fonction réelles de la variable réele.md",
     "CPGE/Math/Mathématiques MPSI Tout-en-un - 4e édition (Claude Deschamps, François Moulin etc.) (Z-Library).pdf",
+    "CPGE/Math/CL/M02 Math I+II/Notes",
     "French/旅游法语.pdf",
     "French/Travel Note.md",
     "1.md",
@@ -162,9 +206,6 @@
     "Readthedocs/Vim/README.md",
     "Readthedocs/Pyechart-Plot.ipynb",
     "Readthedocs",
-    "CPGE/Math/CL/M02 Math I+II/Livres/Y1S2 Math II.pdf",
-    "CPGE/Math/build/template.synctex(busy)",
-    "CPGE/Math/build/xelatex33869.fls",
     "CPGE/Math/M02 Nombres Complexes.md",
     "Latex/Notes on Latex.md",
     "Readthedocs/Vim/03 vim_truc.md",
@@ -188,7 +229,6 @@
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/Assets/截屏2023-03-06 00.17.55.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/Assets/截屏2023-03-06 00.15.01.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/Assets/截屏2023-03-06 00.13.37.png",
-    "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/TD-TP 1 Introduction à la dualité.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD 2/Assets/截屏2023-03-06 00.17.55.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD 2/Assets/截屏2023-03-06 00.15.01.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD 2/Assets/截屏2023-03-06 00.13.37.png",
