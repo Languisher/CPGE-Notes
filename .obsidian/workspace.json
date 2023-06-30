@@ -11,28 +11,13 @@
             "id": "bfbfeca01a976bb7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "CPGE/Math/README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84c4fc35110a1be7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.md",
-                "mode": "preview",
-                "source": false
+                "file": "French/旅游法语.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.md",
+                "file": "French/旅游法语.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.md",
+                "file": "French/旅游法语.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.md"
+                "file": "French/旅游法语.pdf"
               }
             }
           }
@@ -161,10 +146,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "84c4fc35110a1be7",
+  "active": "bfbfeca01a976bb7",
   "lastOpenFiles": [
-    "CPGE/Math/README.md",
+    "French/Travel Note.md",
     "1.md",
+    "CPGE/Math/README.md",
     "Notes",
     "README.md",
     "Readthedocs/Vim/Vim实用技巧_高清_中文版.pdf",
@@ -174,7 +160,6 @@
     "Readthedocs/Vim/README.md",
     "Readthedocs/Pyechart-Plot.ipynb",
     "Readthedocs",
-    "French/Travel Note.md",
     "CPGE/Math/CL/M02 Math I+II/Livres/Y1S2 Math II.pdf",
     "CPGE/Math/build/template.synctex(busy)",
     "CPGE/Math/build/xelatex33869.fls",
