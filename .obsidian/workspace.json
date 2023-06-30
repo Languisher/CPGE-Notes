@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9daa634f7177dbf1",
+        "id": "a44f4c8f57793c67",
         "type": "tabs",
         "children": [
           {
-            "id": "bfbfeca01a976bb7",
+            "id": "95f7c16724d3f234",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "French/旅游法语.pdf"
+                "file": "CPGE/Math/Mathématiques MPSI Tout-en-un - 4e édition (Claude Deschamps, François Moulin etc.) (Z-Library).pdf"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "French/旅游法语.pdf",
+                "file": "CPGE/Math/Mathématiques MPSI Tout-en-un - 4e édition (Claude Deschamps, François Moulin etc.) (Z-Library).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "French/旅游法语.pdf",
+                "file": "CPGE/Math/Mathématiques MPSI Tout-en-un - 4e édition (Claude Deschamps, François Moulin etc.) (Z-Library).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "French/旅游法语.pdf"
+                "file": "CPGE/Math/Mathématiques MPSI Tout-en-un - 4e édition (Claude Deschamps, François Moulin etc.) (Z-Library).pdf"
               }
             }
           }
@@ -146,8 +146,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bfbfeca01a976bb7",
+  "active": "95f7c16724d3f234",
   "lastOpenFiles": [
+    "CPGE/Math/Mathématiques MPSI Tout-en-un - 4e édition (Claude Deschamps, François Moulin etc.) (Z-Library).pdf",
+    "French/旅游法语.pdf",
     "French/Travel Note.md",
     "1.md",
     "CPGE/Math/README.md",
@@ -163,7 +165,6 @@
     "CPGE/Math/CL/M02 Math I+II/Livres/Y1S2 Math II.pdf",
     "CPGE/Math/build/template.synctex(busy)",
     "CPGE/Math/build/xelatex33869.fls",
-    "CPGE/Math/build/xelatex33867.fls",
     "CPGE/Math/M02 Nombres Complexes.md",
     "Latex/Notes on Latex.md",
     "Readthedocs/Vim/03 vim_truc.md",
@@ -192,7 +193,6 @@
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD 2/Assets/截屏2023-03-06 00.15.01.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD 2/Assets/截屏2023-03-06 00.13.37.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Livres/Assets/Pasted image 20230315210405.png",
-    "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Algèbre Linéaire.md",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/06 Dualité/Assets/截屏2023-02-11 16.22.16.png",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/1TD1.canvas"
   ]
