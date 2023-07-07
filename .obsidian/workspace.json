@@ -50,9 +50,11 @@
             "id": "b4fb179cd2bf46d1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "CPGE/Math/CL/M01 Bases/Livres/Y1S1 Math (Bases).pdf"
+                "file": "1.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -123,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPGE/Math/CL/M01 Bases/Livres/Y1S1 Math (Bases).pdf",
+                "file": "CPGE/Math/CL/M02 Math I+II/Notes/Fonction réelles de la variable réele.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPGE/Math/CL/M01 Bases/Livres/Y1S1 Math (Bases).pdf",
+                "file": "CPGE/Math/CL/M02 Math I+II/Notes/Fonction réelles de la variable réele.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPGE/Math/CL/M01 Bases/Livres/Y1S1 Math (Bases).pdf"
+                "file": "CPGE/Math/CL/M02 Math I+II/Notes/Fonction réelles de la variable réele.md"
               }
             }
           }
@@ -186,16 +188,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b4fb179cd2bf46d1",
+  "active": "1606231f29a76d39",
   "lastOpenFiles": [
-    "CPGE/Math/CL/M02 Math I+II/Livres/Y1S2 Math I.pdf",
-    "CPGE/Math/CL/M01 Bases/Livres/Y1S1 Math (Bases).pdf",
+    "艺术营.md",
     "CPGE/Math/CL/M02 Math I+II/Notes/Fonction réelles de la variable réele.md",
+    "1.md",
+    "CPGE/Math/CL/M01 Bases/Livres/Y1S1 Math (Bases).pdf",
+    "CPGE/Math/CL/M02 Math I+II/Livres/Y1S2 Math I.pdf",
     "CPGE/Math/Mathématiques MPSI Tout-en-un - 4e édition (Claude Deschamps, François Moulin etc.) (Z-Library).pdf",
     "CPGE/Math/CL/M02 Math I+II/Notes",
     "French/旅游法语.pdf",
     "French/Travel Note.md",
-    "1.md",
     "CPGE/Math/README.md",
     "Notes",
     "README.md",
@@ -205,7 +208,6 @@
     "Readthedocs/Manim/Manim-Plot3D.ipynb",
     "Readthedocs/Vim/README.md",
     "Readthedocs/Pyechart-Plot.ipynb",
-    "Readthedocs",
     "CPGE/Math/M02 Nombres Complexes.md",
     "Latex/Notes on Latex.md",
     "Readthedocs/Vim/03 vim_truc.md",
