@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPGE/Math/CL/M02 Math I+II/Notes/Fonction réelles de la variable réele.md",
+                "file": "1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPGE/Math/CL/M02 Math I+II/Notes/Fonction réelles de la variable réele.md",
+                "file": "1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPGE/Math/CL/M02 Math I+II/Notes/Fonction réelles de la variable réele.md"
+                "file": "1.md"
               }
             }
           }
@@ -188,10 +188,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1606231f29a76d39",
+  "active": "b4fb179cd2bf46d1",
   "lastOpenFiles": [
-    "艺术营.md",
     "CPGE/Math/CL/M02 Math I+II/Notes/Fonction réelles de la variable réele.md",
+    "艺术营.md",
     "1.md",
     "CPGE/Math/CL/M01 Bases/Livres/Y1S1 Math (Bases).pdf",
     "CPGE/Math/CL/M02 Math I+II/Livres/Y1S2 Math I.pdf",
