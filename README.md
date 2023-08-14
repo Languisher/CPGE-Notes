@@ -17,4 +17,3 @@
 | Latex | [markdown file](./Readthedocs/Latex/README.md) |
 | Linux+Shell                             | [markdown file](./Readthedocs/Linux+Shell/README.md) |
 | Manim based on Python (Math animations) |                                                      |
-
