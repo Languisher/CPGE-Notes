@@ -3,9 +3,11 @@
 Ce dossier contient ces fichiers :
 ## Notes
 
-| Type     | Titre                                    | Dernière mise à jour | 
+| Type     | Titre                                    | Dernière mise à jour |
 | -------- | ---------------------------------------- | -------------------- |
 | Physique | [Électrocinétique](Électrocinétique.pdf) | 14 Août, 2023        |
+| Physique | Ondes                                    |                      |
+| Physique | Électromagnétisme                              |                      |
 ## Cours
 
 ### Maths

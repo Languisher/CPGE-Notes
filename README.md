@@ -1,6 +1,8 @@
 # Notes
 
-本库包含以下文件：This repository contains these files
+> 在未来版本，这个仓库将仅存放我在本科阶段预科的笔记。 
+
+本库包含以下文件：
 
 ## CPGE
 

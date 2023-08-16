@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPGE/README.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPGE/README.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPGE/README.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPGE/README.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,8 +148,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d31fcb4c70e93b65",
+  "active": "811aac8ffb7f2430",
   "lastOpenFiles": [
+    "CPGE/README.md",
     "CPGE/Math/M07 人工智能数学基础/Livres/MATH2309P_V5.3_ecran.pdf",
     "CPGE/Math/M07 人工智能数学基础/Livres",
     "CPGE/Math/M07 人工智能数学基础/Notes/Assets/截屏2023-03-05 10.23.19.png",
@@ -170,14 +171,12 @@
     "CPGE/Math/M06 Topologie/Exercices/TD8_espaces vectoriels_normÃ©s_Riesz.pdf",
     "CPGE/Math/M06 Topologie/Exercices/TD8_espaces vectoriels_normÃ©s_Riesz-corr.pdf",
     "CPGE/Math/M06 Topologie/Exercices/TD7_compacts_espaces vectoriels_normÃ©s-corr.pdf",
-    "CPGE/Math/M06 Topologie/Exercices/TD7_compacts_espaces vectoriels_normÃ©s-3.pdf",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-cor1.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-1.png",
     "CPGE/Math/M02 Math I+II/Notes/Fonction réelles de la variable réele.md",
     "CPGE/Math/Cours 2/M07 人工智能数学基础/Notes/03 La Réduction de dimension.md",
     "CPGE/Math/Cours 2/M07 人工智能数学基础/Notes/02 Le Fitting.md",
     "CPGE/Math/Cours 2/M02 Math I+II/Notes/Fonction réelles de la variable réele.md",
-    "CPGE/README.md",
     "01Temporary/Concours Sujets.md",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/未命名.md",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/4C Utilisation en coin d'air.md",
