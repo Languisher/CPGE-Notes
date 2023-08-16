@@ -6,8 +6,9 @@ Ce dossier contient ces fichiers :
 | Type     | Titre                                    | Dernière mise à jour |
 | -------- | ---------------------------------------- | -------------------- |
 | Physique | [Électrocinétique](Électrocinétique.pdf) | 14 Août, 2023        |
-| Physique | Ondes                                    |                      |
-| Physique | Électromagnétisme                              |                      |
+| Physique | Ondes                                    | En cours             |
+| Physique | Électromagnétisme                        | En cours             |
+| Maths    | Algèbre Linéaire                         | En cours             |
 ## Cours
 
 ### Maths
@@ -22,7 +23,7 @@ Ce dossier contient ces fichiers :
 | M07  | Algèbre linéaire et bilinéaire avancé 高等线性代数 ([MATH2307P-2023 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1166))                      | Y2S2     |
 | M08  | 积分、级数与傅里叶分析 ([MATH3305P-2023 autumn])                                                                                                           |  Y3S1        |
 
-### Physics
+### Physique
 | Type | Titre                                                                                                                                                     | Semestre |
 | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
 | P01  | Optique géométrique 几何光学 ([FL1902P-2021 autumn](http://moodle.speit.sjtu.edu.cn/course/view.php?id=945))                                              | Y1S1     |
