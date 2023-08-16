@@ -5,7 +5,7 @@ Ce dossier contient ces fichiers :
 
 | Type     | Titre                                    | Dernière mise à jour |
 | -------- | ---------------------------------------- | -------------------- |
-| Physique | [Électrocinétique](Électrocinétique.pdf) | 14 Août, 2023        |
+| Physique | [Électrocinétique](Physique%20-%20Chimie/Notes/Électrocinétique.pdf) | 14 Août, 2023        |
 | Physique | Ondes                                    | En cours             |
 | Physique | Électromagnétisme                        | En cours             |
 | Maths    | Algèbre Linéaire                         | En cours             |

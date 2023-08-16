@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c40508cf070a3877",
+        "id": "7e185dff70f57895",
         "type": "tabs",
         "children": [
           {
-            "id": "811aac8ffb7f2430",
+            "id": "d567430a7176e887",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -144,11 +144,14 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "811aac8ffb7f2430",
+  "active": "d567430a7176e887",
   "lastOpenFiles": [
+    "Physique - Chimie/Notes/Électrocinétique.pdf",
+    "README.md",
     "CPGE/README.md",
     "CPGE/Math/M07 人工智能数学基础/Livres/MATH2309P_V5.3_ecran.pdf",
     "CPGE/Math/M07 人工智能数学基础/Livres",
@@ -194,7 +197,6 @@
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
     "CPGE/Physique - Chimie/P01 Optique Géométrique/Notes/Optique Géométrique.md",
     "CPGE/Physique - Chimie/C03 Cinétique Chimie/Cinétique Chimie.md",
-    "CPGE/Physique - Chimie/C03 Cinétique Chimie/Notes/Assets/Drawing 2023-03-01 08.13.58.excalidraw.md",
     "CPGE/Physique - Chimie/Cours/P06 Optique Ondulatoire/Notes/1TD1.canvas"
   ]
 }
