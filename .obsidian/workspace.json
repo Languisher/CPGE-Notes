@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -150,10 +150,12 @@
   },
   "active": "1718552eba092eaf",
   "lastOpenFiles": [
-    "Notes/Algèbre Linéaire.pdf",
+    "Notes/Ondes Unidimensionelles.pdf",
+    "Notes/Réduction d’endomorphismes (Prof. Alain).pdf",
+    "Notes/Endomorphismes dans les epsaces euclidiens.pdf",
     "README.md",
     "Notes/Algèbre Linéaire.pdf",
-    "Notes/Réduction d’endomorphismes (Prof. Alain).pdf",
+    "Notes/Algèbre Linéaire.pdf",
     "Notes",
     "Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
     "Physique - Chimie/P01 Optique Géométrique/Notes/Optique Géométrique.md",
@@ -173,7 +175,6 @@
     "CPGE/Math/M07 人工智能数学基础/Notes/03 La Réduction de dimension.md",
     "CPGE/Math/M07 人工智能数学基础/Notes/02 Le Fitting.md",
     "CPGE/Math/M07 人工智能数学基础/Notes",
-    "CPGE/Math/M06 Topologie/Livres/MATH2308P.pdf",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-cor1.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-1.png",
     "CPGE/Math/M02 Math I+II/Notes/Fonction réelles de la variable réele.md",

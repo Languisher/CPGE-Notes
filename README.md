@@ -6,14 +6,17 @@ Ce dossier contient ces fichiers :
 | Type     | Titre                                                                | Dernière mise à jour | 
 | -------- | -------------------------------------------------------------------- | -------------------- |
 | Physique | [Électrocinétique](Notes/Électrocinétique.pdf) | Août, 2023        |
-| Physique | Ondes                                                                | En cours             |
+| Physique | [Ondes Unidimensionelles](Notes/Ondes%20Unidimensionelles.pdf)                                                               | Août, 2023             |
 | Physique | Électromagnétisme                                                    | En cours             |
+
 
 
 | Type             | Titre                                                                                                  | Dernière mise à jour |
 | ---------------- | ------------------------------------------------------------------------------------------------------ | -------------------- |
 | Algèbre Linéaire                 | [Algèbre Linéaire](Notes/Algèbre%20Linéaire.pdf)                                                                                     | En cours                    |
+| Algèbre Linéaire (Cours) | [Endomorphismes dans EVN (Prof. Alain)](Notes/Endomorphismes%20dans%20les%20epsaces%20euclidiens.pdf) | Avril, 2023            |
 | Algèbre Linéaire (Cours) | [Réduction des endomorphismes (Prof. Alain)](Notes/Réduction%20d’endomorphismes%20(Prof.%20Alain).pdf) | Mai, 2023            |
+
 ## Cours
 ### Maths
 | Type | Titre                                                                                                                                                      | Semestre |
