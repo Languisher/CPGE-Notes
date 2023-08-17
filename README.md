@@ -3,14 +3,18 @@
 Ce dossier contient ces fichiers :
 ## Notes
 
-| Type     | Titre                                    | Dernière mise à jour |
-| -------- | ---------------------------------------- | -------------------- |
-| Physique | [Électrocinétique](Physique%20-%20Chimie/Notes/Électrocinétique.pdf) | 14 Août, 2023        |
-| Physique | Ondes                                    | En cours             |
-| Physique | Électromagnétisme                        | En cours             |
-| Maths    | Algèbre Linéaire                         | En cours             |
-## Cours
+| Type     | Titre                                                                | Dernière mise à jour | 
+| -------- | -------------------------------------------------------------------- | -------------------- |
+| Physique | [Électrocinétique](Notes/Électrocinétique.pdf) | Août, 2023        |
+| Physique | Ondes                                                                | En cours             |
+| Physique | Électromagnétisme                                                    | En cours             |
 
+
+| Type             | Titre                                                                                                  | Dernière mise à jour |
+| ---------------- | ------------------------------------------------------------------------------------------------------ | -------------------- |
+| Algèbre Linéaire                 | [Algèbre Linéaire](Notes/Algèbre%20Linéaire.pdf)                                                                                     | En cours                    |
+| Algèbre Linéaire (Cours) | [Réduction des endomorphismes (Prof. Alain)](Notes/Réduction%20d’endomorphismes%20(Prof.%20Alain).pdf) | Mai, 2023            |
+## Cours
 ### Maths
 | Type | Titre                                                                                                                                                      | Semestre |
 | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
