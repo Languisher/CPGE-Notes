@@ -16,16 +16,19 @@ Ce dossier contient ces fichiers :
 | Cours - Mathématiques I  | [Espace Euclidien](Notes/02%20Euclidien.pdf)                                                                                                                                                                                     | Juin, 2022           |
 
 ### Physique
-| Type                             | Titre                                                            | Dernière mise à jour |
-| -------------------------------- | ---------------------------------------------------------------- | -------------------- |
-| Résumé du cours                  | [Électrocinétique](Notes/Électrocinétique.pdf)                   | Août, 2023           |
-| Résumé du cours                  | [Ondes Unidimensionnelles](Notes/Ondes%20Unidimensionnelles.pdf) | Août, 2023           |
-| Résumé du cours                  | Électromagnétisme                                                | En cours             |
-| Cours - Signaux                  | [Signaux](Notes/P01%20Signaux.pdf)                               | Janvier, 2023        |
-| Cours - Ondes Unidimensionnelles | [Ondes Unidmensionnelles](Notes/P02%20Ondes.pdf)                 | Janvier, 2023        |
-| Cours - Électromagnétisme        | [Électrostatique](Notes/P%20Électrostatique.pdf)                 | Juin, 2023           |
-| Cours - Électromagnétisme        | [Magnétostatique](Notes/P%20Magnétostatique.pdf)                 | Juin, 2023           |
-| Cours - Mécanique II             | [Mécanique II](Notes/P%20Mécanique%20II.pdf)                     | Mai, 2023                     |
+| Type                             | Titre                                                                                                                                                       | Dernière mise à jour |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| Résumé du cours                  | [Électrocinétique](Notes/Électrocinétique.pdf)                                                                                                              | Août, 2023           |
+| Résumé du cours                  | [Ondes Unidimensionnelles](Notes/Ondes%20Unidimensionnelles.pdf)                                                                                            | Août, 2023           |
+| Résumé du cours                  | Électromagnétisme                                                                                                                                           | En cours             |
+| Cours - Signaux                  | [Signaux](Notes/P01%20Signaux.pdf)                                                                                                                          | Janvier, 2023        |
+| Cours - Ondes Unidimensionnelles | [Ondes Unidmensionnelles](Notes/P02%20Ondes.pdf)                                                                                                            | Janvier, 2023        |
+| Cours - Électromagnétisme        | [Électrostatique](Notes/P%20Électrostatique.pdf)                                                                                                            | Juin, 2023           |
+| Cours - Électromagnétisme        | [Magnétostatique](Notes/P%20Magnétostatique.pdf)                                                                                                            | Juin, 2023           |
+| Cours - Mécanique II             | [Mécanique II](Notes/P%20Mécanique%20II.pdf)                                                                                                                | Mai, 2023            |
+| Cours - Électricité              | [Électricité Fondamentale Circuits](Notes/01%20É.pdf)                                                                                                       | Juin, 2022           |
+| Cours - Mécanique I              | [Méc I-1](Notes/01%202.pdf), [Méc I-2](Notes/02%202.pdf), [Méc I-3](Notes/03%20M%202.pdf), [Méc I-4](Notes/04%20M%203.pdf), [Méc I-5](Notes/05%20M%203.pdf) | Juin, 2022           |
+| Cours - Optique Géométrique      | [Optique Géométrique](Physique%20-%20Chimie/P01%20Optique%20Géométrique/Notes/Optique%20Géométrique.md)                                                                                                                                       | Janvier, 2022                     |
 
 ## Cours
 ### Maths
