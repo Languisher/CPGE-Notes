@@ -3,19 +3,21 @@
 Ce dossier contient ces fichiers :
 ## Notes
 
-| Type     | Titre                                                                | Dernière mise à jour | 
-| -------- | -------------------------------------------------------------------- | -------------------- |
-| Physique | [Électrocinétique](Notes/Électrocinétique.pdf) | Août, 2023        |
-| Physique | [Ondes Unidimensionelles](Notes/Ondes%20Unidimensionelles.pdf)                                                               | Août, 2023             |
-| Physique | Électromagnétisme                                                    | En cours             |
+### Maths
 
+| Type                     | Titre                                                                                    | Dernière mise à jour |
+| ------------------------ | ---------------------------------------------------------------------------------------- | -------------------- |
+| Résumé du cours         | [Algèbre Linéaire](Notes/Algèbre%20Linéaire.pdf)                                         | En cours             |
+| Cours - Algèbre Linéaire| [Endomorphismes dans EVN](Notes/Endomorphismes%20dans%20les%20epsaces%20euclidiens.pdf)  | Avril, 2023          |
+| Cours - Algèbre Linéaire| [Réduction des endomorphismes](Notes/Réduction%20d’endomorphismes%20(Prof.%20Alain).pdf) | Mai, 2023            |
 
-
-| Type             | Titre                                                                                                  | Dernière mise à jour |
-| ---------------- | ------------------------------------------------------------------------------------------------------ | -------------------- |
-| Algèbre Linéaire                 | [Algèbre Linéaire](Notes/Algèbre%20Linéaire.pdf)                                                                                     | En cours                    |
-| Algèbre Linéaire (Cours) | [Endomorphismes dans EVN (Prof. Alain)](Notes/Endomorphismes%20dans%20les%20epsaces%20euclidiens.pdf) | Avril, 2023            |
-| Algèbre Linéaire (Cours) | [Réduction des endomorphismes (Prof. Alain)](Notes/Réduction%20d’endomorphismes%20(Prof.%20Alain).pdf) | Mai, 2023            |
+### Physique
+| Type            | Titre                                                            | Dernière mise à jour |
+| --------------- | ---------------------------------------------------------------- | -------------------- |
+| Résumé du cours        | [Électrocinétique](Notes/Électrocinétique.pdf)                   | Août, 2023           |
+| Résumé du cours        | [Ondes Unidimensionnelles](Notes/Ondes%20Unidimensionnelles.pdf) | Août, 2023           |
+| Résumé du cours        | Électromagnétisme                                                | En cours             |
+| Cours - Signaux | [Signaux](Notes/P01%20Signaux.pdf)                                                        | Janvier, 2023        |
 
 ## Cours
 ### Maths
@@ -56,3 +58,8 @@ Ce dossier contient ces fichiers :
 ## Concours Site
 
 https://gargantua.polytechnique.fr/siatel-web/app/explorer/fVaJXpYYYK
+
+## Références
+
+- H-Prépa Physique : la collection de référence en physique pour les étudiants en classe préparatoire scientifique.
+

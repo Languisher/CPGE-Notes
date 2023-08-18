@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "52b68d4756cd90ff",
+        "id": "1441735b468edb97",
         "type": "tabs",
         "children": [
           {
-            "id": "1718552eba092eaf",
+            "id": "f79eb8ecb7f46546",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 349.5
   },
   "right": {
     "id": "dbb3fdc245c3dc9f",
@@ -148,21 +148,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1718552eba092eaf",
+  "active": "d31fcb4c70e93b65",
   "lastOpenFiles": [
-    "Notes/Ondes Unidimensionelles.pdf",
-    "Notes/Réduction d’endomorphismes (Prof. Alain).pdf",
-    "Notes/Endomorphismes dans les epsaces euclidiens.pdf",
+    "参考资料/H-Prépa Physique/Mécanique - 1re année - MPSI - PCSI - PTSI - H-Prepa (Proetudes.blogspot.com).pdf",
+    "参考资料/H-Prépa Physique/Thermodynamique - 2e année - MP - PC - PSI - PT - H-Prepa (Proetudes.blogspot.com).pdf",
+    "参考资料/H-Prépa Physique/Thermodynamique - 1re année - MPSI - PCSI - PTSI - H-Prepa (Proetudes.blogspot.com).pdf",
+    "参考资料/H-Prépa Physique/Ondes - 2e année - MP - PC - PSI - PT - H-Prepa (Proetudes.blogspot.com).pdf",
+    "参考资料/H-Prépa Physique/Optique - 1re année - MPSI - PCSI - PTSI - H-Prepa (Proetudes.blogspot.com).pdf",
+    "参考资料/H-Prépa Physique/Électronique et Électrocinétique - 1re année - MPSI - PCSI - PTSI - H-Prepa (Proetudes.blogspot.com).pdf",
+    "参考资料/H-Prépa Physique/Electromagnétisme - 2e année - MP - PC - PSI - PT - H-Prepa (Proetudes.blogspot.com).pdf",
+    "参考资料/H-Prépa Physique/Electromagnétisme - 1re année - MPSI - PCSI - PTSI - H-Prepa (Proetudes.blogspot.com).pdf",
+    "参考资料/H-Prépa Physique",
+    "参考资料/H-p.md",
     "README.md",
-    "Notes/Algèbre Linéaire.pdf",
-    "Notes/Algèbre Linéaire.pdf",
-    "Notes",
+    "Notes/P01 Signaux.pdf",
+    "Notes/Réduction d’endomorphismes (Prof. Alain).pdf",
     "Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
     "Physique - Chimie/P01 Optique Géométrique/Notes/Optique Géométrique.md",
-    "Notes/Électrocinétique.pdf",
     "CPGE/README.md",
-    "CPGE/Math/M07 人工智能数学基础/Livres/MATH2309P_V5.3_ecran.pdf",
-    "CPGE/Math/M07 人工智能数学基础/Livres",
     "CPGE/Math/M07 人工智能数学基础/Notes/Assets/截屏2023-03-05 10.23.19.png",
     "CPGE/Math/M07 人工智能数学基础/Notes/Assets/191679038131_.pic.jpg",
     "CPGE/Math/M07 人工智能数学基础/Notes/Assets/截屏2023-02-13 17.01.10.png",
@@ -171,10 +174,8 @@
     "CPGE/Math/M07 人工智能数学基础/Notes/Assets/Pasted image 20230305093502.png",
     "CPGE/Math/M07 人工智能数学基础/Notes/Assets/Pasted image 20230305093451.png",
     "CPGE/Math/M07 人工智能数学基础/Notes/Assets/Pasted image 20230227171730.png",
-    "CPGE/Math/M07 人工智能数学基础/Notes/Assets",
     "CPGE/Math/M07 人工智能数学基础/Notes/03 La Réduction de dimension.md",
     "CPGE/Math/M07 人工智能数学基础/Notes/02 Le Fitting.md",
-    "CPGE/Math/M07 人工智能数学基础/Notes",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-cor1.png",
     "CPGE/Math/M04 Algèbre Linéaire et Bilinéaire/Exercices/TD AL2/feuerbach-1.png",
     "CPGE/Math/M02 Math I+II/Notes/Fonction réelles de la variable réele.md",
@@ -196,7 +197,6 @@
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/1D Surface d'onde 等相面.md",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/1C Chemin Optique, Déphasage 光程.md",
     "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Notes/1A Modèle scalaire de la lumière.md",
-    "CPGE/Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
     "CPGE/Physique - Chimie/Cours/P06 Optique Ondulatoire/Notes/1TD1.canvas"
   ]
 }
