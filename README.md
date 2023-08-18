@@ -5,19 +5,27 @@ Ce dossier contient ces fichiers :
 
 ### Maths
 
-| Type                     | Titre                                                                                    | Dernière mise à jour |
-| ------------------------ | ---------------------------------------------------------------------------------------- | -------------------- |
-| Résumé du cours         | [Algèbre Linéaire](Notes/Algèbre%20Linéaire.pdf)                                         | En cours             |
-| Cours - Algèbre Linéaire| [Endomorphismes dans EVN](Notes/Endomorphismes%20dans%20les%20epsaces%20euclidiens.pdf)  | Avril, 2023          |
-| Cours - Algèbre Linéaire| [Réduction des endomorphismes](Notes/Réduction%20d’endomorphismes%20(Prof.%20Alain).pdf) | Mai, 2023            |
+| Type                     | Titre                                                                                                                                                                                                  | Dernière mise à jour |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- |
+| Résumé du cours          | [Algèbre Linéaire](Notes/Algèbre%20Linéaire.pdf)                                                                                                                                                       | En cours             |
+| Cours - Algèbre Linéaire | [Endomorphismes dans EVN](Notes/Endomorphismes%20dans%20les%20epsaces%20euclidiens.pdf)                                                                                                                | Avril, 2023          |
+| Cours - Algèbre Linéaire | [Réduction des endomorphismes](Notes/Réduction%20d’endomorphismes%20(Prof.%20Alain).pdf)                                                                                                               | Mai, 2023            |
+| Cours - Topologie        | [Topologie](Notes/M%20Topologie.pdf)                                                                                                                                                                   | Juin, 2023           |
+| Cours - Probabilité      | [Probabilité](Notes/M03%20Probabilité.pdf)                                                                                                                                                             | Janvier, 2023        |
+| Cours - Mathématiques II | [Nombres Complexes](Notes/00%20Nombres%20Complexes.pdf), [Développement Limités & Aymptotiques](Notes/01%20Développement%20Limités%20&%20Asymptotiques.pdf), [Intégration](Notes/02%20Intégration.pdf) | Juin, 2022           |
+| Cours - Mathématiques I  | [Espace Euclidien](Notes/02%20Euclidien.pdf)                                                                                                                                                                                     | Juin, 2022           |
 
 ### Physique
-| Type            | Titre                                                            | Dernière mise à jour |
-| --------------- | ---------------------------------------------------------------- | -------------------- |
-| Résumé du cours        | [Électrocinétique](Notes/Électrocinétique.pdf)                   | Août, 2023           |
-| Résumé du cours        | [Ondes Unidimensionnelles](Notes/Ondes%20Unidimensionnelles.pdf) | Août, 2023           |
-| Résumé du cours        | Électromagnétisme                                                | En cours             |
-| Cours - Signaux | [Signaux](Notes/P01%20Signaux.pdf)                                                        | Janvier, 2023        |
+| Type                             | Titre                                                            | Dernière mise à jour |
+| -------------------------------- | ---------------------------------------------------------------- | -------------------- |
+| Résumé du cours                  | [Électrocinétique](Notes/Électrocinétique.pdf)                   | Août, 2023           |
+| Résumé du cours                  | [Ondes Unidimensionnelles](Notes/Ondes%20Unidimensionnelles.pdf) | Août, 2023           |
+| Résumé du cours                  | Électromagnétisme                                                | En cours             |
+| Cours - Signaux                  | [Signaux](Notes/P01%20Signaux.pdf)                               | Janvier, 2023        |
+| Cours - Ondes Unidimensionnelles | [Ondes Unidmensionnelles](Notes/P02%20Ondes.pdf)                 | Janvier, 2023        |
+| Cours - Électromagnétisme        | [Électrostatique](Notes/P%20Électrostatique.pdf)                 | Juin, 2023           |
+| Cours - Électromagnétisme        | [Magnétostatique](Notes/P%20Magnétostatique.pdf)                 | Juin, 2023           |
+| Cours - Mécanique II             | [Mécanique II](Notes/P%20Mécanique%20II.pdf)                     | Mai, 2023                     |
 
 ## Cours
 ### Maths
