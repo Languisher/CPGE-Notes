@@ -12,7 +12,7 @@ Ce dossier contient ces fichiers :
 | Cours - Algèbre Linéaire | [Réduction des endomorphismes](Notes/Réduction%20d’endomorphismes%20(Prof.%20Alain).pdf)                                                                                                               | Mai, 2023            |
 | Cours - Topologie        | [Topologie](Notes/M%20Topologie.pdf)                                                                                                                                                                   | Juin, 2023           |
 | Cours - Probabilité      | [Probabilité](Notes/M03%20Probabilité.pdf)                                                                                                                                                             | Janvier, 2023        |
-| Cours - Mathématiques II | [Nombres Complexes](Notes/00%20Nombres%20Complexes.pdf), [Développement Limités & Aymptotiques](Notes/01%20Développement%20Limités%20&%20Asymptotiques.pdf), [Intégration](Notes/02%20Intégration.pdf) | Juin, 2022           |
+| Cours - Mathématiques II | [Nombres Complexes](Notes/00%20Nombres%20Complexes.pdf), [DL & Asymptotiques](Notes/01%20Développement%20Limités%20&%20Asymptotiques.pdf), [Intégration](Notes/02%20Intégration.pdf) | Juin, 2022           |
 | Cours - Mathématiques I  | [Espace Euclidien](Notes/02%20Euclidien.pdf)                                                                                                                                                                                     | Juin, 2022           |
 
 ### Physique
@@ -74,3 +74,4 @@ https://gargantua.polytechnique.fr/siatel-web/app/explorer/fVaJXpYYYK
 
 - H-Prépa Physique : la collection de référence en physique pour les étudiants en classe préparatoire scientifique.
 
+- [Site des exercices de mathématiques, essentiellement pour les classes de **MPSI** et **MP**, par Prof. David DELAUNAY](http://ddmaths.free.fr/index.html)
