@@ -30,6 +30,26 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "32589deb5702323b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Notes/Ondes Unidimensionnelles.pdf"
+              }
+            }
+          },
+          {
+            "id": "37ab53283dc249a3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Notes/Électrocinétique.pdf"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -161,11 +181,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d31fcb4c70e93b65",
+  "active": "63429c7ecc5d2256",
   "lastOpenFiles": [
-    "Notes/SS.pdf",
-    "Physique - Chimie/P01 Optique Géométrique/Notes/Optique Géométrique.md",
+    "Notes/Ondes Unidimensionnelles.pdf",
     "README.md",
+    "Notes/Électrocinétique.pdf",
+    "Physique - Chimie/P01 Optique Géométrique/Notes/Optique Géométrique.md",
+    "Essentiels",
+    "Notes/SS.pdf",
     "Notes/05 M 3.pdf",
     "Notes/04 M 3.pdf",
     "Notes/03 M 2.pdf",
@@ -173,9 +196,6 @@
     "Notes/01 2.pdf",
     "Notes/01 É.pdf",
     "Notes/02 Euclidien.pdf",
-    "Notes/02 Intégration.pdf",
-    "Notes/01 Développement Limités & Asymptotiques.pdf",
-    "Notes/00 Nombres Complexes.pdf",
     "参考资料/H-p.md",
     "Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
     "CPGE/README.md",

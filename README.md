@@ -5,17 +5,20 @@ Ce dossier contient ces fichiers :
 
 ### Maths
 
-| Titre                                            | Contenu                                                                   | Dernière mise à jour |
-| ------------------------------------------------ | ------------------------------------------------------------------------- | -------------------- |
-| [Algèbre Linéaire](Notes/Algèbre%20Linéaire.pdf) | ---                                                                       | En cours             |
-| [Suites et Séries](Notes/SS.pdf)                                 | Suites Numériques, Séries Numériques, Familles Sommables, Séries Entières | En cours             |
-
+| Titre                                            | Contenu                                                                                                                                                                                                                 | Dernière mise à jour |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| [Algèbre Linéaire](Notes/Algèbre%20Linéaire.pdf) | Espaces vectoriels et applications linéaires, Espaces vectoriels de dimension finie, Matrices, Déterminants, Espaces préhilbertiens réels, Réduction des endomorphismes, Endomorphismes d'un espace vectoriel euclidien | En cours             |
+| [Suites et Séries](Notes/SS.pdf)                 | Suites Numériques, Séries Numériques, Familles Sommables, Séries Entières                                                                                                                                               | En cours             |
+| ~~Calculs~~                                      | Analyse asymptotique, Intégration, Fonctions de deux variables, EDL, Limites et continuité                                                                                                                              | Probablement         |
+| Espace Vectoriels Normés et Topologie            | Espaces vectoriels normés, Topologie                                                                                                                                                                                    | En cours             |
+| ~~Probabilité~~                                      | Dénombrement, Probabilités, Variables aléatoires-espérance-variance                                                                                                                                                     | En cours                     |
 ### Physique
-| Titre                                                            | Contenu | Dernière mise à jour |
-| ---------------------------------------------------------------- | ------- | -------------------- |
-| [Électrocinétique](Notes/Électrocinétique.pdf)                   | ---     | Août, 2023           |
-| [Ondes Unidimensionnelles](Notes/Ondes%20Unidimensionnelles.pdf) | ---     | Août, 2023           |
-| Électromagnétisme                                                | ---     | En cours             |
+| Titre                                                            | Contenu | Dernière mise à jour | Pages    | 
+| ---------------------------------------------------------------- | ------- | -------------------- | --- |
+| [Électrocinétique](Notes/Électrocinétique.pdf)                   | ---     | Août, 2023           | 49    |
+| [Ondes Unidimensionnelles](Notes/Ondes%20Unidimensionnelles.pdf) | ---     | Août, 2023           |  21   |
+| Électromagnétisme                                                | ---     | En cours             |     |
+| Mécanique                                                        | ---     | En cours             |     |
 ## Cours
 ### Maths
 | Type | Titre                                                                                                                                                      | Semestre |
