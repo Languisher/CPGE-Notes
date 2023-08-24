@@ -5,10 +5,10 @@ Ce dossier contient ces fichiers :
 
 ### Maths
 
-| Titre            | Contenu                                          | Dernière mise à jour |
-| ---------------- | ------------------------------------------------ | -------------------- |
-| Algèbre Linéaire | [Algèbre Linéaire](Notes/Algèbre%20Linéaire.pdf) | En cours             |
-| Suites et Séries | Suites Numériques, Séries Numériques, Familles Sommables, Séries Entières                                                 | En cours                     |
+| Titre                                            | Contenu                                                                   | Dernière mise à jour |
+| ------------------------------------------------ | ------------------------------------------------------------------------- | -------------------- |
+| [Algèbre Linéaire](Notes/Algèbre%20Linéaire.pdf) | ---                                                                       | En cours             |
+| [Suites et Séries](Notes/SS.pdf)                                 | Suites Numériques, Séries Numériques, Familles Sommables, Séries Entières | En cours             |
 
 ### Physique
 | Titre                                                            | Contenu | Dernière mise à jour |
