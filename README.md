@@ -7,11 +7,11 @@ Ce dossier contient ces fichiers :
 
 | Titre                                            | Dernière mise à jour | Pages |
 | ------------------------------------------------ | -------------------- | ----- |
-| [Suites et Séries](Notes/Suites-et-Séries.pdf)                | Août, 2023             | 37    |
-| [Algèbre Linéaire](Notes/Algèbre%20Linéaire.pdf) | En cours             | 23    |
-| ~~Calculs~~                                      | En cours         | 0      |
-| Espace Vectoriels Normés et Topologie            | En cours             | 0      |
-| ~~Probabilité~~                                  | En cours             | 0      |
+| [Suites et Séries](Notes/Essentiels/Suites-et-Séries.pdf)                | Août, 2023             | 37    |
+| [Algèbre Linéaire](Notes/Essentiels/Algèbre%20Linéaire.pdf) | En cours             | 25    |
+| ~~Calculs~~                                      | | 0      |
+| Espace Vectoriels Normés et Topologie            | | 0      |
+| ~~Probabilité~~                                  | | 0      |
 
 
 Contenu :
@@ -36,12 +36,13 @@ Contenu :
 	- EDL
 	- Limites et continuité                                                                                                                              
 ### Physique
-| Titre                                                            | Contenu | Dernière mise à jour | Pages |
-| ---------------------------------------------------------------- | ------- | -------------------- | ----- |
-| [Électrocinétique](Notes/Électrocinétique.pdf)                   | ---     | Août, 2023           | 49    |
-| [Ondes Unidimensionnelles](Notes/Ondes%20Unidimensionnelles.pdf) | ---     | Août, 2023           | 21    |
-| [Électromagnétisme](Notes/EM.pdf)                                                | ---     | En cours             | 28    |
-| Optique ondulatoire                                              | ---     | En cours             | 0      |
+| Titre                                                            | Dernière mise à jour | Pages |
+| ---------------------------------------------------------------- | -------------------- | ----- |
+| [Électrocinétique](Notes/Essentiels/Électrocinétique.pdf)                   | Août, 2023           | 49    |
+| [Ondes Unidimensionnelles](Notes/Essentiels/Ondes%20Unidimensionnelles.pdf) | Août, 2023           | 21    |
+| [Électromagnétisme](Notes/Essentiels/EM.pdf)                                | En cours             | 28    |
+| [Optique ondulatoire]                                            | En cours             | 25    |
+| Mécanique                                                        |                      |       |
 
 Contenu :
 - **Électrocinétique** :
@@ -94,6 +95,33 @@ Contenu :
 | ---- | ----- | -------- |
 | I01  | [Mathematical Foundation for Artificial Intelligence](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1168)      | Y2S2         |
 
+## Notes de cours
+
+Les notes suivantes ont été prises en classe au fur et à mesure, elles ne sont pas aussi bien organisées que les précédentes. Je vous recommande d'utiliser la version la plus récente et intégrée !
+
+### Maths
+| Type                                | Titre                                                                                                                                                                                | Dernière mise à jour |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- |
+| Cours - Algèbre Linéaire            | [Endomorphismes dans EVN](Notes/Notes%20de%20cours/Endomorphismes%20dans%20les%20epsaces%20euclidiens.pdf)                                                                                              | Avril, 2023          |
+| Cours - Algèbre Linéaire            | [Réduction des endomorphismes](Notes/Notes%20de%20cours/Réduction%20d’endomorphismes%20(Prof.%20Alain).pdf)                                                                                             | Mai, 2023            |
+| Cours - Topologie                   | [Topologie](Notes/Notes%20de%20cours/M%20Topologie.pdf)                                                                                                                                                 | Juin, 2023           |
+| Cours - Probabilité                 | [Probabilité](Notes/Notes%20de%20cours/M03%20Probabilité.pdf)                                                                                                                                           | Janvier, 2023        |
+| Cours - Mathématiques II            | [Nombres Complexes](Notes/Notes%20de%20cours/00%20Nombres%20Complexes.pdf), [DL & Asymptotiques](Notes/Notes%20de%20cours/01%20Développement%20Limités%20&%20Asymptotiques.pdf), [Intégration](Notes/Notes%20de%20cours/02%20Intégration.pdf) | Juin, 2022           |
+| Cours - Mathématiques I             | [Espace Euclidien](Notes/Notes%20de%20cours/02%20Euclidien.pdf)                                                                                                                                         | Juin, 2022           |
+
+### Physique
+
+| Type                                | Titre                                                                                                                                                                                | Dernière mise à jour |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- |
+| Cours - Signaux                     | [Signaux](Notes/Notes%20de%20cours/P01%20Signaux.pdf)                                                                                                                                                   | Janvier, 2023        |
+| Cours - Ondes Unidimensionnelles    | [Ondes Unidmensionnelles](Notes/Notes%20de%20cours/P02%20Ondes.pdf)                                                                                                                                     | Janvier, 2023        |
+| Cours - Électromagnétisme           | [Électrostatique](Notes/Notes%20de%20cours/P%20Électrostatique.pdf)                                                                                                                                     | Juin, 2023           |
+| Cours - Électromagnétisme           | [Magnétostatique](Notes/Notes%20de%20cours/P%20Magnétostatique.pdf)                                                                                                                                     | Juin, 2023           |
+| Cours - Mécanique II                | [Mécanique II](Notes/Notes%20de%20cours/P%20Mécanique%20II.pdf)                                                                                                                                         | Mai, 2023            |
+| Cours - Électricité                 | [Électricité Fondamentale Circuits](Notes/Notes%20de%20cours/01%20É.pdf)                                                                                                                                | Juin, 2022           |
+| Cours - Mécanique I                 | [Méc I-1](Notes/Notes%20de%20cours/01%202.pdf), [Méc I-2](Notes/Notes%20de%20cours/02%202.pdf), [Méc I-3](Notes/Notes%20de%20cours/03%20M%202.pdf), [Méc I-4](Notes/Notes%20de%20cours/04%20M%203.pdf), [Méc I-5](Notes/Notes%20de%20cours/05%20M%203.pdf)                          | Juin, 2022           |
+| Cours - Optique Géométrique         | [Optique Géométrique](Physique%20-%20Chimie/P01%20Optique%20Géométrique/Notes/Optique%20Géométrique.md)                                                                              | Janvier, 2022        |
+| Résumé(Latex) - Optique Ondulatoire | [Optique Ondulatoire](Notes/Notes%20de%20cours/Optique-Ondulatoire(Résumé).pdf)                                                                                                                         | Juin, 2023                     |
 ## Concours Site
 
 https://gargantua.polytechnique.fr/siatel-web/app/explorer/fVaJXpYYYK
@@ -101,28 +129,6 @@ https://gargantua.polytechnique.fr/siatel-web/app/explorer/fVaJXpYYYK
 ## Références
 
 - H-Prépa Physique : la collection de référence en physique pour les étudiants en classe préparatoire scientifique.
-
+- Cours Mathématiques MP, par Prof. David DELAUNAY
 - [Site des exercices de mathématiques, essentiellement pour les classes de **MPSI** et **MP**, par Prof. David DELAUNAY](http://ddmaths.free.fr/index.html)
-
-## Notes de cours
-
-Les notes suivantes ont été prises en classe au fur et à mesure, elles ne sont pas aussi bien organisées que les précédentes. Je vous recommande d'utiliser la version la plus récente et intégrée !
-
-
-| Type                     | Titre                                                                                                                                                                                                  | Dernière mise à jour |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- |
-| Cours - Algèbre Linéaire | [Endomorphismes dans EVN](Notes/Endomorphismes%20dans%20les%20epsaces%20euclidiens.pdf)                                                                                                                | Avril, 2023          |
-| Cours - Algèbre Linéaire | [Réduction des endomorphismes](Notes/Réduction%20d’endomorphismes%20(Prof.%20Alain).pdf)                                                                                                               | Mai, 2023            |
-| Cours - Topologie        | [Topologie](Notes/M%20Topologie.pdf)                                                                                                                                                                   | Juin, 2023           |
-| Cours - Probabilité      | [Probabilité](Notes/M03%20Probabilité.pdf)                                                                                                                                                             | Janvier, 2023        |
-| Cours - Mathématiques II | [Nombres Complexes](Notes/00%20Nombres%20Complexes.pdf), [DL & Asymptotiques](Notes/01%20Développement%20Limités%20&%20Asymptotiques.pdf), [Intégration](Notes/02%20Intégration.pdf) | Juin, 2022           |
-| Cours - Mathématiques I  | [Espace Euclidien](Notes/02%20Euclidien.pdf)                                                                                                                                                                                     | Juin, 2022           |
-| Cours - Signaux                  | [Signaux](Notes/P01%20Signaux.pdf)                                                                                                                          | Janvier, 2023        |
-| Cours - Ondes Unidimensionnelles | [Ondes Unidmensionnelles](Notes/P02%20Ondes.pdf)                                                                                                            | Janvier, 2023        |
-| Cours - Électromagnétisme        | [Électrostatique](Notes/P%20Électrostatique.pdf)                                                                                                            | Juin, 2023           |
-| Cours - Électromagnétisme        | [Magnétostatique](Notes/P%20Magnétostatique.pdf)                                                                                                            | Juin, 2023           |
-| Cours - Mécanique II             | [Mécanique II](Notes/P%20Mécanique%20II.pdf)                                                                                                                | Mai, 2023            |
-| Cours - Électricité              | [Électricité Fondamentale Circuits](Notes/01%20É.pdf)                                                                                                       | Juin, 2022           |
-| Cours - Mécanique I              | [Méc I-1](Notes/01%202.pdf), [Méc I-2](Notes/02%202.pdf), [Méc I-3](Notes/03%20M%202.pdf), [Méc I-4](Notes/04%20M%203.pdf), [Méc I-5](Notes/05%20M%203.pdf) | Juin, 2022           |
-| Cours - Optique Géométrique      | [Optique Géométrique](Physique%20-%20Chimie/P01%20Optique%20Géométrique/Notes/Optique%20Géométrique.md)                                                                                                                                       | Janvier, 2022                     |
 

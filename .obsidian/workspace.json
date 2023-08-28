@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ae942a25bf3b28b5",
+        "id": "88f906de08b5f3ff",
         "type": "tabs",
         "children": [
           {
-            "id": "e5c9e4f573f2ce6d",
+            "id": "22301efdf418611f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,26 +16,6 @@
                 "file": "README.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "32589deb5702323b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Notes/Ondes Unidimensionnelles.pdf"
-              }
-            }
-          },
-          {
-            "id": "37ab53283dc249a3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Notes/Électrocinétique.pdf"
               }
             }
           }
@@ -168,20 +148,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e5c9e4f573f2ce6d",
+  "active": "22301efdf418611f",
   "lastOpenFiles": [
-    "Notes/Électrocinétique.pdf",
+    "Notes/Notes de cours/Réduction d’endomorphismes (Prof. Alain).pdf",
+    "Notes/Notes de cours/00 Nombres Complexes.pdf",
+    "Notes/Essentiels/EM.pdf",
+    "Notes/Notes de cours",
     "README.md",
-    "Notes/EM.pdf",
+    "Notes/Essentiels/Suites-et-Séries.pdf",
+    "Notes/Essentiels",
+    "Notes/Essentiels/Ondes Unidimensionnelles.pdf",
+    "Notes/Essentiels/Électrocinétique.pdf",
+    "Notes/Notes de cours/Optique-Ondulatoire(Résumé).pdf",
+    "参考资料/Math/cours-spé-2014.pdf",
     "Physique - Chimie/P01 Optique Géométrique/Notes/Optique Géométrique.md",
-    "Notes/Suites-et-Séries.pdf",
-    "Notes/Algèbre Linéaire.pdf",
-    "Notes/SS.pdf",
-    "Notes/Ondes Unidimensionnelles.pdf",
-    "Essentiels",
-    "Notes/05 M 3.pdf",
-    "Notes/04 M 3.pdf",
-    "Notes/03 M 2.pdf",
+    "Notes/Essentiels/Algèbre Linéaire.pdf",
     "参考资料/H-p.md",
     "Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
     "CPGE/README.md",
