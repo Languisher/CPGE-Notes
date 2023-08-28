@@ -15,16 +15,49 @@ Ce dossier contient ces fichiers :
 
 
 Contenu :
-- **Suites et Séries** : Suites Numériques, Séries Numériques, Familles Sommables, Suites et séries de fonctions numériques, Séries Entières                                                                                                      
-- **Algèbre Linéaire** : Espaces vectoriels et applications linéaires, Espaces vectoriels de dimension finie, Matrices, Déterminants, Espaces préhilbertiens réels, Réduction des endomorphismes, Endomorphismes d'un espace vectoriel euclidien 
-- **Calculs** : Analyse asymptotique, Intégration, Fonctions de deux variables, EDL, Limites et continuité                                                                                                                              
+- **Suites et Séries** : 
+	- Suites Numériques
+	- Séries Numériques
+	- Familles Sommables
+	- Suites et séries de fonctions numériques
+	- Séries Entières
+
+- **Algèbre Linéaire** : 
+	- Espaces vectoriels et applications linéaires
+	- Espaces vectoriels de dimension finie
+	- Matrices, Déterminants
+	- Espaces préhilbertiens réels
+	- Réduction des endomorphismes
+	- Endomorphismes d'un espace vectoriel euclidien 
+- **Calculs** : 
+	- Analyse asymptotique
+	- Intégration
+	- Fonctions de deux variables
+	- EDL
+	- Limites et continuité                                                                                                                              
 ### Physique
 | Titre                                                            | Contenu | Dernière mise à jour | Pages |
 | ---------------------------------------------------------------- | ------- | -------------------- | ----- |
 | [Électrocinétique](Notes/Électrocinétique.pdf)                   | ---     | Août, 2023           | 49    |
 | [Ondes Unidimensionnelles](Notes/Ondes%20Unidimensionnelles.pdf) | ---     | Août, 2023           | 21    |
-| Électromagnétisme                                                | ---     | En cours             | 28    |
+| [Électromagnétisme](Notes/EM.pdf)                                                | ---     | En cours             | 28    |
 | Optique ondulatoire                                              | ---     | En cours             | 0      |
+
+Contenu :
+- **Électrocinétique** :
+	- Lois générales
+	- Modélisations ARQS
+	- Régimes de fonctionnement des réseaux linéaires
+	- Signaux sinusoïdaux
+	- Analyse spectrale
+	- Caractérisation fréquentielle
+	- Amplificateur Opérationnelle
+	- Filtres et applications
+- **Ondes unidimensionnelles** :
+	- Introduction
+	- Corde vibrante
+	- Câble coaxial
+	- Ondes sonores dans un fluide
 ## Cours
 ### Maths
 | Type | Titre                                                                                                                                                      | Semestre |

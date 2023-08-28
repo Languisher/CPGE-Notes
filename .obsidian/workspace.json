@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5
+    "width": 200
   },
   "right": {
     "id": "dbb3fdc245c3dc9f",
@@ -170,18 +170,18 @@
   },
   "active": "e5c9e4f573f2ce6d",
   "lastOpenFiles": [
+    "Notes/Électrocinétique.pdf",
+    "README.md",
+    "Notes/EM.pdf",
     "Physique - Chimie/P01 Optique Géométrique/Notes/Optique Géométrique.md",
     "Notes/Suites-et-Séries.pdf",
-    "README.md",
     "Notes/Algèbre Linéaire.pdf",
     "Notes/SS.pdf",
     "Notes/Ondes Unidimensionnelles.pdf",
-    "Notes/Électrocinétique.pdf",
     "Essentiels",
     "Notes/05 M 3.pdf",
     "Notes/04 M 3.pdf",
     "Notes/03 M 2.pdf",
-    "Notes/02 2.pdf",
     "参考资料/H-p.md",
     "Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
     "CPGE/README.md",
