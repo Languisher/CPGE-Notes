@@ -5,13 +5,13 @@ Ce dossier contient ces fichiers :
 
 ### Maths
 
-| Titre                                            | Dernière mise à jour | Pages |
-| ------------------------------------------------ | -------------------- | ----- |
-| [Suites et Séries](Notes/Essentiels/Suites-et-Séries.pdf)                | Août, 2023             | 37    |
-| [Algèbre Linéaire](Notes/Essentiels/Algèbre%20Linéaire.pdf) | En cours             | 25    |
-| ~~Calculs~~                                      | | 0      |
-| Espace Vectoriels Normés et Topologie            | | 0      |
-| ~~Probabilité~~                                  | | 0      |
+| Titre                                                       | Dernière mise à jour | Pages |
+| ----------------------------------------------------------- | -------------------- | ----- |
+| [Suites et Séries](Notes/Essentiels/Suites-et-Séries.pdf)   | Août, 2023           | 37    |
+| [Algèbre Linéaire](Notes/Essentiels/Algèbre%20Linéaire.pdf) | En cours             | 37   |
+| Calcul Différentiel et Intégration                          | En cours             | 11     |
+| Espace Vectoriels Normés et Topologie                       |                      | 0     |
+| ~~Probabilité~~                                             |                      | 0     |
 
 
 Contenu :
@@ -29,19 +29,18 @@ Contenu :
 	- Espaces préhilbertiens réels
 	- Réduction des endomorphismes
 	- Endomorphismes d'un espace vectoriel euclidien 
-- **Calculs** : 
-	- Analyse asymptotique
+ 
+- **Calcul différentiel et Intégration （微分与积分）** : 
+	- Calcul différentiel
+	- Dérivation
 	- Intégration
-	- Fonctions de deux variables
-	- EDL
-	- Limites et continuité                                                                                                                              
 ### Physique
 | Titre                                                            | Dernière mise à jour | Pages |
 | ---------------------------------------------------------------- | -------------------- | ----- |
 | [Électrocinétique](Notes/Essentiels/Électrocinétique.pdf)                   | Août, 2023           | 49    |
+| [Optique ondulatoire](Notes/Essentiels/Optique-Ondulatoire.pdf)                                            | Août, 2023             | 41    |
 | [Ondes Unidimensionnelles](Notes/Essentiels/Ondes%20Unidimensionnelles.pdf) | Août, 2023           | 21    |
-| [Électromagnétisme](Notes/Essentiels/EM.pdf)                                | En cours             | 28    |
-| [Optique ondulatoire]                                            | En cours             | 25    |
+| [Électromagnétisme](Notes/Essentiels/EM.pdf)                                | En cours             | 31    |
 | Mécanique                                                        |                      |       |
 
 Contenu :
@@ -52,13 +51,21 @@ Contenu :
 	- Signaux sinusoïdaux
 	- Analyse spectrale
 	- Caractérisation fréquentielle
-	- Amplificateur Opérationnelle
+	- Amplificateur opérationnelle
 	- Filtres et applications
+- **Optique ondulatoire** :
+	- Introduction (Optique géométrique inclus)
+	- Interférence
+	- Diffraction
 - **Ondes unidimensionnelles** :
 	- Introduction
 	- Corde vibrante
 	- Câble coaxial
 	- Ondes sonores dans un fluide
+- **Électromagnétisme** :
+	- Charges et champs
+	- Champs électromagnétisme permanent
+	- Équations de Maxwell
 ## Cours
 ### Maths
 | Type | Titre                                                                                                                                                      | Semestre |
@@ -129,6 +136,6 @@ https://gargantua.polytechnique.fr/siatel-web/app/explorer/fVaJXpYYYK
 ## Références
 
 - H-Prépa Physique : la collection de référence en physique pour les étudiants en classe préparatoire scientifique.
-- Cours Mathématiques MP, par Prof. David DELAUNAY
-- [Site des exercices de mathématiques, essentiellement pour les classes de **MPSI** et **MP**, par Prof. David DELAUNAY](http://ddmaths.free.fr/index.html)
-
+- [Site mathématique de Prof. David DELAUNAY](http://ddmaths.free.fr/index.html)
+- [Site mathématique de Prof. Christophe BERTAULT](http://christophebertault.fr/cours-et-exercices/)
+- [Site mathématique de Prof. Mickaël PROST](http://mickaelprost.fr)

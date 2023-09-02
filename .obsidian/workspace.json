@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "88f906de08b5f3ff",
+        "id": "8fd0c951a2c28458",
         "type": "tabs",
         "children": [
           {
-            "id": "22301efdf418611f",
+            "id": "2744655e7633f19d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -148,21 +148,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "22301efdf418611f",
+  "active": "d31fcb4c70e93b65",
   "lastOpenFiles": [
+    "Notes/Essentiels/Optique-Ondulatoire.pdf",
+    "Math/参考书籍/The Calculus Lifesaver.pdf",
+    "Math/参考书籍/Maths PCSI-PTSI.pdf",
+    "README.md",
+    "Math/参考书籍/MP Tout-en-un - 4e édition (C. Deschamps,F. Moulin,A. Warusfel,N. Cleirec etc.) (Z-Library).pdf",
     "Notes/Notes de cours/Réduction d’endomorphismes (Prof. Alain).pdf",
     "Notes/Notes de cours/00 Nombres Complexes.pdf",
     "Notes/Essentiels/EM.pdf",
     "Notes/Notes de cours",
-    "README.md",
     "Notes/Essentiels/Suites-et-Séries.pdf",
     "Notes/Essentiels",
     "Notes/Essentiels/Ondes Unidimensionnelles.pdf",
-    "Notes/Essentiels/Électrocinétique.pdf",
-    "Notes/Notes de cours/Optique-Ondulatoire(Résumé).pdf",
-    "参考资料/Math/cours-spé-2014.pdf",
     "Physique - Chimie/P01 Optique Géométrique/Notes/Optique Géométrique.md",
-    "Notes/Essentiels/Algèbre Linéaire.pdf",
     "参考资料/H-p.md",
     "Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
     "CPGE/README.md",
