@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -148,7 +148,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d31fcb4c70e93b65",
+  "active": "2744655e7633f19d",
   "lastOpenFiles": [
     "Notes/Essentiels/Optique-Ondulatoire.pdf",
     "Math/参考书籍/The Calculus Lifesaver.pdf",
