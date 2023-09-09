@@ -7,12 +7,11 @@ Ce dossier contient ces fichiers :
 
 | Titre                                                       | Dernière mise à jour | Pages |
 | ----------------------------------------------------------- | -------------------- | ----- |
-| [Suites et Séries](Notes/Essentiels/Suites-et-Séries.pdf)   | Août, 2023           | 37    |
-| [Algèbre Linéaire](Notes/Essentiels/Algèbre%20Linéaire.pdf) | En cours             | 37   |
-| Calcul Différentiel et Intégration                          | En cours             | 11     |
-| Espace Vectoriels Normés et Topologie                       |                      | 0     |
+| [**Topologie**](Notes/Essentiels/Topologie%20NewNew.pdf)                       | Septembre, 2023             | 24     |
+| [Suites et Séries](Notes/Essentiels/Suites-et-Séries.pdf)   | Août, 2023           | 44    |
+| [Algèbre Linéaire](Notes/Essentiels/Algèbre%20Linéaire.pdf) | En cours             | 49    |
+| Analyse （导数、微分与积分）                                | En cours             | 30    |
 | ~~Probabilité~~                                             |                      | 0     |
-
 
 Contenu :
 - **Suites et Séries** : 
@@ -24,24 +23,32 @@ Contenu :
 
 - **Algèbre Linéaire** : 
 	- Espaces vectoriels et applications linéaires
-	- Espaces vectoriels de dimension finie
-	- Matrices, Déterminants
-	- Espaces préhilbertiens réels
+	- Matrices
+	- Déterminants
+	- Espaces préhilbertiens réels, Espaces vectoriels euclidiens
 	- Réduction des endomorphismes
 	- Endomorphismes d'un espace vectoriel euclidien 
  
-- **Calcul différentiel et Intégration （微分与积分）** : 
-	- Calcul différentiel
-	- Dérivation
+- **Analyse（导数、微分与积分）** : 
+	- ~~Dérivation~~
 	- Intégration
+	- ~~Développements limités~~
+	- Calcul différentiel
+	- ~~Equations différentielles linéaires~~
+
+- **Topologie** :
+	- Conceptions Basiques
+	- Compacité
+	- Connexité
+	- Espaces vectoriels normé
 ### Physique
-| Titre                                                            | Dernière mise à jour | Pages |
-| ---------------------------------------------------------------- | -------------------- | ----- |
+| Titre                                                                       | Dernière mise à jour | Pages |
+| --------------------------------------------------------------------------- | -------------------- | ----- |
 | [Électrocinétique](Notes/Essentiels/Électrocinétique.pdf)                   | Août, 2023           | 49    |
-| [Optique ondulatoire](Notes/Essentiels/Optique-Ondulatoire.pdf)                                            | Août, 2023             | 41    |
+| [Optique Ondulatoire](Notes/Essentiels/Optique-Ondulatoire.pdf)             | Août, 2023           | 41    |
 | [Ondes Unidimensionnelles](Notes/Essentiels/Ondes%20Unidimensionnelles.pdf) | Août, 2023           | 21    |
-| [Électromagnétisme](Notes/Essentiels/EM.pdf)                                | En cours             | 31    |
-| Mécanique                                                        |                      |       |
+| [Électromagnétisme](Notes/Essentiels/EM.pdf)                                | Septembre, 2023             | 33    |
+| Mécanique                                                                   | Septembre, 2023      | 14      |
 
 Contenu :
 - **Électrocinétique** :
@@ -66,6 +73,11 @@ Contenu :
 	- Charges et champs
 	- Champs électromagnétisme permanent
 	- Équations de Maxwell
+ - **Mécanique** :
+	 - ~~Principe fondamentale de la dynamique~~
+	 - Théorème du moment cinétique
+	 - Forces centrales conservatives
+	 - Changement de référentiels
 ## Cours
 ### Maths
 | Type | Titre                                                                                                                                                      | Semestre |

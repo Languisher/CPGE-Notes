@@ -4,22 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "8fd0c951a2c28458",
+        "id": "0d04cb42206674b2",
         "type": "tabs",
         "children": [
           {
-            "id": "2744655e7633f19d",
+            "id": "740e46dd39e0a0ec",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Physique - Chimie/参考书籍/H-Prépa Physique/Electromagnétisme - 2e année - MP - PC - PSI - PT - H-Prepa (Proetudes.blogspot.com).pdf"
+              }
+            }
+          },
+          {
+            "id": "d0a427e28bbeb50b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,20 +159,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2744655e7633f19d",
+  "active": "d31fcb4c70e93b65",
   "lastOpenFiles": [
-    "Notes/Essentiels/Optique-Ondulatoire.pdf",
-    "Math/参考书籍/The Calculus Lifesaver.pdf",
-    "Math/参考书籍/Maths PCSI-PTSI.pdf",
+    "Notes/Essentiels/Topologie NewNew.pdf",
+    "Physique - Chimie/参考书籍/H-Prépa Physique/Ondes - 2e année - MP - PC - PSI - PT - H-Prepa (Proetudes.blogspot.com).pdf",
+    "Physique - Chimie/参考书籍/H-Prépa Physique/Optique - 1re année - MPSI - PCSI - PTSI - H-Prepa (Proetudes.blogspot.com).pdf",
+    "Physique - Chimie/参考书籍/H-Prépa Physique/Mécanique - 1re année - MPSI - PCSI - PTSI - H-Prepa (Proetudes.blogspot.com).pdf",
     "README.md",
-    "Math/参考书籍/MP Tout-en-un - 4e édition (C. Deschamps,F. Moulin,A. Warusfel,N. Cleirec etc.) (Z-Library).pdf",
-    "Notes/Notes de cours/Réduction d’endomorphismes (Prof. Alain).pdf",
-    "Notes/Notes de cours/00 Nombres Complexes.pdf",
-    "Notes/Essentiels/EM.pdf",
-    "Notes/Notes de cours",
-    "Notes/Essentiels/Suites-et-Séries.pdf",
-    "Notes/Essentiels",
-    "Notes/Essentiels/Ondes Unidimensionnelles.pdf",
+    "Physique - Chimie/参考书籍/H-Prépa Physique/Electromagnétisme - 1re année - MPSI - PCSI - PTSI - H-Prepa (Proetudes.blogspot.com).pdf",
+    "Physique - Chimie/参考书籍/H-Prépa Physique/Electromagnétisme - 2e année - MP - PC - PSI - PT - H-Prepa (Proetudes.blogspot.com).pdf",
+    "Physique - Chimie/参考书籍/h prépa Exercices problèmes Physique MPSI-PCSI-PTSI 1e année (Jean-Marie Brébec, Philippe Denève etc.) (z-lib.org).pdf",
+    "Physique - Chimie/参考书籍/Electric Circuits (10th Edition) by James W. Nilsson, Susan Riedel (z-lib.org).pdf",
+    "Physique - Chimie/参考书籍/Physique MPSI PTSI Tout-en-un (B.Salamito, S.Cardini, M.N.Sanz, D.Jurine) (z-lib.org).pdf",
+    "Physique - Chimie/参考书籍/Physique tout-en-un MPSI-PCSI-PTSI 1e année  Cours et exercices corrigés (Anne-Emmanuelle Badel, François Clausset) (z-lib.org).pdf",
+    "Physique - Chimie/参考书籍/Physique-tout-en-un-mp-mp.pdf",
     "Physique - Chimie/P01 Optique Géométrique/Notes/Optique Géométrique.md",
     "参考资料/H-p.md",
     "Physique - Chimie/P06 Optique Ondulatoire/Optique Ondulatoire.md",
