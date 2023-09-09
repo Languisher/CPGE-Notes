@@ -7,19 +7,19 @@ Ce dossier contient ces fichiers :
 
 | Titre                                                       | Dernière mise à jour | Pages |
 | ----------------------------------------------------------- | -------------------- | ----- |
-| [**Topologie**](Notes/Essentiels/Topologie%20NewNew.pdf)                       | Septembre, 2023             | 24     |
 | [Suites et Séries](Notes/Essentiels/Suites-et-Séries.pdf)   | Août, 2023           | 44    |
-| [Algèbre Linéaire](Notes/Essentiels/Algèbre%20Linéaire.pdf) | En cours             | 49    |
-| Analyse （导数、微分与积分）                                | En cours             | 30    |
+| [Algèbre Linéaire](Notes/Essentiels/Algèbre%20Linéaire.pdf) | En cours             | 70*   |
+| [Analyse 导数、微分与积分](Notes/Essentiels/Calcul%20différentiel.pdf)                                  | Août, 2023      | 30    |
+| [**Topologie**](Notes/Essentiels/Topologie%20NewNew.pdf)    | Septembre, 2023      | 24    |
 | ~~Probabilité~~                                             |                      | 0     |
 
 Contenu :
 - **Suites et Séries** : 
-	- Suites Numériques
-	- Séries Numériques
-	- Familles Sommables
+	- Suites numériques
+	- Séries numériques
+	- Familles sommables
 	- Suites et séries de fonctions numériques
-	- Séries Entières
+	- Séries entières
 
 - **Algèbre Linéaire** : 
 	- Espaces vectoriels et applications linéaires
@@ -47,8 +47,8 @@ Contenu :
 | [Électrocinétique](Notes/Essentiels/Électrocinétique.pdf)                   | Août, 2023           | 49    |
 | [Optique Ondulatoire](Notes/Essentiels/Optique-Ondulatoire.pdf)             | Août, 2023           | 41    |
 | [Ondes Unidimensionnelles](Notes/Essentiels/Ondes%20Unidimensionnelles.pdf) | Août, 2023           | 21    |
-| [Électromagnétisme](Notes/Essentiels/EM.pdf)                                | Septembre, 2023             | 33    |
-| Mécanique                                                                   | Septembre, 2023      | 14      |
+| [Électromagnétisme](Notes/Essentiels/EM.pdf)                                | Septembre, 2023             | 35*    |
+| Mécanique                                                                   | Septembre, 2023      | 19*      |
 
 Contenu :
 - **Électrocinétique** :
@@ -119,14 +119,15 @@ Contenu :
 Les notes suivantes ont été prises en classe au fur et à mesure, elles ne sont pas aussi bien organisées que les précédentes. Je vous recommande d'utiliser la version la plus récente et intégrée !
 
 ### Maths
-| Type                                | Titre                                                                                                                                                                                | Dernière mise à jour |
-| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- |
-| Cours - Algèbre Linéaire            | [Endomorphismes dans EVN](Notes/Notes%20de%20cours/Endomorphismes%20dans%20les%20epsaces%20euclidiens.pdf)                                                                                              | Avril, 2023          |
-| Cours - Algèbre Linéaire            | [Réduction des endomorphismes](Notes/Notes%20de%20cours/Réduction%20d’endomorphismes%20(Prof.%20Alain).pdf)                                                                                             | Mai, 2023            |
-| Cours - Topologie                   | [Topologie](Notes/Notes%20de%20cours/M%20Topologie.pdf)                                                                                                                                                 | Juin, 2023           |
-| Cours - Probabilité                 | [Probabilité](Notes/Notes%20de%20cours/M03%20Probabilité.pdf)                                                                                                                                           | Janvier, 2023        |
-| Cours - Mathématiques II            | [Nombres Complexes](Notes/Notes%20de%20cours/00%20Nombres%20Complexes.pdf), [DL & Asymptotiques](Notes/Notes%20de%20cours/01%20Développement%20Limités%20&%20Asymptotiques.pdf), [Intégration](Notes/Notes%20de%20cours/02%20Intégration.pdf) | Juin, 2022           |
-| Cours - Mathématiques I             | [Espace Euclidien](Notes/Notes%20de%20cours/02%20Euclidien.pdf)                                                                                                                                         | Juin, 2022           |
+| Type                     | Titre                                                                                                                                                                                                                                         | Dernière mise à jour |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| Cours - Algèbre Linéaire | [Algèbre Linéaire I](Notes/Notes%20de%20cours/M02%20Algèbre%20Linéaire.pdf)                                                                                                                                                                                                                            | Janvier, 2023        | 
+| Cours - Algèbre Linéaire | [Endomorphismes dans EVN](Notes/Notes%20de%20cours/Endomorphismes%20dans%20les%20epsaces%20euclidiens.pdf)                                                                                                                                    | Avril, 2023          |
+| Cours - Algèbre Linéaire | [Réduction des endomorphismes](Notes/Notes%20de%20cours/Réduction%20d’endomorphismes%20(Prof.%20Alain).pdf)                                                                                                                                   | Mai, 2023            |
+| Cours - Topologie        | [Topologie](Notes/Notes%20de%20cours/M%20Topologie.pdf)                                                                                                                                                                                       | Juin, 2023           |
+| Cours - Probabilité      | [Probabilité](Notes/Notes%20de%20cours/M03%20Probabilité.pdf)                                                                                                                                                                                 | Janvier, 2023        |
+| Cours - Mathématiques II | [Nombres Complexes](Notes/Notes%20de%20cours/00%20Nombres%20Complexes.pdf), [DL & Asymptotiques](Notes/Notes%20de%20cours/01%20Développement%20Limités%20&%20Asymptotiques.pdf), [Intégration](Notes/Notes%20de%20cours/02%20Intégration.pdf) | Juin, 2022           |
+| Cours - Mathématiques I  | [Espace Euclidien](Notes/Notes%20de%20cours/02%20Euclidien.pdf)                                                                                                                                                                               | Juin, 2022           |
 
 ### Physique
 
