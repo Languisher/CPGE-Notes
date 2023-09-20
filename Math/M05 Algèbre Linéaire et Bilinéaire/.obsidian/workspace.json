@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "241bd3185798b1cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "8adb9c44a146f436",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54f6d5248a56a718",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "ae924cbdbe373002",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "ea29a69be933a993",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "a86caeeebff6ae07",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "936e5c2639c083d9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "b7a90b1576b5f791",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "57675ab474434fab",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "96a20da6c92cd964",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "e0eed1bcdeffce82",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ce69dd10aa02d4ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ba8c417d8cb8c40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e20fd270ed497f81",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "16012cae805fc937",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "auto",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "95fcf91b3d976be6",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f0423268fa7da579",
+    "type": "split",
+    "children": [
+      {
+        "id": "c78907bf88cbcd46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca20bc804aa33d40",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "58042676f01d208c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b84c7ffa66958991",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "616e1321a7c32a52",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 400.5
+  },
+  "active": "936e5c2639c083d9",
+  "lastOpenFiles": [
+    "def/Matrice.md",
+    "AL MATH2306P-2022 Autumn.md",
+    "TD/TD_AL_2_c.pdf",
+    "def-basic/Combinaison Linéaire.md",
+    "def/Somme.md",
+    "cas/Matrice et Application Linéaire.md",
+    "EXE-L'expression du Mat.md",
+    "cas/Cas de dimension finie.md",
+    "EXE-Produit des Matrices.md",
+    "TD/TD_AL_8_c.pdf"
+  ]
+}

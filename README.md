@@ -1,17 +1,20 @@
 # CPGE Notes
 
+Dernière mise à jour : *Septembre, 2023*, Shanghai
+**Brandon Lin**
+
 Ce dossier contient ces fichiers :
 ## Notes - Essentiels
 
 ### Maths
 
-| Titre                                                       | Dernière mise à jour | Pages |
-| ----------------------------------------------------------- | -------------------- | ----- |
-| [Suites et Séries](Notes/Essentiels/Suites-et-Séries.pdf)   | Août, 2023           | 44    |
-| [Algèbre Linéaire](Notes/Essentiels/Algèbre%20Linéaire.pdf) | En cours             | 70*   |
-| [Analyse 导数、微分与积分](Notes/Essentiels/Calcul%20différentiel.pdf)                                  | Août, 2023      | 30    |
-| [**Topologie**](Notes/Essentiels/Topologie%20NewNew.pdf)    | Septembre, 2023      | 24    |
-| ~~Probabilité~~                                             |                      | 0     |
+| Titre                                                                  | Dernière mise à jour | Pages |
+| ---------------------------------------------------------------------- | -------------------- | ----- |
+| [Suites et Séries](Notes/Essentiels/Suites-et-Séries.pdf)              | Août, 2023           | 44    |
+| [Algèbre Linéaire](Notes/Essentiels/Algèbre%20Linéaire.pdf)            | Septembre, 2023      | 72    |
+| [Analyse 导数、微分与积分](Notes/Essentiels/Calcul%20différentiel.pdf) | Août, 2023           | 30    |
+| [**Topologie**](Notes/Essentiels/Topologie%20NewNew.pdf)               | Septembre, 2023      | 24    |
+| ~~Probabilité~~                                                        |                      |       |
 
 Contenu :
 - **Suites et Séries** : 
@@ -24,7 +27,7 @@ Contenu :
 - **Algèbre Linéaire** : 
 	- Espaces vectoriels et applications linéaires
 	- Matrices
-	- Déterminants
+	- ~~Déterminants~~
 	- Espaces préhilbertiens réels, Espaces vectoriels euclidiens
 	- Réduction des endomorphismes
 	- Endomorphismes d'un espace vectoriel euclidien 
@@ -46,9 +49,9 @@ Contenu :
 | --------------------------------------------------------------------------- | -------------------- | ----- |
 | [Électrocinétique](Notes/Essentiels/Électrocinétique.pdf)                   | Août, 2023           | 49    |
 | [Optique Ondulatoire](Notes/Essentiels/Optique-Ondulatoire.pdf)             | Août, 2023           | 41    |
-| [Ondes Unidimensionnelles](Notes/Essentiels/Ondes%20Unidimensionnelles.pdf) | Août, 2023           | 21    |
-| [Électromagnétisme](Notes/Essentiels/EM.pdf)                                | Septembre, 2023             | 35*    |
-| Mécanique                                                                   | Septembre, 2023      | 19*      |
+| [Ondes Unidimensionnelles](Notes/Essentiels/Ondes%20Unidimensionnelles.pdf) | Septembre, 2023           | 24    |
+| [Électromagnétisme](Notes/Essentiels/ElectroMag.pdf)                                | Septembre, 2023             | 35    |
+| [Mécanique](Notes/Essentiels/Mécanique.pdf)                                                                   | Septembre, 2023      | 32      |
 
 Contenu :
 - **Électrocinétique** :
@@ -149,6 +152,5 @@ https://gargantua.polytechnique.fr/siatel-web/app/explorer/fVaJXpYYYK
 ## Références
 
 - H-Prépa Physique : la collection de référence en physique pour les étudiants en classe préparatoire scientifique.
-- [Site mathématique de Prof. David DELAUNAY](http://ddmaths.free.fr/index.html)
-- [Site mathématique de Prof. Christophe BERTAULT](http://christophebertault.fr/cours-et-exercices/)
-- [Site mathématique de Prof. Mickaël PROST](http://mickaelprost.fr)
+- [Site mathématique de Prof. Christophe BERTAULT](http://christophebertault.fr/cours-et-exercices/), [Site mathématique de Prof. Mickaël PROST](http://mickaelprost.fr)
+- [Mathématique sup](Math/参考书籍/cours-sup-pré-2003.pdf), [Mathématique spé](Math/参考书籍/cours-spé-2014.pdf), de Prof. David Delaunay

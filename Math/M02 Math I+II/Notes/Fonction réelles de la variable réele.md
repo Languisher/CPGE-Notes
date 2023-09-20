@@ -1,5 +1,0 @@
-## Limites et continuité
-
-### Rappels
-
-
