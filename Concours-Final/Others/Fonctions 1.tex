@@ -1,0 +1,122 @@
+\chapter{Fonctions d'une variable réelle à valeurs réelles} % (fold)
+\label{chap:Fonctions d'une variable réelle à valeurs réelles}
+
+\section{Propriétés globales des fonctions continues} % (fold)
+\label{sec:Propriétés globales des fonctions continues}
+
+\subsection{TVI} % (fold)
+\label{sub:TVI}
+
+% subsection TVI (end)
+\begin{Theorem}{Théorème des valeurs intermédiaires (TVI)}{}
+Soient $I$ un intervalle de $\mathbb{R}$, $f: I \to \mathbb{R}$. Soient $(a,b) \in I ^{2}$ tel que $a <b$. Si 
+\begin{itemize}
+
+    \item $f$ continue sur $I$ 
+    \item $f(a) \le 0$ et $f(b) \ge 0$ 
+
+\end{itemize}
+Donc, $\exists c \in [a,b]$, $f(c) =0$
+\end{Theorem}
+
+Remarque :
+\begin{itemize}
+
+    \item Résultat est faux si $I$ n'est pas un intervalle.
+    \item TVI permet de montrer l'\underline{existence} d'objets.
+
+\end{itemize}
+
+\begin{Theorem}{Recherche d'un zéro par dichotomie}{}
+
+\end{Theorem}
+
+
+\begin{Theorem}{TVI (deuxième forme)}{}
+  Soit $f$ continue sur $[a,b]$, alors $f(x)$ prend toutes les valeurs intermédiaires enttre $f(a)$ et $f(b)$ quand $x$ parcourt $[a,b]$. 
+
+  Autrement dit, si $y_0 \in [f(a), f(b)]$, $\exists x_0 \in [a,b]$, $f(x_0)= y_0$.
+\end{Theorem}
+
+\begin{myproof}{}{}
+Pour tout $f(a) \le y_0 \le f(b)$, contruisons la fonction $g : x \mapsto f(x) - y_0$.
+\end{myproof}
+
+
+
+\begin{Corollary}{Image d'un intervalle par une application continue}{}
+Image d'un intervalle par une application continue est encore un intervalle.
+\end{Corollary}
+
+
+\subsection{Fonction continue sur un segment} % (fold)
+\label{sub:Fonction continue sur un segment}
+\begin{Theorem}{Théorème du maximum}{}
+  Soit $f:[a,b] \to \mathbb{R}$ continue sur un \underline{segment}. Alors, la fonction $f$ est 
+  \begin{itemize}
+
+      \item bornée 
+      \item atteint ses bornes, c'est-à-dire $\exists (c_1, c_2) \in [a,b] ^{2}, \; f(c_1) = \sup f(x) \text{ et} f(c_2) = \inf f(x)$
+
+  \end{itemize}
+\end{Theorem}
+
+Remarque : En d'autre termes, une fonction continue sur un segment possède un maximum et un minimum : $\sup f(x) = \max f(x) = f(c_1)$, $\inf f(x) = \min f(x) = f(c_2)$
+
+\begin{Corollary}{Image d'un segment par une application continue}{}
+
+  L'image d'un segment $[a,b]$ par une application continue est encore un segment. De plus, $f([a,b]) = [ \inf f, \sup f]$
+
+\end{Corollary}
+
+\subsection{Fonctions uniformément continues} % (fold)
+\label{sub:Fonctions uniformément continues}
+\begin{Definition}[colbacktitle=red!75!black]{Fonction uniformément continue}{}
+Soit $f:I \to \mathbb{R}$, $f$ est \textbf{uniformément continue} lorsque 
+\begin{equation}
+  \forall \varepsilon>0, \; \exists \eta >0,\; {\color{red} \forall} (x, y) \in I ^{2}, \;| x- y| \le \eta  \implies |f(x) - f(y)| \le \varepsilon
+\end{equation}
+\end{Definition}
+
+\begin{Prop}{Lipschitz, uniformément continue, continue}{}
+Soit $f : I \to \mathbb{R}$, donc : $f$ lipschitizenne $\implies$ $f$ uniformément continue $\implies$ $f$ continue.
+\end{Prop}
+
+\label{Thm: Heine}
+\begin{Theorem}{Théorème de Heine}{}
+Une fonction \underline{continue} sur un \underline{segment} est uniformément continue sur ce segment.
+\end{Theorem}
+
+\subsection{Théorème de la bijection} % (fold)
+\label{sub:Théorème de la bijection}
+\begin{Theorem}{Théorème de la bijection}{}
+Soit $f : I \to \mathbb{R}$, si $f$ est 
+\begin{itemize}
+
+    \item continue sur $I$ 
+    \item \underline{strictement monotone} sur $I$ 
+
+
+\end{itemize}
+
+Alors, 
+\begin{itemize}
+
+    \item $f(I)$ est un intervalle (déjà vu)
+    \item $f$ réalise une \underline{bijection} de $I$ vers $J$ 
+    \item $f ^{-1} : f(I) \to I$ est une fonction (1)continue, (2)strictement monotone de même sens que $f$ sur $f(I)$
+
+\end{itemize}
+\end{Theorem}
+
+
+% subsection Théorème de la bijection (end)
+
+% subsection Fonctions uniformément continues (end)
+
+
+
+% subsection Fonction continue sur un segment (end)
+
+% section Propriétés globales des fonctions continues (end)
+% chapter Fonctions d'une variable réelle à valeurs réelles (end)

@@ -1,0 +1,268 @@
+\chapter{DM1: Topologie} % (fold)
+\label{chap:DM1: Topologie}
+
+\begin{question}{Connexe par arcs}{}
+Soit $P : \mathbb{C} ^{N} \to \mathbb{C}$ une fonction polynomiale.
+
+\begin{enumerate}
+  \item On suppose qu'il existe des sous-ensemble infinis $D_1$, $D_2$, $\dots$, $D_N$ de $\mathbb{C}$ tels que :
+    \begin{equation}
+      \forall (z_1, \dots, z_N) \in \prod_{i=1}^{N} D_i,\quad P(z_1, z_2, \dots, z_N) = 0
+    \end{equation}
+    Démontrer que $P=0$.
+
+  \item On suppose $P$ non identiquement nulle et on note 
+    \begin{equation}
+      \mathcal{Z}(P) = \{(z_1, \dots,z_N) \in \mathbb{C}^{N}, \quad P(z_1, \dots, z_N) = 0\}
+    \end{equation}
+
+    \begin{enumerate}
+      \item Démontrer que $\mathcal{Z}(P)$ est un sous-ensemble fermé, d'intérieur vide de $\mathbb{C}^{N}$
+      \item Démontrer que $\mathbb{C} ^{N} \backslash \mathcal{Z}(P)$ est connexe par arcs.
+    \end{enumerate}
+
+   \item Démontrer que le groupe $\mathcal{GL}_{n}(\mathbb{C})$ est connexe par arcs.
+\end{enumerate}
+\end{question}
+
+\begin{solution}
+  \begin{enumerate}
+
+      \item Soit $P : \mathbb{C} ^{N} \to \mathbb{C}$ n'est pas identiquement égale à zéro. 
+
+        \begin{itemize}
+
+            \item Il existe au moins un terme non nul, on note le degré maximal $k$ tel que le terme $a_k$ non nul. 
+
+            \item On construit une suite $(z_n)_{n \in \mathbb{N}} \in (\mathbb{C} ^{N}) ^{\mathbb{N}}$ comme : 
+              \begin{equation} z_n = 
+                \begin{pmatrix}
+                  z_1 ^{(n)} \in D_1 \\ 
+                  \vdots \quad \vdots\\
+                  
+                  z_N ^{(n)} \in D_N \\ 
+                \end{pmatrix} \in \mathbb{C} ^{N}
+              \end{equation}
+
+            \item $\forall n \in \mathbb{N}$, $z_n$ s'annule $P$, puisque $\forall n \in \mathbb{N}$, $(z_1 ^{(n))}, \dots, z_n ^{(n)} )\in \prod_{i=1}^{N} D_i$. De plus, la suite $(z_n)_{n \in \mathbb{N}}$ contient un nombre infini des termes.
+
+            \item Comme la fonction polynomiales s'annule sur un ensemble infini dans $\mathbb{C}$, la fonction doit être identiquement égale à zéros, mais on sait que $a_k \ne 0$. 
+
+            \item Contradiction. Enfin, $P= 0$. 
+
+
+        \end{itemize}
+        
+      \item[2a.] 
+        \begin{itemize}
+
+            \item Montrons que $\mathcal{Z}(P)$ est fermé. Supposons que $(z_n) _{n \in \mathbb{N}} = (z_1 ^{(n)}, \dots, z_N^{(n)} )\in (\mathcal{Z}(P)) ^{\mathbb{N}}$ suffit $z_n  \underset{n -> + \infty}{\longrightarrow} z = (z_1, \dots, z_N)$, montrons que $z \in \mathcal{Z}(P)$, autrement dit, $P(z_1, \dots, z_N) = 0$. 
+
+              \begin{itemize}
+                \item Comme $P$ est continue car fonction polynomiales, on prend la limite : 
+                  \begin{equation}
+                    P(z_1, \dots, z_N) = \underset{n \to \infty}{\lim} P( z_1 ^{(n)}, \dots, z_N ^{(n)})
+                  \end{equation}
+
+                \item Chaque terme de la séquence converge vers (en fait, égale à) zéro. Donc, $P(z_1, \dots, z_N) =0$.
+              \end{itemize}
+
+            \item Montrons que $\mathcal{Z}(P)$ est d'intérieur vide.
+              Si $z_0$ est un point intérieur dans cet ensemble, donc il existe une boule ouverte de rayon $r> 0$, tel que $\forall z \in BO(z_0, r)$, $z \in \mathcal{Z}(P)$. 
+
+              On peut montre aisément que on peut créer une suite contenant un nombre infini des termes. Sachant qu'une polynôme s'annule en un ensemble infini est nécessairement nulle, cela contradit avec le fait que $P$ est non identiquement nulle. 
+
+
+
+
+        \end{itemize}
+
+        Conclusion : $\mathcal{Z}(P)$ est fermé et d'intérieur vide de $\mathbb{C} ^{N}$.
+
+    \item[2b.] Soit $(a,b)\in \mathbb{C} ^{N} \backslash \mathcal{Z}(P)$. On construit la fonction $f: z \mapsto P(zb +(1-z)a)$ pour $(a,b) \in ( \mathbb{C} ^{N } \backslash \mathcal{Z}(P)) ^{2}$. 
+
+    \begin{itemize}
+
+        \item On obtient $f(0) = P(a) \ne 0$, $f(1) = P(b) \ne 0$
+        \item Comme $\mathbb{C} ^{*}$ est connexe par arcs, l'existence de $f$ est assurée. 
+
+        \item $f$ est continue car fonction polynomiale.
+
+    \end{itemize}
+
+    Donc $f$ est un chemin continue entre n'importe quel $(a,b) \in \mathbb{C}^{N} \backslash \mathcal{Z}(P)$.
+
+  \item[3.] Soit $A \in \mathrm{M}_n (\mathbb{C})$. 
+    \begin{itemize}
+
+        \item Sachant que $(E _{ij}) _{ (i, j) \in [\![1,n]\!] ^{2}}$ est une base de $A$, on a $A \in \mathbb{C} ^{n ^{2}}$. 
+
+        \item On construit une pôlynome $P$ comme :
+          \begin{align}
+            P : \mathbb{C} ^{n ^{2}} &\to \mathbb{C} \\ 
+            A &\mapsto \det(A) 
+          \end{align}
+
+        \item Si $A \in \mathcal{GL} _{n}(\mathbb{C})$, $\det(A) \ne 0$ donc $P(A) \ne 0$
+
+        \item Pour deux matrices $A$ et $B$ dans $\mathcal{GL}_n (\mathbb{C})$, comme $\mathbb{C}^{n ^{2}} \backslash \mathcal{Z}(P)$ est connexe par arcs, il existe toujours une chemin reliant $A$ à $B$.
+    \end{itemize}
+
+    Conséquence : $\mathcal{GL}_n (\mathbb{C})$ est connexe par arcs.
+  
+  \end{enumerate}
+\end{solution}
+
+\begin{question}{Complétude}{}
+  Soit $p \in ]1, + \infty[$, on appelle : 
+  \begin{equation}
+    l_p = \left\{ (x_n) _{n \in \mathbb{N}} \in \mathbb{R} ^{\mathbb{N}}, \; \sum |x_n| ^{p} \text{ converge}\right\}
+  \end{equation}
+
+  \begin{enumerate}
+    \item Montrer que $l_p$ est un $\mathbb{R}$-espace vectoriel.
+    \item Montrer que l'application $N$ est une norme de $l_p$ :
+      \begin{align}
+        N :\quad\quad\quad\quad l_p &\to \mathbb{R} \\ 
+        x = (x_n) _{n \in \mathbb{N}} &\mapsto \| x \| _ p = \sqrt[p]{ \sum_{n=0}^{+ \infty}|x_n| ^{p}}
+      \end{align}
+
+    \item Soit le sous-ensemble de $l_p$ $A$ définie par : 
+      \begin{equation}
+        A = \{x \in l_p,\; \exists N \in \mathbb{N}, \; \forall n \ge N,\; x_n = 0\}
+      \end{equation}
+      $A$ est-il, dans $l_p$
+      \begin{itemize}
+
+          \item ouvert ?
+          \item fermé ? 
+          \item compact ?
+
+      \end{itemize}
+
+    \item Montrer que $l_p$ est complet pour la norme $\| . \|_p$. 
+    \item Montrer que $l_2$ est un espace de Hilbert.
+  \end{enumerate}
+\end{question}
+
+\begin{solution}
+    \begin{enumerate}
+      \item $\mathbb{R} ^{\mathbb{N}}$ est un espace vectoriel admis, et on va montrer que $l_p$ est un sous-espace vectoriel. 
+        \begin{itemize}
+      \item $0 _{\mathbb{R}^{\mathbb{N}}} \in l_p$. 
+
+      \item Soit $((x_n)_{n \in \mathbb{N}}, (y_n)_{n \in \mathbb{N}}) \in l_p ^{2}$, $\lambda \in \mathbb{R}$. On va montrer que $(x_n + \lambda y_n) _{n \in \mathbb{N}} \in l_p$. D'après l'\href{https://fr.wikipedia.org/wiki/Inégalité_de_Minkowski}{Inégalité de Minkowski}, 
+   \begin{align*}
+   \left(\sum |x_n + \lambda y_n|^p\right)^{\frac{1}{p}} &\leq \left(\sum |x_n|^p\right)^{\frac{1}{p}} + |\lambda|\left(\sum |y_n|^p\right)^{\frac{1}{p}}
+   \end{align*}
+
+ \item  D'après l'énoncé, $\sum_{}^{}|x_n| ^{p}$ et $\sum_{}^{}|y_n| ^{p}$ convergent, donc elle est bornée. 
+
+\item Comme elle est croissante, donc elle converge. C'est-à-dire, $(x_n+ \lambda y_n) _{n \in \mathbb{N}} \in l_p$.
+        \end{itemize}
+      \item Notant l'application $N$, soit $(x,y) \in (l_p) ^{2}$. Par étape :
+        \begin{itemize}
+          \item Définie positive.
+
+            \item Séparation : Si $N(x) = 0$ donc tous les termes sont nuls. cela implique que $x = 0 _{l_p}$
+
+            \item Homogénéité : $$N(\lambda x) = \sqrt[p]{\sum_{n=0}^{+ \infty}|\lambda x_n| ^{p}} = |\lambda| \sqrt[p]{\sum_{n=0}^{+ \infty}|x_n| ^{p}}$$
+
+            \item Inégalité triangulaire : D'après l'inégalité de Minkowski,
+              \begin{equation}
+                N(x+ y) = \sqrt[p]{\sum_{n=0}^{+\infty}|x_n + y_n| ^{p}} \le \sqrt[p]{\sum_{n=0}^{+ \infty} |x_n| ^{p}}+ \sqrt[x]{\sum_{n=0}^{+\infty}|y_n| ^{p}} = N(x) + N(y)
+              \end{equation}
+
+        \end{itemize}
+
+      \item $A$ n'est pas \textbf{ouvert}, n'est pas \textbf{fermé} et enfin n'est pas \textbf{compact}.
+      \begin{itemize}
+
+        \item $A$ n'est pas ouvert. Soit $x \in A$, donc supposons que $\forall n \ge N_x$, $x_n=0$. Si $V_x = \{ y \in A,\; \| y - x \|_p < r \}$ est un voisinage de $x$. Comme $y \in A$, donc $\exists N_y > N_x$, $\forall n> N_y$, $y_n = 0$. 
+
+          On va construire une suite non nuls depuis un certain rang par récurrence : 
+
+          \begin{itemize}
+
+
+            \item On prend $N = \max\{n \in \mathbb{N},\; y_n \ne 0 \}$, donc il existe $\underline{y} \in l_p$ suffit : $\forall i \in [\![1, N-1]\!]$, $\underline{y_n} = y_n$, $\underline{y _{N+1}} = \underline{y_N} = \frac{y_N}{2}$.
+
+            \item On vérifie que $\underline{y} \in V_x$, supposons que $x_n$ soient déjà tous nuls : 
+              \begin{equation}
+                \| \underline{y} - x \|_p = \sqrt[p]{\sum_{n=0}^{N-1}| y_n - x_n| ^{p} + \frac{|y_N| ^{p}}{2 ^{p-1}} +0 + \dots} \le \| y -x \|_p < r
+              \end{equation}
+            \item Donc $\underline{y}$ est une suite avec plus de termes non nuls. On peut le procéder par récurrence, enfin obtenant une suite non nuls depuis un certain rang.
+            \item Évidemment $\underline{y} \not \in A$ mais $\underline{y} \in V_x$, contradiction.
+          \end{itemize}
+
+
+          
+
+          \item $A$ n'est pas fermé. On va montrer que $A ^{c}$ n'est pas ouvert, c'est-à-dire, soit $y \in A ^{c}$, $y$ est une suite non nulle, mais sous norme $N = \| . \|_p$, comme la suite $\sum_{}^{}|x_n| ^{p}$ converge, pour n'importe quelle rayon $\varepsilon$ qu'on choisit, il existe toujours une suite ayant des termes tous nuls depuis certain rang.
+
+          \item $A$ n'est pas compacte car $A$ n'est pas fermé.
+
+      \end{itemize}
+
+    \item Soit $(x ^{(q)})_{q \in \mathbb{N}} \in l_p ^{\mathbb{N}}$ une suite de Cauchy dans $l_p$, on va montrer que ce suite converge dans $l_p$. Soit $\varepsilon > 0$.
+
+      \begin{itemize}
+
+          \item $(x ^{(q)})_{q \in \mathbb{N}} \in l_p ^{\mathbb{N}}$ une suite de Cauchy dans $l_p$ veut dire que, $\exists N \in \mathbb{N}$, $\forall m > n > N$, $\| x ^{(m)} - x ^{(n)} \|_p < \varepsilon$.
+
+          \item Pour tout $i$, on a 
+            \begin{equation}
+              | x _{i} ^{(m)} -x _{i} ^{(n)} | = \left(|x _{i} ^{(m)} - x _{i} ^{(n)}| ^{p} \right) ^{ 1/p} \le \left( \sum_{i=1}^{\infty} | x ^{(m)} _{i} - x _{i} ^{(n)} | ^{p}\right) ^{1/p} \le \varepsilon
+            \end{equation}
+
+          \item De plus, comme $\mathbb{C}$ est compacte, donc pour chaque $i \in \mathbb{N}$, il existe une unique limite pour $(x _{i} ^{(q)}) _{q \in \mathbb{N}}$. On note :
+            \begin{equation}
+              x_i ^{(\infty)} = \underset{k \to \infty}{\lim} x _{i} ^{(k)}, \quad x ^{(\infty)} = \left( x_1 ^{(\infty)}, x_2 ^{(\infty)}, \dots, x_i ^{(\infty)}, \dots \right)
+            \end{equation}
+          \item Montrons que $x ^{(\infty)} \in l _p$, c'est-à-dire $\sum_{i=1}^{\infty}| x_i ^{(\infty)}|$ ne diverge pas vers $\infty$.
+            \begin{itemize}
+
+                \item Supposons que $(I,K) \in \mathbb{N} ^{2}$, $I \ge 1$, soit $m,n \ge K$, on a 
+                  \begin{equation}
+                   \sum_{i=1}^{I} |x_i ^{(m)} - x_i ^{(n)} | ^{p} \le \| x ^{(m)} - x ^{(n)}\| _{p} \le \varepsilon ^{p}
+                  \end{equation}
+
+                \item En faisant tend $n \to \infty$, on obtient 
+                  \begin{equation}
+                    \sum_{i=1}^{I} | x_i ^{(m)} - x_i ^{(\infty)}| ^{p} \le \varepsilon ^{p}
+                  \end{equation}
+
+                \item En prenant $I$ très grand, comme la somme est toujours majorées, 
+                  \begin{equation}\label{adfdfas}
+                    \forall n \ge K,\; \sum_{i=1}^{\infty} |x_i ^{(n)} - x_i ^{(\infty)} | ^{p} \le \varepsilon ^{p}
+                  \end{equation}
+                \item Nous sommes assurées que $x ^{(n)} - x ^{(\infty)} \in l _{p}$, de plus, comme $x ^{(n)} \in l _{p}$, donc $x ^{(\infty)} \in l_p$
+            \end{itemize}
+
+          \item Montrons que $x ^{(q)}  \underset{q \to +\infty}{\longrightarrow} x ^{(\infty)}$, c'est-à-dire, $\| x ^{(q)} - x ^{\infty} \|_q \le \varepsilon ^{p}$. C'est déjà fait d'après la relation \ref{adfdfas}.
+
+            \end{itemize}
+
+            Conclusion : $(x ^{(q))}) _{q \in \mathbb{N}}$ converge dans $l_p$. Ceci montre que $l_p$ est complet.
+
+    \item On montre :
+      \begin{itemize}
+
+          \item $l_2$ est un espace préhilbertien. 
+
+Dans le cas de $l_2$, le produit scalaire entre deux séquences $x$ et $y$ est défini comme suit :
+\[
+\langle x | y \rangle = \sum_{n=1}^{\infty} x_n y_n
+\]
+Ce produit scalaire satisfait toutes les propriétés du produit scalaire usuel.
+\item  $l_2$ est complet pour la norme induite par ce produit scalaire donc $l_2$ est un espace de Banach. Déjà fait dans la question 4.
+
+      \end{itemize}
+
+      Conclusion : $l_2$ est un espace de Hilbert.
+
+
+    \end{enumerate}
+
+\end{solution}
+% chapter DM1: Topologie (end)

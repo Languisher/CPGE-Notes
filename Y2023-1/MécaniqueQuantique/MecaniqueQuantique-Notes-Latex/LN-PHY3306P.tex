@@ -1,0 +1,25 @@
+\documentclass{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+\title{\Huge{Mécanique Quantique}}
+\author{\huge{Brandon LIN}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\newpage% or \cleardoublepage
+% \pdfbookmark[<level>]{<title>}{<dest>}
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
+\pagebreak
+
+\input{C1}
+\input{C2}
+\input{C3}
+\input{C5}
+
+\end{document}

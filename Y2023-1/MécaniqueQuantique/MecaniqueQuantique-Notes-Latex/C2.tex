@@ -1,0 +1,474 @@
+\chapter{Représentation en position et en impulsion, Opérateurs}
+
+\begin{tcolorbox}
+  \begin{itemize}
+
+    \item Représentation en impulsion
+    \begin{itemize}
+
+        \item Fonction d’onde en représentation en position et en impulsion, la transformation entre les deux 
+        \item Exemple : état localisé, onde de de Broglie 
+        \item La valeur moyenne de la position et impulsion dans la représentation en position et en impulsion, l’opérateur impulsion 
+        \item La valeur moyenne d’impulsion par la notation de Dirac 
+        \item Commutateur de la position et l’impulsion
+    \end{itemize}
+   \item Principe de correspondance et exemples
+
+  \end{itemize}
+\end{tcolorbox}
+\section{Mathématiques}
+\subsection{Transformée de Fourier en impulsion}
+
+\begin{Definition}[colbacktitle=red!75!black]{Transformée de Fourier en implusion}{}
+Pour une fonction de la position $f(x)$, on peut écrire $g(p)$ qui est appelée \textbf{Transformée de Fourier en impulsion} de la fonction $f(x)$ :
+  \[
+    \boxed{f(x) = \frac{1}{\sqrt{2 \pi \hbar}} \int_{- \infty} ^{+ \infty} g(p) e ^{ipx / \hbar} \mathrm{d}p, \; g(p) = \frac{1}{\sqrt{2 \pi \hbar}} \int_{- \infty} ^{+ \infty} f(x)e ^{{\color{red} - }ipx / \hbar} \mathrm{d}x}
+  \]
+
+  D'un point de vue physique, $f(x)$ signifie que $f(x)$ est considérée comme une combinaison linéaire continue de \underline{fonctions sinusoïdales} de $x$, de période $\lambda = h/p$.
+\end{Definition}
+
+\subsection{Égalité de Parseval-Plancherel} % (fold)
+\label{sub:Égalité de Parseval-Plancherel}
+
+% subsection Égalité de Parseval-Plancherel (end)
+\begin{Prop}{Égalité de Parseval-Plancherel}{}
+Soit $f_1(x)$, $f_2(x)$. Soit 
+\[
+  f_1(x) \underset{T.F.}{\iff} g_1(p), \quad f_2(x) \underset{T.F.}{\iff} g_2(p)
+\]
+
+Nous avons 
+\begin{equation}
+  \boxed{\displaystyle\int_{- \infty}^{+ \infty} f_1 ^{*}(x) f_2(x) \mathrm{d} x = \displaystyle\int_{- \infty}^{+ \infty} g_1 ^{*}(p) g_2(p) \mathrm{d} p}
+  \label{eq:Parseval-Plancherel}
+\end{equation}
+En particulier, en prenant $f_1(x) = f_2(x) = f(x)$ donc $g_1(p) = g_2(p) = g(p)$, on a 
+\[
+  \int_{- \infty}^{ + \infty} |f(x)| ^{2} \mathrm{d} x = \int_{- \infty}^{ + \infty} |g(p)| ^{2} \mathrm{d} p
+\]
+\end{Prop}
+ 
+\subsection{Transformée de Fourier et dérivation} % (fold)
+
+% subsection  (end)
+\begin{Prop}{Transformée de Fourier et dérivation}{}
+Si $f(x)$. 
+\begin{equation}
+  f(x) \underset{T.F.}{\iff} g(p) \implies f_n(x) = \frac{\partial ^{(n) }f(x)}{\partial x ^{(n)}} \underset{T.F}{\iff} g_n(p) = \left( \frac{ip}{\hbar}  \right) ^{n} g(p)
+  \label{eq:2}
+\end{equation}
+\end{Prop}
+
+\begin{myproof}{}{}
+Soit $f_1(x) = f'(x)$, donc 
+
+\begin{align*}
+  g_1(p) &= \frac{1}{\sqrt{2 \pi \hbar}}  \displaystyle\int_{- \infty}^{+\infty} f'(x) \exp(-i \frac{p x}{\hbar} ) \mathrm{d}x \\
+         &= \frac{1}{\sqrt{2 \pi \hbar}}  \displaystyle\int_{- \infty}^{+\infty}  \exp(-i \frac{p x}{\hbar} ) \mathrm{d}f \\
+         &= \frac{1}{\sqrt{2 \pi \hbar}}  \left[ f \exp\left( - i \frac{p x}{\hbar} \right)| _{- \infty} ^{+ \infty} - \left( - \frac{ip}{\hbar}  \right) \int_{- \infty}^{+\infty} f \exp \left( - i \frac{p x}{\hbar}  \right)\mathrm{d}x\right] \\ 
+         &=  \frac{i p }{\hbar}  \frac{1}{\sqrt{2 \pi \hbar}} \int_{- \infty}^{+\infty} f(x) \exp \left( -i \frac{p x}{\hbar}  \right) \mathrm{d} x \\ 
+         &= \frac{ip}{\hbar}  g(p)
+\end{align*}
+
+Récurrence.
+\end{myproof}
+
+\subsection{Exemples} % (fold)
+\label{sub:Exemples}
+
+% subsection Exemples (end)
+\begin{Prop}{Transformée de Fourier de la distribution de Dirac}{}
+\[
+  f(x) = \delta(x- x_0) \underset{T.F.}{\iff} g(p)  = \frac{1}{\sqrt{2 \pi \hbar}}  \exp \left( -i \frac{p x_0}{\hbar}  \right)
+\]
+On a $\langle x \rangle = x_0$, $\Delta x = 0$, $\Delta p \to \infty$
+\end{Prop}
+
+\begin{myproof}{}{}
+\[
+  g(p) = \frac{1}{\sqrt{2 \pi \hbar}}  \displaystyle\int_{- \infty}^{+ \infty} \delta(x-x_0) \exp \left( -i \frac{px}{\hbar}  \right) \mathrm{d} x = \frac{1}{\sqrt{2 \pi \hbar}}  \exp \left( -i \frac{p x_0}{\hbar}  \right)
+\]
+\end{myproof}
+
+\begin{Prop}{Transformée de Fourier de l'onde de de Broglie}{}
+\[
+  f(x) = A e^{ip_0 x / \hbar} e^{ - iEt/\hbar} \underset{T.F.}{\iff} g(p) = \frac{A e^{-iEt/\hbar}}{\sqrt{2 \pi \hbar}} 2 \pi \hbar \delta(p-p_0) \propto \delta(p-p_0)
+\]
+On a $\Delta x \to \infty$, $\langle p \rangle = p_0$, $\Delta p =0$
+\end{Prop}
+
+\newpage
+\section{Fonction d'onde en implusion} % (fold)
+\label{sec:Fonction d'onde en implusion}
+
+\subsection{Définition} % (fold)
+
+% subsection Définition (end)
+
+\begin{Definition}[colbacktitle=red!75!black]{\textbf{Représentation de la fonction d'onde en impulsion et en position}}{}
+\textbf{Représentation de la fonction d'onde en impulsion} : $\varphi(p,t)$
+
+\textbf{Représentation de la fonction d'onde en position} : $\psi(x,t)$
+\begin{itemize}
+
+    \item Cas 1D
+\begin{gather}
+  \psi (x, t) = \frac{1}{\sqrt{2 \pi \hbar}}  \int_{ - \infty}^{ + \infty} \varphi(p,t) e ^{ipx / \hbar} \mathrm{d} p, \quad
+  \varphi (p, t) = \frac{1}{\sqrt{2 \pi \hbar}}  \int_{ - \infty}^{ + \infty} \psi(x,t) e ^{-ipx / \hbar} \mathrm{d} x
+\end{gather}
+
+\item Cas 3D 
+  \begin{gather}
+    \psi(M,t) = \frac{1}{(2 \pi \hbar) ^{3 / 2}}   \iiint \varphi(\overrightarrow{p},t) e ^{\frac{i}{\hbar} \overrightarrow{p}. \overrightarrow{OM}} \mathrm{d} p_x \mathrm{d} p_y \mathrm{d} p_z, \quad 
+    \varphi(\overrightarrow{p},t) = \frac{1}{(2 \pi \hbar) ^{3 / 2}}   \iiint \psi(M,t) e ^{-\frac{i}{\hbar} \overrightarrow{p}. \overrightarrow{OM}} \mathrm{d} V_M
+  \end{gather} 
+
+\end{itemize}
+\end{Definition}
+
+\subsection{Mesure de l'impulsion} % (fold)
+\label{sub:Mesure de l'impulsion}
+
+La \underline{probabilité} de mesure de l'impulsion de la particule dans l'intervalle $[p, p + \mathrm{d}p]$ est donnée par : 
+\begin{equation}
+  \mathrm{d}P _{p, t, \mathrm{d}p} = |\varphi(p, t)| ^{2} \mathrm{d}p
+\end{equation}
+
+Justifications : 
+\begin{itemize}
+
+    \item D'après l'égalité de Parseval-Plancherel, $\varphi(p,t)$ est normalisée : 
+      \begin{equation}
+        \int_{- \infty}^{+ \infty} |\varphi(p,t)| ^{2} \mathrm{d} p = 1
+      \end{equation}
+
+    \item Pour une onde de de Broglie, 
+      \begin{equation}
+        \varphi(p,t) \propto \delta(p - p_0)
+      \end{equation}
+
+\end{itemize}
+
+De même façon, dans le cas tridimensionnel :
+\begin{equation}
+  \mathrm{d}P _{p, t, \mathrm{d} \overrightarrow{p}} = |\varphi(\overrightarrow{p},t)| ^{2} \mathrm{d} ^{3} \overrightarrow{p}
+\end{equation}
+% subsection Mesure de l'impulsion (end)
+
+\subsection{Valeurs moyennes de grandeurs dépendant de l'impulsion} % (fold)
+\label{sub:Valeurs moyennes de grandeurs dépendant de l'impulsion}
+
+On obtient immédiatement : 
+\begin{equation}
+  \langle p \rangle(t) = \int_{- \infty}^{+ \infty} p |\varphi(p,t)| ^{2} \mathrm{d} p = \int_{- \infty}^{+ \infty} \varphi ^{*}(p, t) p \varphi(p, t) \mathrm{d}p
+\label{eq:1}
+\end{equation}
+
+\begin{itemize}
+
+    \item Onde de de Broglie : $\langle p \rangle = p_0$ 
+    \item Plus généralement, pour une onde $g(p)$ : 
+      \begin{equation}
+        \langle g \rangle = \int_{- \infty}^{+ \infty} g(p) |\varphi(p,t)| ^{2} \mathrm{d}p, \; \Delta p = \sqrt{\langle p ^{2} \rangle - \langle p \rangle ^{2}}
+      \end{equation}
+
+\end{itemize}
+% subsection Valeurs moyennes de grandeurs dépendant de l'impulsion (end)
+
+\section{Opérateur impulsion} % (fold)
+\label{sec:Opérateur impulsion}
+
+% section Opérateur impulsion (end)
+\subsection{1 dimension} % (fold)
+\label{sub:Opérateur impulsion}
+
+\subsubsection{Quantité de mouvement $p$} % (fold)
+\label{sec:Quantité de mouvement $p$}
+
+% subsubsection Quantité de mouvement $p$ (end)
+D'après 
+\begin{itemize}
+
+  \item $\varphi(p,t)$ transformée de Fourier de $\psi(x,t)$.
+  \item Les équations \ref{eq:1} et \ref{eq:2} démontre que $p \varphi(p,t)$ est la transformée de Fourier de la fonction $\frac{\hbar}{i} \frac{\partial }{\partial x} \psi(x,t)$,
+  \item En utilisant le théorème de Parseval-Plancherel \ref{eq:Parseval-Plancherel}
+    
+
+\end{itemize}
+
+On obtient enfin,
+
+
+\begin{equation}
+  \langle p \rangle(t) = \int_{- \infty}^{+ \infty} \varphi ^{*}(p,t) \times p \varphi(p,t) \mathrm{d}p = \int_{- \infty}^{+ \infty} \psi ^{*}(x, t) \frac{\hbar}{i}  \frac{\partial }{\partial x} \psi (x,t) \mathrm{d}x
+\end{equation}
+
+On définit :
+\begin{Definition}[colbacktitle=red!75!black]{Opérateur impulsion}{}
+\begin{equation}
+  \hat{p} = - i \hbar \frac{\partial }{\partial x} 
+  \label{eq:Opérateur impulsion}
+\end{equation}
+défini par son action sur une fonction $\psi(x,t)$ quelconque :
+\begin{equation}
+  (\hat{p}\psi)(x, t) = - i \hbar \frac{\partial \psi}{\partial x} 
+\end{equation}
+\end{Definition}
+
+Nous avons simplement : 
+
+
+\begin{equation}
+  \boxed{\langle p \rangle(t) = \int_{- \infty}^{+ \infty} \psi ^{*}(x,t) (\hat{p} \psi)(x,t) \mathrm{d} x} 
+\end{equation}
+
+
+Conclusion : La quantité de mouvement $p$ comporte comme un \underline{opérateur} dans la représentation en position.
+
+\begin{note}{}{}
+  En général, chaque grandeur physique correspond un opérateur en mécanique quantique.
+\end{note}
+
+
+\subsubsection{Fonction $g(p)$ développable en série} % (fold)
+\label{sec:Fonction $g(p)$ développable en série}
+
+Pour une fonction 
+\begin{equation}
+  g(p) = \sum_{n}^{} g_n p ^{n}
+\end{equation}
+
+Donc, la valeur moyenne de $g$ associée à $\psi(x,t)$ par 
+\begin{equation}
+  \langle g \rangle = \sum_{n}^{} g_n \int_{- \infty}^{+ \infty} \psi ^{*}(x, t) ( \hat{p} ^{n} \psi) (x,t) \mathrm{d}x
+\end{equation}
+
+\begin{myproof}{}{} D'après l'équation \ref{eq:2} :
+\begin{align}
+  \langle p ^{n} \rangle(t) &= \int_{- \infty}^{+ \infty} \psi ^{*}(p, t) p ^{n} \psi(x,t) \\ 
+                            &= \int_{- \infty}^{+ \infty} \left( \frac{\hbar}{i}  \right) ^{n} \psi(x,t)
+\end{align}
+\end{myproof}
+
+
+En introduisant 
+\begin{equation}
+g(p) = \sum_{n}^{} g_n p ^{n} \implies  \hat{g} = \sum_{n}^{} g_n \hat{p} ^{n}
+\end{equation}
+
+On a encore 
+\begin{equation}
+  \hat{g} = \int_{- \infty}^{+ \infty} \psi^*(x,t) (\hat{g} \psi)(x,t) \mathrm{d}x
+\end{equation}
+% subsubsection Fonction $g(p)$ développable en série (end)
+
+
+\subsection{3 dimension} % (fold)
+\label{sub:Opérateur impulsion à 3 dimension}
+
+Dans les trois directions cartésiennes 
+\begin{equation}
+  \hat{p}_x = - i \hbar \frac{\partial }{\partial x}, \;
+  \hat{p}_y = - i \hbar \frac{\partial }{\partial y}, \;
+  \hat{p}_z = - i \hbar \frac{\partial }{\partial z}
+\end{equation}
+
+
+\begin{Definition}[colbacktitle=red!75!black]{Opérateur quantité de mouvement (opérateur impulsion)}{}
+\begin{equation}
+  \hat{\overrightarrow{p}} = - i \hbar \; \overrightarrow{\mathrm{grad}}
+\end{equation}
+\end{Definition}
+
+On peut montrer que 
+\begin{equation}
+  \hat{p} ^{2} = \hat{p}_x ^{2} + \hat{p}_y ^{2} + \hat{p}_z ^{2} = - \hbar ^{2} \Delta
+\end{equation}
+
+\subsection{Cas d'ondes de de Broglie} % (fold)
+\label{sub:Cas d'ondes de de Broglie}
+
+À une dimension, pour $$\psi _{p_0}(x,t) = A \exp \frac{i}{\hbar} ({p_0} . x - Et)$$
+
+En utilisant l'expression de \ref{eq:Opérateur impulsion} : 
+\begin{equation}
+  \hat{p} \psi _{p_0} = p_0 \psi _{p_0}
+\end{equation}
+
+\begin{Definition}[colbacktitle=red!75!black]{État propre de l'opérateur impulsion, valeur propre}{}
+En ce sens, nous disons que une onde de de Broglie est un \textbf{état propre} de l'opérateur impulsion, avec la \textbf{valeur propre} $\overrightarrow{p_0}$ la quantité de mouvement associé.
+
+\end{Definition}
+
+
+
+\subsection{Notation de Dirac} % (fold)
+\label{sub:Notation de Dirac}
+
+Rappel : 
+\begin{equation}
+  \langle \psi_1 | \psi_2 \rangle = \int_{- \infty}^{+ \infty} \psi_1 ^{*}(x,t) \psi_2(x,t) \mathrm{d}x
+\end{equation}
+
+On introduit de façon, pour un opérateur $\hat{A}$ linéaire agissant sur les fonctions d'onde : 
+\begin{equation}
+  \langle \psi_1 | \hat{A} | \psi_2 \rangle = \int_{-\infty}^{+\infty} \psi_1 ^{*}(x,t) (\hat{A} \psi_2)(x,t) \mathrm{d}x
+\end{equation}
+
+Par exemple, on a déjà vu : 
+\begin{equation}
+\begin{cases}
+ \langle \psi_1 | \hat{p} | \psi_2 \rangle = \int_{-\infty}^{+\infty} \psi_1 ^{*}(x,t) (\hat{p} \psi_2)(x,t) \mathrm{d}x = \langle p \rangle  \\
+\langle \psi_1 | \hat{x} | \psi_2 \rangle = \int_{-\infty}^{+\infty} \psi_1 ^{*}(x,t) (\hat{x} \psi_2)(x,t) \mathrm{d}x = \int_{-\infty}^{+\infty} \psi_1 ^{*}(x,t) ({x} \psi_2)(x,t) \mathrm{d}x = \langle x \rangle
+\end{cases}
+\end{equation}
+
+\begin{Definition}[colbacktitle=red!75!black]{Opérateur position}{}
+Nous introduisons l'\textbf{opérateur position} agissant sur les fonctions d'onde : 
+\begin{equation}
+  \hat{x} \psi (x,t) = x \psi(x,t)
+\end{equation}
+\end{Definition}
+
+\subsection{Commutateur} % (fold)
+\label{sub:Commutateur}
+
+En général, les opérateurs sont non commutable. 
+\begin{Definition}[colbacktitle=red!75!black]{Commutateur de deux opérateurs}{}
+Nous le définissons comme 
+\begin{equation}
+  [ \hat{A},\hat{B}] = \hat{A} \hat{B} - \hat{B} \hat{A}
+\end{equation}
+\end{Definition}
+
+
+Si deux opérateurs commutent nous avons 
+\begin{equation}
+  [ \hat{A}, \hat{B}] = 0
+\end{equation}
+
+\subsubsection{Exemple} % (fold)
+\label{sec:Exemple}
+
+Les deux opérateurs $\hat{x}$ et $\hat{p}_x$ ne commutent pas, en effet ($\hat{I}$ l'opérateur identité)
+\begin{equation}
+  [\hat{x}, \hat{p}_x] = i \hbar \hat{I}
+\end{equation}
+
+Pour les autre dimensions, on obtient :
+\begin{equation}
+  [ \hat{x}, \hat{p}_y] = [\hat{y}, \hat{p}_z] = \dots = 0
+\end{equation}
+
+\begin{myproof}{}{} Calcul direct : 
+\begin{align}
+  [\hat{x}, \hat{p}_x]f &= (\hat{x}\hat{p}_x - \hat{p}_x \hat{x}) f \\ 
+                        &= x \left( -i \hbar \frac{\partial f}{\partial x}  \right) - \left(- i \hbar \frac{\partial }{\partial x} (xf)\right) \\ 
+                        &= -i \hbar x \frac{\partial f}{\partial x}  + i \hbar f \times 1 + i \hbar x \frac{\partial f}{\partial x}
+\end{align}
+\end{myproof}
+
+
+% subsubsection Exemple (end)
+% subsection Commutateur (end)
+
+% subsection Notation de Dirac (end)
+
+
+
+% subsection Résumé (end)
+
+
+
+
+
+
+
+
+
+
+
+\section{Principe de correspondance} % (fold)
+\label{sec:Principe de correspondance}
+
+\subsection{Relation entre la position et l'impulsion} % (fold)
+
+La position $x$ et l'impulsion $p$ correspond chaqune un opérateur 
+\begin{itemize}
+
+    \item Dans la représentation en position $\psi(x,t)$ : 
+      \begin{equation}
+        \hat{x} = x, \; \hat{p} = - i \hbar \frac{\partial }{\partial x} 
+      \end{equation}
+
+    \item Dans la représentation en impulsion $\varphi(p,t)$ : (admis) 
+      \begin{equation}
+        \hat{p} = p, \; \hat{x} = - i \hbar \frac{\partial }{\partial p} 
+      \end{equation}
+
+\end{itemize}
+% section Principe de correspondance (end)
+
+\subsection{Principe de correspondance} % (fold)
+\label{sub:Principe de correspondance}
+
+\begin{Theorem}{Principe de correspondance}{}
+Toute grandeur physique $A = f(x,p)$ est assoicée à un opérateur $\hat{A}$ linéaire. $\hat{A}$ est obtenue en remplaçant : 
+\begin{itemize}
+
+    \item $x \to \hat{x}$ 
+    \item $p \to -i \hbar \frac{\partial }{\partial x} $
+
+\end{itemize}
+\end{Theorem}
+
+
+
+\subsubsection{Exemples} % (fold)
+\label{sec:Exemples}
+
+\begin{itemize}
+
+    \item $V(x) \to \hat{V}$ tel que $\hat{V} \psi = V \psi$
+    \item Fonction polynomiale de $p$ : 
+      \begin{equation}
+        A(p) = \sum_{n}^{}c_n p ^{n} \implies \hat{A} \psi(p,t) = \sum_{n}^{} c_n (-i \hbar) ^{n} \frac{\partial ^{n} \psi}{\partial x ^{n}}  (x,t)
+      \end{equation} 
+    \item Fonction développables en séries entières : 
+      \begin{equation}
+        A(p) = \exp \left( - \frac{ip}{\hbar} x_0 \right) \implies (\hat{A} \psi)(x,t) = \sum_{n=0}^{\infty} \frac{1}{n!}  (-x_0) ^{n} \frac{\partial ^{n}(x,t)}{\partial x ^{n}}  = \psi(x-x_0, t)
+      \end{equation}
+
+      \begin{myproof}{}{}
+      Réviser le cours \textbf{Séries Entières}.
+      \end{myproof}
+
+      
+
+
+      On la note l'\textbf{opérateur de translation de $x_0$}
+
+\end{itemize}
+
+% subsubsection Exemples (end)
+
+\subsection{Application en mécanique} % (fold)
+\label{sub: Application en mécanique}
+
+\begin{figure}[H] %h:当前位置, t:顶部, b:底部, p:浮动页
+  \centering
+  \includegraphics[width=0.9\textwidth]{./assets/Opérateurs utiles.png}
+  \caption{Opérateurs utiles}
+  \label{fig:Opérateurs utiles}
+\end{figure}
+
+
+% subsubsection Application en mécanique (end)
+
+Remarque : \textbf{opérateur hamiltonien} : $\hat{H}$ 
+
+
+
+
+% subsection Principe de correspondance (end)

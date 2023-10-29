@@ -1,21 +1,23 @@
 # CPGE Notes
 
-Dernière mise à jour : *Septembre, 2023*, Shanghai
+Dernière mise à jour : *Octobre, 2023*, Shanghai
 
 **Brandon Lin**
 
 Ce dossier contient ces fichiers :
+
 ## Notes - Essentiels
 
 ### Maths
 
-| Titre                                                                  | Dernière mise à jour | Pages |
-| ---------------------------------------------------------------------- | -------------------- | ----- |
+| Titre                                                                              | Dernière mise à jour | Pages |
+| ---------------------------------------------------------------------------------- | -------------------- | ----- |
 | [Suites et Séries](Notes/Notes%20-%20Essentiels/Suites-et-Séries.pdf)              | Août, 2023           | 44    |
 | [Algèbre Linéaire](Notes/Notes%20-%20Essentiels/Algèbre%20Linéaire.pdf)            | Septembre, 2023      | 72    |
 | [Analyse 导数、微分与积分](Notes/Notes%20-%20Essentiels/Calcul%20différentiel.pdf) | Août, 2023           | 30    |
-| [**Topologie**](Notes/Notes%20-%20Essentiels/Topologie%20NewNew.pdf)               | Septembre, 2023      | 24    |
-| ~~Probabilité~~                                                        |                      |       |
+| [**Topologie**(L2)](Notes/Notes%20-%20Essentiels/Topologie%20NewNew.pdf)               | Septembre, 2023      | 24    |
+| [Topologie(L3)](Notes/Notes%20-%20Essentiels/Topologie[L3].pdf)                    | Octobre, 2023        |  21     |
+| ~~Probabilité~~                                                                    |                      |       |
 
 Contenu :
 - **Suites et Séries** : 
@@ -32,7 +34,7 @@ Contenu :
 	- Espaces préhilbertiens réels, Espaces vectoriels euclidiens
 	- Réduction des endomorphismes
 	- Endomorphismes d'un espace vectoriel euclidien 
- 
+
 - **Analyse（导数、微分与积分）** : 
 	- ~~Dérivation~~
 	- Intégration
@@ -144,7 +146,7 @@ Les notes suivantes ont été prises en classe au fur et à mesure, elles ne son
 | Cours - Mécanique II                | [Mécanique II](Notes/Notes%20-%20Cours/P%20Mécanique%20II.pdf)                                                                                                                                         | Mai, 2023            |
 | Cours - Électricité                 | [Électricité Fondamentale Circuits](Notes/Notes%20-%20Cours/01%20É.pdf)                                                                                                                                | Juin, 2022           |
 | Cours - Mécanique I                 | [Méc I-1](Notes/Notes%20-%20Cours/01%202.pdf), [Méc I-2](Notes/Notes%20-%20Cours/02%202.pdf), [Méc I-3](Notes/Notes%20-%20Cours/03%20M%202.pdf), [Méc I-4](Notes/Notes%20-%20Cours/04%20M%203.pdf), [Méc I-5](Notes/Notes%20-%20Cours/05%20M%203.pdf)                          | Juin, 2022           |
-| Cours - Optique Géométrique         | [Optique Géométrique](Physique%20-%20Chimie/P01%20Optique%20Géométrique/Notes/Optique%20Géométrique.md)                                                                              | Janvier, 2022        |
+| Cours - Optique Géométrique         | Optique Géométrique
 | Résumé(Latex) - Optique Ondulatoire | [Optique Ondulatoire](Notes/Notes%20-%20Cours/Optique-Ondulatoire(Résumé).pdf)                                                                                                                         | Juin, 2023                     |
 ## Concours Site
 

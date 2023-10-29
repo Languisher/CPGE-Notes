@@ -1,0 +1,63 @@
+\chapter{Intégrales multiples} % (fold)
+\label{chap:Intégrales multiples}
+
+\section{Intégrales doubles} % (fold)
+
+% subsection  (end)
+\subsection{Théorème de Fubini} % (fold)
+\label{sub:Théorème de Fubini}
+
+Une région \textbf{admissible}. définie à l'aide de deux fonctions d'une variable 
+\begin{equation}
+  U = \{(x, y) \in \mathbb{R}^{2}, \;a \le x \le b, \;\varphi(x) \le y \le \psi(x)\}
+\end{equation}
+ou
+\begin{equation}
+  U = \{(x, y) \in \mathbb{R}^{2}, \;c \le y \le d, \;\alpha(y) \le x \le \beta(y)\}
+\end{equation}
+\begin{Theorem}{
+    Théorème de Fubini
+  }{}
+Si $f$ est une fonction continue sur un domaine admissible, on calcule l'\textbf{intégrale double} de $f$ sur $U$ en calculant deux intégrales simples : 
+\begin{equation}
+  \iint _{U} f(x,y) \mathrm{d} x \mathrm{d}y = \int_{a}^{b} \left[\int_{\varphi(x)}^{\psi(x)} f(x,y) \mathrm{d}y\right] \mathrm{d} x = \int_{c}^{d} \left[ \int_{\alpha(y)}^{\beta(y)}f(x,y) \mathrm{d}x\right] \mathrm{d}y
+\end{equation}
+\end{Theorem}
+
+\begin{Theorem}{Propriétés de l'intégrale double}{}
+\begin{itemize}
+
+    \item Linéarité 
+    \item Additivité
+    \item Positivité
+
+\end{itemize}
+\end{Theorem}
+
+\subsection{Changement de variables} % (fold)
+\label{sub:Changement de variables}
+
+% subsection Changement de variables (end)
+\begin{Theorem}{Changement de variables}{}
+
+\end{Theorem}
+
+\subsection{Aire d'un domaine plan} % (fold)
+\label{sub:Aire d'un domaine plan}
+\begin{Definition}[colbacktitle=red!75!black]{Aire d'un domaine plan}{}
+On définit l'aire d'un domaine admissible $D \subset \mathbb{R} ^{2}$ par 
+\begin{equation}
+  \mathcal{A} (D) = \iint _{D} 1 \mathrm{d}x \mathrm{d}y
+\end{equation}
+
+\end{Definition}
+
+
+
+
+
+% subsection Aire d'un domaine plan (end)
+
+
+% subsection Théorème de Fubini (end)
+% chapter Intégrales multiples (end)

@@ -1,0 +1,137 @@
+\chapter{Applications aux espaces pré-hilbertiens}
+
+\section{Espace préhilbertien} % (fold)
+\label{sec:Vocabulaire}
+\begin{Definition}[colbacktitle=red!75!black]{Espace préhilbertien; Espace euclidien; Espace hermitien}{}
+Les \textbf{espaces vectoriels préhilbertiens} sont des \underline{espaces vectoriels normés} de corps $\mathbb{K}$ dont la \underline{norme} définie à l'aide d'un produit scalaire.
+\begin{itemize}
+
+    \item Si $\mathbb{K} = \mathbb{R}$, on parle d'\textbf{espace préhilbertien réel}, le produit scalaire est \textit{bilinéaire} et \textit{symétrique}. 
+    \item Si $\mathbb{K} = \mathbb{C}$, on parle d'\textbf{espace préhilbertien complexe}, le produit scalaire est \textit{sesqui-linéaire} (c'est-à-dire \textit{linéaire à droite, semi-linéaire à gauche}) et \textit{hermitien}
+
+\end{itemize}
+
+De plus, 
+\begin{itemize}
+    \item Si $\mathbb{K} = \mathbb{R}$ de dimension \textit{finie}, on parle d'\textbf{espace euclidien}
+    \item Si $\mathbb{K} = \mathbb{C}$ de dimension \textit{finie}, on parle d'\textbf{espace hermitien}
+
+\end{itemize}
+
+\end{Definition}
+% section Vocabulaire (end)
+
+\section{Système totale} % (fold)
+\label{sec:Système totale}
+
+\subsection{Définition}
+En dimension infinie, on a très rarement des bases : Les bases sont essentiellement en dimension finie $\mathbb{K}^{n}$ ou infinie dénombrable $\mathrm{Vect}(\{x \mapsto x ^{n}, n \in \mathbb{N}\})$. 
+
+\begin{Definition}[colbacktitle=red!75!black]{Système total d'un espace préhilbertien}{}
+
+  Soit $E$ un espace préhilbertien de dimension infinie, $I$ un ensemble \textit{dénombrable infini}, une famille $(x_n) _{n \in I}$ est dite \textbf{système total} de $E$, si elle vérifie :
+  \begin{enumerate}
+
+      \item $(x_n) _{n \in I}$ est \underline{orthonormée} 
+        \[
+          \forall (n, m) \in I ^{2}, \; \langle x_n | x_m \rangle= \delta _{n,m}
+        \]
+      \item Le sous-espace vectoriel engendré par les $(x_n) _{n \in I}$ est \underline{dense} dans $E$, pour la norme associée au produit scalaire : 
+        \[
+          \overline{\mathrm{Vect}(\{x_n, n\in I\})} = E
+        \]
+
+  \end{enumerate}
+\end{Definition}
+
+\subsection{Formule de Parseval}
+\begin{Theorem}{Inégalité de Bessel}{}
+Soit $(x_n) _{n \in \mathbb{N}}$ une famille \underline{orthonormée} \textit{dénombrable infinie} d'un espace préhilbertien de dimension infinie, alors 
+\[
+  \forall x\in E, \sum_{}^{} \left| \langle x_n | x \rangle \right| ^{2} \text{ converge et } \sum_{n=0}^{\infty} | \langle x_n | x \rangle | ^{2} \le \| x \| ^{2}
+\]
+\end{Theorem}
+
+\begin{myproof}{}{}
+Soit $\mathbb{K} = \mathbb{C}$, Supposons $I = \mathbb{N}$, $(x_n) _{n \in \mathbb{N}}$ une famille orthonormée.
+
+Pour $n \in \mathbb{N}$, $F_n= \mathrm{Vect} \left( \{x_0, \dots, x_n\} \right)$ de dimension finie $n+1$.
+
+Soit $x \in E$, 
+\[
+  p _{F_n}(x) = \sum_{k=0}^{n} \langle x_k | x \rangle. x_k, \;\| p _{F_n }(x) \| ^{2 } = \sum_{k=0 }^{n } | \langle x_k | x  \rangle ^{2}
+\]
+
+D'après le théorème de Pythagore, comme $p _{F_n}(x) \perp x - p _{F_n }(x)$, donc 
+\[
+  \| x \| ^{2 } = \| p _{F_n}(x) \| ^{2 } + \| x - p _{F_n}(x)  \| ^{2 } \implies \sum_{k=0 }^{ n } | \langle x_k | x \rangle| ^{2 } \le \| x \| ^{2}
+\]
+
+Sachant que $\sum_{}^{} | \langle x_k ,x  \rangle| ^{2}$ à termes positifs, de somme partielle majorée, donc elle converge et aussi 
+\[
+  \sum_{n=0 }^{+ \infty} | \langle x_k | x \rangle| ^{2 } \le \| x \| ^{2}
+\]
+\end{myproof}
+
+De plus, 
+
+\begin{Theorem}{Formule de Parseval}{}
+Si les $(x_n) _{n \in \mathbb{N}}$ forment un \underline{système total} d'un espace préhilbertien de dimension infinie, alors 
+\[
+  \sum_{n=0}^{  \infty} | \langle x_n | x \rangle | ^{2 } = \| x \| ^{2}
+\]
+\end{Theorem}
+
+\begin{myproof}{}{}
+  Soit $x \in E$, $\varepsilon >0$, d'après la définition de la densité, il existe $y \in \mathrm{Vect}(\{ x_n, n\in \mathbb{N}\})$ suffit $\| x-y  \| \le \varepsilon$. 
+
+
+  $y$ est donc une \underline{combinaison linéaire} de $(x_n) _{n\in \mathbb{N}}$ 
+
+  Supposons que pour $n \in \mathbb{N}$, $F_n= \mathrm{Vect} \left( \{x_0, \dots, x_n\} \right)$ de dimension finie $n+1$.
+
+  Rappel que \textit{Toute combinaison linéaire est une somme finie}, donc il existe $N \in \mathbb{N}$, $y \in F_N$. Si $n \ge N$, $F_N \subset F_n$, donc $y \in F_n$. 
+
+  \[
+    \varepsilon ^{2 } \ge \| x - y  \| ^{2 } \ge \|  x - p _{F_n }(x)  \| ^{2 } = \| x  \| ^{2 } - \| p _{F_n }(x)  \|^{2} = \| x  \| ^{2 } - \sum_{k=0 }^{ n } |\langle x_k | x  \rangle| ^{2}
+  \]
+
+  Donc 
+  \[
+      \forall \varepsilon >0, \exists N \in \mathbb{N}, \forall n \ge N, \|  x  \| ^{2 }- \sum_{k=0 }^{ n } |\langle x_k | x  \rangle| ^{2 } \le \varepsilon ^{2 } \implies \sum_{n=0 }^{ + \infty } | \langle x_k | x  \rangle | ^{2 } = \|  x  \| ^{2}
+  \]
+\end{myproof}
+
+\begin{Example}{$I = \mathbb{Z}$}{}
+Lorsque $I = \mathbb{Z}$, nous noterons 
+\[
+  \sum_{n= - \infty }^{ + \infty } | \langle x_n | x  \rangle| ^{2 } = \sum_{n=0 }^{ + \infty } | \langle x_n | x \rangle | ^{2 } + \sum_{n=1 }^{ + \infty } | \langle x _{-n }| x  \rangle| ^{2}
+\]
+\end{Example}
+
+\begin{Example}{Séries de Fourier}{}
+Soit $E$ l'ensemble des fonctions continues par morceaux de $\mathbb{R}$ dans $\mathbb{C}$, $2\pi$-périodique, alors 
+\[
+  \langle f|g \rangle = \frac{1}{2 \pi } \int_{0 }^{2 \pi}\overline{f(t)} g(t) \mathrm{d } t
+\]
+munit $E$ d'une structure d'espace préhilbertien complexe.
+
+\begin{enumerate}
+
+    \item $(e_n : x \mapsto e^{inx}) _{n \in \mathbb{Z}}$ est un système totale de $E$
+
+    \item Si l'on pose $$c_n : f \mapsto \langle e_n | f \rangle = \frac{1}{2 \pi } \int_{0 }^{2 \pi } \exp (-int) f(t) \;\mathrm{d } t$$ 
+      Alors la \textbf{formule de Parseval} donne :
+      \[
+        \sum_{n\in \mathbb{Z}}^{} | c_n(f)| ^{2 } = \frac{1}{2\pi } \int_0 ^{2 \pi } | f(t) | ^{2 } \mathrm{d } t
+      \]
+\end{enumerate}
+\end{Example}
+
+
+
+
+
+% section Système totale (end)
+
+

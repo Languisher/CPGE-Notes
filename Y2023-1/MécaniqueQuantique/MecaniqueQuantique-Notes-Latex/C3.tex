@@ -1,0 +1,194 @@
+\chapter{Relation de Heisenberg} % (fold)
+\label{chap:Relation de Heisenberg}
+
+\begin{tcolorbox}
+Relation de Heisenberg
+
+\begin{itemize}
+
+    \item Relation de Heisenberg position-impulsion 
+    \item La critère du régime classique et quantique 
+    \item Justifier la stabilité des atomes par la relation de Heisenberg 
+    \item Relation de Heisenberg temps-énergie
+
+\end{itemize}
+\end{tcolorbox}
+
+\section{Relation d'incertitude de Heisenberg (Inégalité spectrale)} % (fold)
+\label{sec:Relation d'incertitude de Heisenberg (Inégalité spectrale)}
+
+À chaque instant, on définit 
+\begin{itemize}
+
+    \item l'extension spatial du paquet d'ondes $\Delta x (t) = \sqrt{ \langle x ^{2} \rangle - \langle x \rangle ^{2}}$, adaptée à fonction $\psi(x,t)$
+    \item la largeur en impulsion du même paquet $\Delta p (t) = \sqrt{ \langle p ^{2} \rangle - \langle p \rangle ^{2}}$, adaptée à fonction $\varphi(p,t)$
+
+\end{itemize}
+
+(Par exemple : $\langle x ^{2} \rangle = \int_{}^{} x ^{2} | \psi(x,t) | ^{2} \mathrm{d}x$)
+
+\subsection{Inégalité spectrale} % (fold)
+
+% section Inégalité spectrale (end)
+À chaque instant, elle sont liées par l'\textbf{inégalité spectrale} : 
+\begin{equation}
+  \boxed{\Delta x(t) \times \Delta p(t) \ge \frac{\hbar}{2} }
+\end{equation}
+
+\subsection{Remarques} % (fold)
+\label{sub:Remarques}
+
+% subsection Remarques (end)
+Points à noter :
+\begin{itemize}
+\item Égalité est pris lorsque les la fonction $\psi(x)$ est sous la forme \underline{gaussienne}
+  \begin{equation}
+    \psi(x) \propto \exp \left( - \frac{x ^{2}}{a ^{2}}  \right)
+  \end{equation}
+    \item Relation est relié avec le fait que $[\hat{x}, \hat{p}] \ne 0$. (Voir chapitre suivant) choisissons une autre couple pour que elles sont commutable, donc on n'a aucune borne inférieure non nulle :
+      \begin{equation}
+        \Delta x \Delta p_y \ge 0
+      \end{equation}
+
+    \item À trois dimensions, de la même façon 
+      \begin{equation}
+        \boxed{ \Delta x \times \Delta p_x \ge \frac{\hbar}{2}, \; \Delta y \times \Delta p_y \ge \frac{\hbar}{2} , \Delta z \times \Delta p_z \ge \frac{\hbar}{2} }
+      \end{equation}
+
+    \item Pour les paquest d'ondes relativement bien localisées : En ordre de grandeur, 
+      \begin{equation}
+        \Delta x \times \Delta p \approxeq \hbar
+      \end{equation}
+
+\end{itemize}
+
+Conclusion évident : 
+\begin{itemize}
+
+    \item Plus la position de la particule est connue avec certitude, moins cela est le cas de son impulsion 
+    \item On ne peut connaître avec certitude, la position et l'impulsion de la particule en même temps 
+    \item E.g. Les états parfaitement déterminés en position sont totalement indéterminés en impulsion, elle sont des \textbf{grandeurs incompatibles}
+
+\end{itemize}
+% section Relation d'incertitude de Heisenberg (Inégalité spectrale) (end)
+
+\section{Régime classique et quantique} % (fold)
+
+
+\subsection{Exemple macroscopique} % (fold)
+
+Une goutte d'eau : \textbf{Régime classique}
+\begin{itemize}
+
+    \item On veut que l'indétermination quantique sur la position soit plus faible que $1 \mu\mathrm{m}$. 
+    \item L'incertitude en vitesse est de l'ordre de :
+      \begin{equation}
+        \Delta v = \frac{\Delta p}{ m}  \approx \frac{\hbar}{m \Delta x}  \approxeq 10 ^{-22} \mathrm{m}. \mathrm{s} ^{-1}
+      \end{equation}
+    \item Longueur de de Borglie : 
+      \begin{equation}
+        \lambda = \frac{h}{p}  \ll  \frac{h}{\Delta p} \ll \Delta x \ll L
+      \end{equation}
+    \item La caractère probabiliste est totalement négligée.
+
+\end{itemize}
+% subsection Échelle macroscopqie (end)
+
+\subsection{Exemple microscopique} % (fold)
+\label{sub:Exemple microscopique}
+
+
+Électron : \textbf{Régime quantique}
+\begin{itemize}
+
+    \item $m \approxeq 10 ^{-30} \mathrm{kg}$, dans l'atome d'hydrogène, l'électron est confiné dans une sphère de rayon proche du rayon de Bohr $a_0 = 53 \mathrm{pm}$, et $\Delta x \approx a_0$
+
+    \item Effet quantique importante : 
+      \begin{equation}
+        \Delta v = \frac{\Delta p}{m}  \approx \frac{\hbar}{m \Delta x}  = 2 \times 10 ^{6} \mathrm{m}. \mathrm{s} ^{-1}
+      \end{equation}
+
+    \item Longueur de de Broglie comparable avec la dimension caractéristique du système : 
+      \begin{equation}
+        \frac{p}{m}  \approx \frac{\hbar}{m a_0}  \implies a_0 \approx \lambda = \frac{h}{p} 
+      \end{equation}
+
+
+
+\end{itemize}
+
+% subsection Exemple microscopique (end)
+
+
+% section Exemples (end)
+
+\newpage
+\section{Stabilité des atomes} % (fold)
+Si l'électron tome sur le noyaux : $\Delta x$ très petit, donc $\Delta p$ suffisament grand pour s'échapper.
+
+La relation de Heisenberg permet de montrer que l'énergie de l'atome est nécessairement bornée inférieurement par une valeur non nulle. 
+
+\begin{itemize}
+
+    \item L'énergie totale : Énergie cinétique + Énergie potentielle électrostatique 
+      \begin{equation}
+        E = \frac{p ^{2}}{2m}  - \frac{e ^{2}}{4 \pi \varepsilon_0 r} 
+      \end{equation}
+
+    \item Modèle : un état possédant la symétrie : (Symétrie sphérique impose $\langle p_x \rangle= \langle x \rangle = 0$)
+      \begin{equation}
+        \langle p ^{2} \rangle = \langle p_x ^{2}\rangle + \langle p_y ^{2} \rangle + \langle p_z ^{2} \rangle = 3 \langle p_x ^{2} \rangle = 3 \Delta p_x ^{2},\; \langle r ^{2} \rangle = 3 \Delta x ^{2}
+      \end{equation}
+
+
+    \item On admet que, en ordre de grandeur : 
+      \begin{equation}
+        \langle \frac{1}{r}   \rangle = \langle r ^{2} \rangle ^{-1 /2} 
+      \end{equation}
+
+    \item Nous aurons donc 
+      \begin{align}
+        \langle E \rangle &= \frac{3 \Delta p _x ^{2}}{2m}  - \frac{
+          e ^{2}
+        }{4 \pi \varepsilon_0 \sqrt{3} \Delta x} \\ 
+                          &\ge \frac{3 \Delta p_x ^{2}}{2m}  - \frac{e ^{2} \Delta p_x}{4 \pi \varepsilon_0 \sqrt{3} \hbar}  = E _{min,H}( \Delta p_x)
+      \end{align}
+
+    \item En fonction de $\Delta p_x$, la valeur moyenne de l'énergie passe par un minimum tel que 
+      \begin{equation}
+        \frac{\mathrm{d} E _{min, H}}{\mathrm{d} \Delta p_x}  = \frac{3 \Delta p _{x, min}}{m}  - \frac{2 e ^{2}}{ 4 \pi \varepsilon_0 \sqrt{3} \hbar}  \approxeq 1,3 a_0
+      \end{equation}
+      avec $a_0 = \frac{\hbar ^{2} \times 4 \pi \varepsilon_0}{ m e ^{2}}$ \textbf{le rayon de Bohr}
+
+    \item L'énergie minimale possible est 
+      \begin{equation}
+        E_0 = - \frac{4}{18} \frac{\hbar ^{2}}{ma_0 ^{2}} = - \frac{4}{9} R_H
+      \end{equation}
+      où $R_H$ la \textbf{constante de Rydberg} $= 13,6 \mathrm{eV}$
+\end{itemize}
+
+% subsection Stabilité des atomes (end)
+
+\newpage
+\section{Relation de Heisenberg temps-énergie} % (fold)
+\label{sec:Relation de Heisenberg temps-énergie}
+
+Comme onn peut réaliser une transformation de Fourier en temps de la fonction d'onde : 
+\begin{equation}
+  \psi(x,t) = \frac{1}{\sqrt{2 \pi \hbar}}  \int_{- \infty}^{+ \infty} \underline{\psi}(x,E) \exp \left( - \frac{iEt}{\hbar}  \right) \mathrm{d}E \underset{T.F.}{\iff}
+\underline{\psi}(x,E) = \frac{1}{\sqrt{2 \pi \hbar}}  \int_{- \infty}^{+ \infty}  \psi    (x,t) \exp \left(  \frac{iEt}{\hbar}  \right) \mathrm{d}t \end{equation}
+% section Relation de Heisenberg temps-énergie (end)
+
+L'inégalité conduit alors 
+\begin{equation}
+  \Delta E \times \Delta t \ge \frac{\hbar}{2} 
+\end{equation}
+
+Conclusion : La durée de vie est infinie (ou une énergie est connue), si l'atome est dans un niveau stationnaire.
+
+On observe des \textbf{niveau fondamental}, comme seuls les niveaux ne pouvant pas se désexciter radiativement ont une énergie \underline{parfaitement définie}. Sinon 
+\begin{equation}
+  \Delta E \approx \frac{\hbar}{\tau} 
+\end{equation}
+
+% chapter Relation de Heisenberg (end)

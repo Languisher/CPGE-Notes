@@ -1,0 +1,221 @@
+\begin{question}{Réunion des parties connexes par arcs et connexes}{}
+
+Soient $\left(C_i\right)_{i\in I}$ des parties non vides de $E$ telles que
+$$\bigcap_{i\in I} C_i\ne\emptyset$$
+\begin{enumerate}
+
+    \item On suppose que tous les $C_i$ sont connexes par arcs, montrer que
+$$\bigcup_{i\in I} C_i \text{ est connexe par arcs}$$
+\item
+On suppose que les $C_i$ sont seulement connexes (et non plus connexes par arcs) de $(E,d)$ espace métrique, montrer que
+$$\bigcup_{i\in I} C_i \text{ est connexe}$$
+\end{enumerate}
+\end{question}
+
+\begin{myproof}
+\begin{enumerate}
+    \item Connexité par arcs 
+
+      Soit $a\in\bigcap_{i\in I} C_i$ et $(x,y)\in\left(\bigcup_{i\in I} C_i\right)^2$, il existe alors $(j,k)\in I^2$ tels que $x\in C_j$ et $y\in C_k$. Mais, comme ils sont connexes par arcs, il existe un chemin $\varphi$ dans $C_j$ reliant $x$ à $a$ et un chemin $\psi$ dans $C_k$ reliant $a$ à $y$. En ce cas, le chemin
+$$\theta\;:\left[\begin{array}{ccc} [0,1]&\longrightarrow&\bigcup_{i\in I} C_i \\ t&\longmapsto& \begin{cases} \varphi(2\,t)&\text{si } t\in[0,1/2]\\ \psi(2\,t-1)&\text{si } t\in[1/2,1]\end{cases}\end{array}\right.$$
+
+est un chemin reliant $x$ à $y$ dans $\bigcup_{i\in I} C_i$. Ce qui montre que $\bigcup_{i\in I} C_i$ est connexe par arcs.
+    \item Connexité
+
+Soit $a\in\bigcap_{i\in I} C_i$ et $B$ un ouvert, fermé, non vide de $\bigcup_{i\in I} C_i$. Soit $j\in I$ tel que $B\cap C_j\ne\emptyset$, alors $B\cap C_j$ est un ouvert, fermé, non vide de $C_j$ qui est connexe, c'est donc tout $C_j$. En particulier $a\in B$, donc, pour tout $i\in I$, $B\cap C_i\ne\emptyset$ et, par le même argument, $B\cap C_i=C_i$. Finalement
+$$B=\bigcup_{i\in I} \left(B\cap C_i\right)=\bigcup_{i\in I} C_i$$
+\end{enumerate}
+\end{myproof}
+
+\begin{question}{}{}
+On considère le sous-ensemble de $\mathbb{R}^2$ suivant :
+$$A = \left\{\left(\frac{1}{n},y\right),\, n\in\mathbb{N}^*,y\in[0,1]\right\} \cup \left([0,1]\times\{0\} \right)\cup\{(0,1)\}.$$
+
+\begin{enumerate}
+
+    \item Montrer que $A$ est connexe.
+    \item Montrer que $A$ n'est pas connexe par arc.
+
+\end{enumerate}
+
+\end{question}
+
+\begin{myproof}{}{}
+\begin{enumerate}
+
+    \item Montrons que $A$ est connexe.
+
+Pour cela, il suffit de montrer que tout fonction $f:A\to \{0,1\}$ continue sur $A$ est constante (Remarque 1.52 dans le cours).
+
+Soit $f$ une telle fonction. Notons
+$$B=  \left\{\left(\frac{1}{n},y\right),\, n\in\mathbb{N}^*,y\in[0,1]\right\} \cup \left([0,1]\times\{0\} \right).$$
+
+Alors, $B$ est connexe par arc, donc connexe, et $f$ est continue sur $B$.
+
+D'où $f$ est constante sur $B$.
+
+De plus, $f$ est continue en $(0,1)$ donc, pour tout $\varepsilon>0$, il existe $\eta > 0$ tel que, pour tout $(x,y) \in A$,
+$$\|(x,y)-(0,1)\|\leq \eta \,\,\, \Longrightarrow \,\,\, |f(x,y) - f(0,1)| \leq \varepsilon.$$
+
+Or, en prenant $\varepsilon=1/2$ et $n_0\in\mathbb{N}^*$ tel que $1/n_0<\eta$, il vient 
+$$\left|f\left(\frac{1}{n_0},1\right) - f(0,1)\right|  \leq \frac{1}{2}.$$
+
+Or $f$ est à valeurs dans $\{0,1\}$, donc $f(1/n_0,1) = f(0,1)$ .
+
+Ainsi, comme est constante sur $B$ et que $(1/n_0,1)\in B$, $f$ est constante sur $A=B\cup\{(0,1)\}$.
+
+$A$ est connexe.
+
+\item Montrons que $A$ n'est pas connexe par arc.
+
+Par l'absurde, si $A$ est connexe par arc, alors il existe une fonction $\varphi \in \mathcal{C}([0,1],A)$ telle que :
+$$\varphi(0)= (0,1) \,\,\text{et}\,\, \varphi(1) = (1,0).$$
+On écrit, pour tout $t\in[0,1]$,
+$$\varphi(t)= (x(t),y(t)).$$
+
+Comme $\varphi$ est continue sur $[0,1]$, $x$ et $y$ le sont aussi.
+
+De plus, l'ensemble $\{t\in[0,1],x(t)=0\}$ est non vide (car $x(0)=0$) et borné, donc 
+$$\alpha = \sup\{t\in[0,1],\, x(t)=0\}$$
+existe.
+
+De plus, $\alpha\neq 1$, car $x(1)\neq 0$ et $x$ est continue sur $[0,1]$.
+
+\underline{Le fait que $\alpha<1$ va entraîner une contradiction.}
+
+La continuité de $x$ et la définition de $\alpha$ donnent,
+$$\forall t\in[0,\alpha]\, \, x(t)=0.$$
+Or, pour tout $t\in[0,\alpha]$, la point $\varphi(t) \in A$, donc $y(t)=0$ ou $y(t)=1$.
+Comme $[0,\alpha]$ est connexe, on en déduit que $y$ est constante sur $[0,\alpha]$ et comme $y(0)=1$, on a :
+$$\forall t\in[0,\alpha]\, \, y(t)=1.$$
+De plus, la continuité de $\varphi$ en $\alpha$ entraîne que : il existe $\eta>0$ tel que, pour tout $t\in[\alpha, \alpha+\eta[$,
+$$\left\|\varphi(t) - \varphi(\alpha)\right\|_{\infty} \leq \frac{1}{2}.$$
+\underline{On pouvait prendre n'importe qu'elle norme sur $\mathbb{R}^2$, elle sont toutes équivalentes (dimension finie).}
+
+D'où, comme  $\varphi(\alpha) = (0,1)$, on en déduit que : pour tout $t\in[\alpha, \alpha+\eta[$,
+$$0\leq x(t) \leq  \frac{1}{2} \,\,\text{et}\,\, y(t) \geq 1-\frac{1}{2}=\frac{1}{2}.$$
+Or, montrons que ceci implique que $\forall t \in [\alpha, \alpha+\eta[$, $x(t)=0$.
+\begin{itemize}
+
+    \item En effet, sinon, il existe $s\in [\alpha, \alpha+\eta[$ tel que $x(s) >0$, par le théorème des valeurs intermédiaires, on en déduit que $[0,x(s)]\subset x([\alpha, s])$.
+    \item En particulier, il existe $u \in [\alpha, s]$ tel que, pour tout $n\in\mathbb{N}^*$, $x(u)\neq 1/n$. 
+    \item Comme le point $\varphi(u) =(x(u),y(u)) \in A$, on en déduit que $y(u)=0$, ce qui est impossible car $y(u) \geq 1/2$.
+
+\end{itemize}
+    
+Donc,
+$$\forall t \in [\alpha, \alpha+\eta[, \,x(t)=0.$$
+Or, ceci contredit la définition de $\alpha$ !
+Ainsi, $A$ n'est pas connexe par arc.
+
+\end{enumerate}
+\end{myproof}
+
+
+
+\begin{question}{}{}
+Dans $\mathrm{M} _n(\mathbb{R} )$, avec $n > 3$, les ensembles 
+ \[
+     \Delta_1 = \{M \in \mathrm{M} _n(\mathbb{R} ), \mathrm{rg}(M) \le 2 \},\;\Delta_2 = \{M \in \mathrm{M} _n(\mathbb{R} ),\; \mathrm{rg} (M) > 2\}
+\]
+sont connexes.
+
+\end{question}
+
+\begin{myproof}
+\begin{itemize}
+    \item Pour $\Delta_1$, si $M \in \Delta_1$ , $\Delta_1$ est l'étoile de centre  $0_{\mathrm{M} _{n(\mathbb{R} )}}$, chemin :
+        \begin{align*}
+            \gamma : [0,1] &\to  \mathrm{M} _n(\mathbb{R} ) \\
+            M &\mapsto (1-t).M
+        \end{align*}
+        
+    \item Si $M \in \Delta_2$,
+        \begin{itemize}
+            \item On cherche un chemin de $M$ à  $M_1 \in \mathrm{GL} _n(\mathbb{R} )$, $\det (M_1) \ne 0$.
+             \begin{align*}
+                 \gamma_1 : [0,1] &\to \mathrm{GL}_n(\mathbb{R)} ) \\
+                 M &\mapsto M + t.I_n,\; \det(M + I_n) \ne 0 \text{ avec } t \ne 0
+            \end{align*}
+
+        \item Chemin reliant $M_1$ à $\pm I_n$, on a déjà expliqué  $\gamma$ 
+        \item $-I_n$ à $I_n$ :
+            \begin{align*}
+                \gamma_3 : [0,1] &\to  \mathrm{M} _n(\mathbb{R} ) \\
+                M &\mapsto M + 2t.I_n
+            \end{align*}
+            
+        \end{itemize}
+\end{itemize}
+\end{myproof}
+\begin{question}{}{}
+Une boule ouverte est-elle toujours connexe dans $(E,d)$, resp. $(E,N)$ ?
+\end{question}
+\begin{myproof}
+    \begin{itemize}
+        \item Non pour $(E,d)$. Contre-exemple : Une boule dans $\mathbb{R} $, $\mathrm{BO} _{\mathbb{R} }( \frac{1}{2} ,1 ) = ]- 1 / 2, 3 / 2[$ dans $A = [0, 1 [ \cup ]1, 2]$,  $\mathrm{BO} _A ( 1 / 2 , 1 ) = [0, 1 [ \cup ]1, 3 / 2]$
+        \item Oui pour $(E, N)$, car convexe.
+    \end{itemize}
+    
+\begin{note}
+$(E,d)$ se comporte TRÈS différemment d'un  $(E,N)$.
+\end{note}
+\end{myproof}
+
+\begin{question}{}{}
+Soit $(E,N)$ un $\mathbb{R}$-espace vectoriel normé et $f\in E^\star$, une forme linéaire non nulle sur $E$. Montrer que
+$$\left[E\setminus\mathrm{Ker}(f)\text{ connexe par arcs}\right]\iff\left[f\text{ n'est pas continue}\right]$$
+\end{question}
+
+\begin{myproof}{}{}
+\begin{itemize}
+
+    \item $(\Longrightarrow)$
+
+Par contraposition, supposons $f$ continue, alors $\mathrm{Ker}(f)$ est fermé dans $E$ et on a les deux composantes connexes par arcs évidentes de $E\setminus\mathrm{Ker}(f)$
+1. $C_1=\left\{x\in E,\; f(x)>0\right\}$
+1. $C_2=\left\{x\in E,\; f(x)<0\right\}$
+
+Ce sont des ouverts convexes. Pour passer de l'une à l'autre, la continuité de $f$ et le théorème des valeurs intermédiaires nous oblige à passer par $\mathrm{Ker}(f)$. En effet, soit $x\in C_1$, $y\in C_2$ et $\varphi$ un chemin de $x$ à $y$, alors $f\circ\varphi$ est continue sur $[0,1]$ et vérifie $\varphi(0)>0$ et $\varphi(1)<0$, il existe donc un $t\in]0,1[$, tel que $f\circ\varphi(t)=0$, ce qui exprime que $\varphi(t)\in\mathrm{Ker}(f)$.
+
+\item $(\Longleftarrow)$
+
+D'après la proposition 1.28, page 65 du cours de topologie, $\mathrm{Ker}(f)$ n'est pas fermé et, comme c'est un hyperplan, il est dense dans $E$. Soit $(x,y)\in \left(E\setminus\mathrm{Ker}(f)\right)^2$, alors 
+1. si $y-x=h\in\mathrm{Ker}(f)$, le chemin 
+$$t\longmapsto x+t.h$$
+relie $x$ à $y$ dans $E\setminus\mathrm{Ker}(f)$ ;
+1. si $y-x=\delta\notin\mathrm{Ker}(f)$, on sait qu'il existe une suite $\left(h_n\right)_{n\in\mathbb{N}}\in \mathrm{Ker}(f)^\mathbb{N}$ qui converge vers $\delta$, on a donc un chemin dans $\mathrm{Ker}(f)$, défini par (écrire la formule exacte)
+$$\forall n\in\mathbb{N},\; \varphi\left(\sum_{k=1}^n \frac{1}{2^k}\right)=h_n$$
+reliant $0_{_E}$ à $\delta$, tout en restant dans $\mathrm{Ker}(f)$ (sauf en $\delta$). En ce cas le chemin défini par
+$$t\longmapsto x+\varphi(t)$$
+relie $x$ à $y$ dans $E\setminus\mathrm{Ker}(f)$. Ce qui montre que $E\setminus\mathrm{Ker}(f)$ est connexe par arcs.
+
+\end{itemize}
+\end{myproof}
+
+\begin{question}{}{}
+Soit $E$ un espace vectoriél normé, et $F$ un fermé dont la frontière $\text{Fr}(F)$ est connexe par arcs dans $E$. Montrer que $F$ est connexe par arcs.
+\end{question}
+
+\begin{myproof}{}{}
+Si $F=E$, alors $F$ est connexe par arcs. Supposons désormais $F \subsetneq E$.
+Remarquons que, $F$ étant fermé, on a $\text{Fr}(F) = F \backslash \mathring{F}$. En particulier, $\text{Fr}(F)$ est inclus dans $F$.
+
+Nous considerons maintenant aux composantes connexes par arcs de $F$. Comme $\text{Fr}(F)$ est connexe par arcs et inclus dans $F$, tous les points de $\text{Fr}(F)$ appartiennent à la même composante connexe par arcs de $F$. Par transitivité, il nous suffit donc de montrer que tous les autres points de $F$, c'est-à-dire ceux de $\mathring{F}$, appartiennent à la même composante par arcs que ceux de $\text{Fr}(F)$. Concrètement, montrons que tout point de $\mathring{F}$ est relié, par un chemin à valeurs dans $F$, à un point de $\text{Fr}(F)$.
+
+Soit $x\in\mathring{F}$. Prenons $y\in E\backslash F$ (un tel $y$ existe car $F \subsetneq E$). Soit $\gamma:[0,1]\to E$ une application continue vérifiant $\gamma(0)=x$ et $\gamma(1)=y$ (une telle application existe car l'espace $E$ est connexe par arcs). Posons 
+$$c=\inf\{t\in[0,1],\gamma(t)\notin F\}.$$
+Le réel $c$ est bien défini car l'ensemble
+$$\{t\in[0,1], \gamma(t)\notin F\}$$
+est non vide (il contient $1$) et minoré.
+
+Si l'on montre que $\gamma(c)\in\text{Fr}(F)$, c'est terminé car alors la restriction de $\gamma$ à l'intervalle $[0,t_0]$ constituera un chemin de $F$ reliant $x$ à un point de $\text{Fr}(F)$. Montrer que $\gamma(c)\in\text{Fr}(F)$ revient à montrer que
+$$\gamma(c)\in\bar{F}\bigcap\overline{E\backslash F}.$$
+- Tout d'abord, par définition de $c$ comme borne inférieure, on peut trouver une suite $(t_n)$ à valeurs dans $[c,1]$ tendant vers $c$ telle que $$\forall n\in \mathbb{N},\, \gamma(t_n)\notin F.$$ Comme $\gamma$ est continue, on a $\gamma(t_n)\to\gamma(c)$, ce qui montre que $\gamma(c)\in \overline{E\backslash F}$.
+- Étant donné que $\gamma(c)\in \overline{E\backslash F}$ et que $x=\gamma(0)\in \mathring{F}$, on est assuré que $c>0$. Soit $(t_n)$ une suite à valeurs dans $[0,c[$ tendant vers $c$. Alors la suite $(\gamma(t_n))$ est à valeurs dans $F$ et, par continuité de $\gamma$, tend vers $\gamma(c)$. On a donc $\gamma(c)\in\bar{F}$.
+\end{myproof}
+
+
+
+
+

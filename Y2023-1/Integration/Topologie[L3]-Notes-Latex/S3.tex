@@ -1,0 +1,160 @@
+\section{Théorèmes}
+
+Caractérisation séquentielle des application continues. 
+
+\begin{Prop}{Image par application continue ou uniformément continue d'une suite de Cauchy}{}
+  Soit $f : (E,d) \to (E', d')$ une fonction. Si $f$ est \underline{uniformément continue}, alors, si $(x_n)_{n \in \mathbb{N}} \in E ^{ \mathbb{N}}$ est une suite de Cauchy, alors :
+\begin{center}
+  $(f(x_n))_{n \in \mathbb{N}}$ est une suite de Cauchy de $E'$
+\end{center}
+
+Mais, si $f$ est seulement continue, l'image par $f$ d'une suite de Cauchy n'est pas nécessairement une suite de Cauchy.
+\end{Prop}
+
+\subsection{Théorème de Point Fixe}
+\begin{Theorem}{\color{red} Point fixe}{}
+  Soit $(E, d)$ un espace complet et $f$ une application de $E$ dans $E$ \underline{contractante}, alors : 
+\center 
+il existe un unique \textit{point fixe} de $f$ sur $E$.
+\[
+  \forall (x, y) \in E ^{2}, d(f(x),f(y)) \le k d(x, y) \implies \exists ! a \in E,\; f(a) =a
+\]
+\end{Theorem}
+
+Cela aussi implique que, pour tout $a \in E$, la suite $(u_n)_{n\in \mathbb{N}}$ définie par $u_0=a,\; \forall n \in \mathbb{N}, \; u _{n+1} = f(u_n)$ vérifie $u_n\underset{n \to + \infty}{\longrightarrow} \alpha$.
+
+Ce théorème nous donne : 
+
+\begin{itemize}
+    \item L'existence de $\alpha \implies$ permettre d'assurer que certains objets qui nous interessent ont un sens.
+    \item un algorithme pour calculer $\alpha \implies$ dans suites et séries, résoudre des équations $g(x)=0$ où $g$ continue.
+\end{itemize}
+
+\begin{myproof}{}{}
+
+Soit $u_0 = a$, $u _{n+1} = f(u_n)$, on va montrer que cette suite est de Cauchy.
+
+Soit $(p,q) \in \mathbb{N} ^{2}$, $q>p$, 
+\begin{align*}
+  d(u_p, u_q) &\le \sum_{j=p}^{q-1} d(u_j, u _{j+1}) \quad \text{ Inégalités triangulaires } \\
+              &\le \left( \sum_{j=p}^{q-1} k ^{j}\right) . d(u_0, u_1)\\
+              &\le \frac{k ^{p}}{1-k} d(u_0, u_1)  \underset{p \to + \infty}{\longrightarrow} 0
+\end{align*}
+
+Donc $(u_n)_{n\in \mathbb{N}}$ de Cauchy dans $E$, elle converge vers $\alpha(a)\in E$. Comme $f$ est continue, $f(u_n)  \underset{n \to + \infty}{\longrightarrow} f(\alpha(a))$, donc en passant à la limite dans la relation : $u _{n+1} = f(u_n)$ que $\alpha(a) = f(\alpha(a))$, $\alpha(a)$ est un point fixe. 
+
+\end{myproof}
+
+Utilisation : On veut montrer l'existence d'un objet mathématique $\implies$ On transforme le problème d'existence en la recherche d'un point fixe pour une fonction contractrante dans un espace complet.
+
+\begin{Example}{}{}
+On cherche à montrer l'existance d'une solution de l'équation différentielle :
+\[
+\begin{cases}
+    y' = \psi (x, y) \\
+    y(x_0) = y_0
+  \end{cases} \text{ où } \psi : \theta \subset \mathbb{R}^{2} \to \mathbb{R} \text{ continue }
+\]
+\end{Example}
+
+\begin{myproof}{}{}
+Si $\varphi$ est une solution, c'est-à-dire : $\begin{cases}
+  \varphi'(x) = \psi(x, \varphi(x)) \\ \varphi(x_0) = y_0
+\end{cases}$ alors pour tout $x \in D_f( \varphi)$, 
+\[
+  \varphi(x) = \varphi(x_0) + \displaystyle\int_{x_0}^{x} \psi(t, \varphi(t)) \mathrm{d}t
+\]
+$\varphi$ est un point fixe de l'application $f : \varphi \mapsto \left(x \mapsto y_0+ \int_{x_0}^{x}\psi(t, \varphi(t) )\mathrm{d}t \right)$.
+
+Sous l'hypothèse $\psi$ de classe $\varphi ^{1}$, on peut trouver $\mathcal{V}_{x_0}$ voisinage de $x_0$, et un $E = \{g \in \mathcal{C}( \mathcal{V} _{x_0}, \mathbb{R}), g(x_0)=y_0\}$
+
+
+Si on prend $V _{x_0}$ assez petit, on montre que $f$ est contractante, donc il existe un unique point fixe $\varphi_0$ et $\forall x \in \mathcal{V}_{x_0}$, $\varphi_0(x) = y_0 + \int _{x_0} ^{x} \psi (t, \varphi_0(t)) \mathrm{d}t$.
+
+D'après TFA, on a trouvé une solution avec $\varphi_0 \in \mathcal{C}^{1}$
+\end{myproof}
+
+\subsection{Prolongement des applications uniformémemnt continues}
+
+\begin{Prop}{Prolongement des applications uniformémemnts continues}{}
+  Soit $(E, d)$ et $(E', d')$ deux espaces métriques, tels que $E'$ est \textit{complet}, soit $A \subset E$, pour une fonction \textit{uniformément continue}, il existe une unique fonction définie et \textit{continue} sur $\bar{A}$ telle que $\forall a \in A, \widetilde{f} = f$. 
+
+  On l'appelle \textbf{prolongement} de $f$ à $\overline{A}$. 
+
+  De plus $\widetilde{f}$ est \textit{uniformément continue} sur $\overline{A}$.
+  
+\[
+  f: A \to E' \text{ uniformément continue } \implies \widetilde{f} : \overline{A} \to E' \text{ uniformément continue }
+\]
+\end{Prop}
+
+
+Remarque : 
+\begin{itemize}
+
+    \item Une application continue envoie une suite convergente sur une suite convergente (caractérisation séquentielle de la continuité)
+
+    \item Une application \textit{uniformémemnt continue} envoie une suite de Cauchy sur une suite de Cauchy.
+
+\end{itemize}
+
+\begin{Example}{Prolongements utiles}{}
+\begin{itemize}
+
+  \item Fonction réelle : Soit $f : ]a, b[ \to \mathbb{R}$ uniformément continue, alors $f$ est continue en $a ^{+}$. 
+  \item L'intégrale sur les fonctions \textit{continues par morceaux} sur $[a, b]$ à valeurs dans $\mathbb{K}$ est \textit{uniformément continue} comme elle est linéaire et lipschitizienne en 0 : 
+    \[
+      \Psi : \begin{cases}
+        \mathscr{C} ^{0}_{pm} ([a,b], \mathbb{K}), \| . \| _{\infty, [a,b]} \to \mathbb{K} \\ 
+        f \mapsto \int_a ^{b} f(t) \mathrm{d} t
+      \end{cases}
+    \]
+    Elle peut se prolonger à l'adhérence de $\mathscr{C} _{pm} ^{0} ([a,b], \mathbb{K})$ pour la norme $\| . \|_{\infty, [a,b]}$ dans $\mathcal{F}([a,b], \mathbb{K})$.
+
+\end{itemize}
+\end{Example}
+
+\begin{Theorem}{Segments emboîtés (déjà vu)}{}
+  Soit $I_n = [a_n,b_n]$, $\forall n \in \mathbb{N}, a_n \le b_n$, alors 
+  \[
+    \bigcap _{n \in \mathbb{N}} I_n \ne \emptyset
+  \]
+  de plus si  $b_n - a_n  \underset{n \to + \infty}{\longrightarrow} 0$, il existe un $\alpha \in \mathbb{R}$, $\bigcap _{n \in \mathbb{N}} I_n = \{ \alpha \}$
+\end{Theorem}
+
+
+\begin{Theorem}{Fermé emboîtés (complète)}{}
+  Soit $(E, d)$ un espace complet, $(F_n) _{n\in \mathbb{N}}$ des \underline{fermés} non vides de $E$ tels que 
+\[
+  \mathrm{diam}(F_n)  \underset{n \to + \infty}{\longrightarrow}  0 \text{ et } \forall n \in \mathbb{N},\; F _{n+1} \subset F_n
+\]
+Alors 
+\[
+  \exists ! \alpha \in E, \bigcap _{n \in \mathbb{N}} F_n = \{ \alpha\}
+\]
+\end{Theorem}
+
+\begin{myproof}{}{}
+\begin{itemize}
+
+    \item Existence : 
+Soit $(x_n) _{n \in \mathbb{N}}$ définie par $\forall n \in \mathbb{N}$, $x_n \in F_n$. 
+
+Cette suite est de Cauchy car pour tout $p, q$, $d(x_p,x_q) \le \mathrm{diam}(F_q)  \underset{q \to + \infty}{\longrightarrow} 0$
+
+Cette suite converge donc vers un élément $\alpha \in E$. De plus, pour $p \in \mathbb{N}$, comme $(x_n) _{n \in \mathbb{N}, n \ge p } \in F_p ^{\mathbb{N}}$ et que $F_p$ est fermé dans $E$, $\alpha \in F_p$
+
+\item Unicité : Évidente d'après la propriété du diamètre.
+
+\end{itemize}
+\end{myproof}
+
+
+
+\begin{Theorem}{Baire}{}
+Si $(E,d)$, alors : $\forall (O_n) _{n \in \mathbb{N}}$ ouverts denses de $E$, $$\overline{ \bigcap _{n \in \mathbb{N} O_n}} = E$$
+\end{Theorem}
+
+C'est un théorème très puissant conduisant à des résultats surprenants.
+
+

@@ -1,5 +1,4 @@
-> Date : 2023-03-01 Matériaux : [[Thermochimie_Cours_CH1_Partie3-3.pdf]]
-
+#Cinétique-Chimie 
 ## Notions fondamentales 
 Une équation bilan ne donne aucune information sur les mécanismes microscopiques qui se déroulent par étapes (selon le nombre de réactifs impliqués) appelés actes élémentaires.
 

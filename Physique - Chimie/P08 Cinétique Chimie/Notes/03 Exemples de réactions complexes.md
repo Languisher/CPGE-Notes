@@ -1,7 +1,8 @@
+#Cinétique-Chimie 
 > Date : 2023-03-01 Matériaux : [[Assets/Thermochimie_Cours_CH1_Partie3.pdf]]
 
 ## Deux Réaction successives d'ordre 1
-![[Assets/Drawing 2023-03-01 08.13.58.excalidraw]]
+
 avec $v_{1}=k_{1}[A], \; v_{2}=k_{2}[B]$
 Alors, les trois équations : $$\begin{align}
 [A] &=[A]_{0}\cdot e^{-k_{1}t } \to 0 \\

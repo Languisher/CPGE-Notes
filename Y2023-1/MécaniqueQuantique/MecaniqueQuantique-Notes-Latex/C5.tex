@@ -1,0 +1,204 @@
+\chapter{Mécanique ondulatoire} % (fold)
+\label{chap:Mécanique ondulatoire}
+
+\section{Équation de Schrödinger} % (fold)
+
+\begin{tcolorbox}
+Équation de Schrödinger
+\begin{itemize}
+
+    \item Équation de Schrödinger dépendante du temps : en 3D et 1D 
+    \item Conservation de la norme 
+    \item Équation de Schrödinger indépendante du temps : condition et forme — État stationnaire 
+    \item Courant de probabilité et équation de continuité
+
+\end{itemize}
+\end{tcolorbox}
+
+\begin{note}{}{}
+L'expérience du \textbf{Principe fondamentale dynamique} démontre que 
+\begin{itemize}
+
+    \item Pour un système de $N$ particule : 
+      \begin{equation}
+        \overrightarrow{F_i} = \overrightarrow{\nabla} V_i = m_i \frac{\mathrm{d} ^{2} \overrightarrow{r_i}}{\mathrm{d} t ^{2}} 
+      \end{equation}
+
+    \item Équation d'évolution est une équation différentielle de l'ordre 2. Si on connaît les \underline{positions initiales} et les \underline{vitesses initiales}, on connâit l'évolution temporelle du système.
+
+\end{itemize}
+
+Le système quantique est décrit par la fonction d'onde, et l'équation d'évolution est équation différentielle d'ordre 1.
+\end{note}
+
+\subsection{Forme générale} % (fold)
+
+\subsubsection{Équation de Schrödinger 3D et 1D} % (fold)
+
+\begin{Theorem}{Équation de Schrödinger}{}
+On pose $V(M,t)$ (réelle) la \underline{énergie potentielle} dépendant éventuellement du temps.
+Le postulat fondamental : la fonction d'onde vérfie
+\begin{equation}
+  - \frac{\hbar ^{2}}{2m}  \Delta \psi(M,t) + V(M,t) \psi(M,t) = i \hbar \frac{\partial \psi}{\partial t} (M,t)
+\end{equation}
+
+Dans le cas 1D : 
+\begin{equation}
+  - \frac{\hbar ^{2}}{2m}  \frac{\partial  ^{2} \psi(x,t)}{\partial x ^{2}}  + V(x,t) \psi(x,t) = i \hbar \frac{\partial \psi}{\partial t} (x,t)
+\end{equation}
+\end{Theorem}
+
+Rappel : Dans la partie \ref{sub: Application en mécanique}, on a déjà vu que : 
+\begin{equation}
+  E_m = \frac{ \| \overrightarrow{p} \| ^{2}}{2m} + V(x,t)\to \hat{H} = - \frac{\hbar ^{2}}{2m} \Delta + \hat{V}(M,t)
+\end{equation}
+
+\begin{Theorem}{}{}
+Avec l'\textbf{opérateur hamiltonien} 
+\begin{equation}
+  \hat{H} = - \frac{\hbar ^{2}}{2m}  \frac{\partial ^{2}}{\partial x ^{2}}  + V(x,t)
+\end{equation}
+
+On obtient 
+\begin{equation}
+  \hat{H} \psi = i \hbar \frac{\partial \psi}{\partial t} 
+\end{equation}
+\end{Theorem}
+
+
+\subsection{Propriétés} % (fold)
+
+% section Propriété (end)
+
+
+\subsubsection{Linéarité} % (fold)
+\label{sub:Linéarité}
+
+Elle est compatible avec le \textbf{principe de superpostion} : Si $\psi_1$ et $\psi_2$ sont des solutions, alors toute combinaison linéaire est également solution.
+% subsection Linéarité (end)
+
+\subsubsection{Conservation de la norme} % (fold)
+\label{sub:Conservation de la norme}
+
+\begin{Theorem}{}{}
+Une fonction $\psi(M,t)$ vérifiant l'équation de Schrödinger garde une norme constante.
+\end{Theorem}
+
+\begin{myproof}{}{}
+  Posons 
+  \begin{equation}
+    N(t) = \int_{- \infty}^{+ \infty} | \psi(x,t) | ^{2} \mathrm{d} x = \int_{- \infty}^{ + \infty} \psi ^{*}(x,t) \psi(x,t)\mathrm{d}x
+  \end{equation}
+
+  Donc, 
+  \begin{align}
+    \frac{\mathrm{d}N}{\mathrm{d}t} &= \int_{- \infty}^{+ \infty} \frac{\partial \psi ^{*}}{\partial t} \psi \mathrm{d} x + \int_{- \infty}^{+ \infty} \psi ^{*} \frac{\partial \psi}{\partial t} \mathrm{d}x \\ 
+                                    &= 2 \mathrm{Re}\left( \int_{- \infty}^{+ \infty} \frac{\partial  \psi ^{*}}{\partial t} \psi \mathrm{d}x \right) \quad (1 ^{*} = 2,\; \text{utiliser 2D coor.})
+                                \\ &= 2 \mathrm{Re} \left( \int_{- \infty}^{+ \infty} \frac{
+                                        i
+                                    }{\hbar} \left( - \frac{\hbar ^{2}}{2m} \frac{\partial ^{2} \psi ^{*}}{\partial x ^{2}} + V(x,t) \psi ^{*} \right) \psi \mathrm{d}x \right) \\ 
+                                    &= - \frac{\hbar}{m} \mathrm{Re} \left( i \int_{- \infty}^{+ \infty} \left( \frac{\partial ^{2}\psi ^{*}}{\partial x ^{2}}  \right) \psi \mathrm{d}x \right)\; (V(x,t) \text{ disparaît car la partie imag. pur}) \\ 
+                                    &=  - \frac{\hbar}{m} \mathrm{Re} \left( i \times \left[ \psi \frac{\partial \psi ^{*}}{\partial x}  \right]_{- \infty} ^{+ \infty} - i \times \int_{- \infty}^{+ \infty} | \frac{\partial \psi}{\partial x} | ^{2}\mathrm{d}x \right) \;(\text{IPP})
+  \end{align}
+
+  La première terme est nulle car la fonction d'onde et ses dérivées sont dominées par des fonctions intégrables, donc nécessairement tendent vers 0 à l'infini.
+
+  La deuxième terme est nulle car c'est la partie imaginaire. 
+
+  Enfin, 
+  \begin{equation}
+    \frac{\mathrm{d}N}{\mathrm{d}t}  = 0
+  \end{equation}
+\end{myproof}
+
+
+\subsubsection{Justification d'une onde de de Broglie} % (fold)
+\label{sub:Justification d'une onde de de Broglie}
+Pour une \underline{particule libre} ($V=0$) : 
+\begin{equation}
+  \psi = A \exp \frac{i}{\hbar}  (p x -Et)
+\end{equation}
+
+Nous avons 
+\begin{equation}
+  i \hbar \frac{\partial \psi}{\partial t} E \psi, \; - \frac{\hbar ^{2}}{2m} \frac{\partial ^{2}\psi}{\partial x ^{2}}  = \frac{p ^{2}}{2m}  \psi
+\end{equation}
+
+Les ondes de de Broglie vérifient dans le mesure où l'énergie de la particule est donné par
+\begin{equation}
+  E = \frac{p ^{2}}{2m} 
+\end{equation}
+% subsection Justification d'une onde de de Broglie (end)
+
+
+
+% subsection Conservation de la norme (end)
+% section Forme générale (end)
+
+\subsection{Équation de Schrödinger indépendante du temps} % (fold)
+\label{sec:Équation de Schrödinger indépendante du temps}
+
+% section Équation de Schrödinger indépendante du temps (end)
+
+\subsubsection{Forme générale} % (fold)
+\label{sub:Forme générale}
+
+Nous considérons des situations où l'\underline{énergie potentielle est indépendant du temps}, pour que $\hat{H}$ indépendant du temps : 
+\begin{equation}
+  - \frac{\hbar ^{2}}{2m}  \Delta \psi(M,t) + V(M) \psi(M,t) = i\hbar \frac{\partial \psi}{\partial t} (M,t)
+\end{equation}
+% subsection Forme générale (end)
+
+On obtient une expression \underline{séparant des variables} : 
+\begin{equation}
+  \psi(M,t) = \widetilde{\psi}(M) \exp \left( - \frac{iEt}{\hbar}  \right)
+\end{equation}
+
+avec
+\begin{itemize}
+
+    \item $E$ l'énergie du système 
+    \item $\widetilde{\psi}(M)$ l'\textbf{état stationnaire}, les \underline{états propres} de $\hat{H}$
+
+\end{itemize}
+
+Les deux satisfait : 
+
+\begin{Theorem}{Équation de Schrödinger indépendante du temps (ou stationnaire)}{}
+\begin{equation}
+  - \frac{\hbar ^{2}}{2m} \Delta \widetilde{\psi}(M) + V(M) \widetilde{\psi}(M) = E  \widetilde{\psi}(M) \quad\text{ ou } \quad \hat{H} \widetilde{\psi} = E \widetilde{\psi}
+\end{equation}
+\end{Theorem}
+
+La solution générale est (admet)
+\begin{equation}
+  \psi(M,t) = \sum_{n}^{}C_n \widetilde{\psi}_n(M) \exp \left( - \frac{iE_nt}{\hbar}  \right)
+\end{equation}
+
+\subsubsection{État stationnaire} % (fold)
+\label{sub:État stationnaire}
+
+\begin{itemize}
+
+    \item Densité de probabilité indépendante du temps 
+      \begin{equation}
+        | \psi(M,t) | ^{2} = | \widetilde \psi(M) | ^{2}
+      \end{equation}
+
+    \item La valeur moyenne de $A$ pour un système dans l'état stationnaire est indépendant du temps 
+      \begin{equation}
+        | A | = | \psi | \hat{A} | \psi | = \int_{}^{} \psi ^{*}(M,t) \hat{A} \psi ^{*}(M,t) \mathrm{d}V = \int_{}^{} \widetilde{\psi} ^{*}(M) \hat{A} \widetilde{\psi}(M) \mathrm{d}V
+      \end{equation}
+
+\end{itemize}
+% subsection État stationnaire (end)
+
+% section  (end)
+
+\subsection{Courant de probabilité} % (fold)
+\label{sec:Courant de probabilité}
+
+% section Courant de probabilité (end)
+% chapter Équation de Schrödinger (end)
+
+% chapter Mécanique ondulatoire (end)

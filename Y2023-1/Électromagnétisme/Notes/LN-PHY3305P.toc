@@ -1,0 +1,100 @@
+\contentsline {chapter}{\numberline {1}Équations de Maxwell}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Rappels}{6}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Distribution de charges}{6}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Distribution de courant}{6}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Distribution stationaire}{7}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Conservation de la charge}{7}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}Champs statiques}{9}{subsection.1.1.5}%
+\contentsline {section}{\numberline {1.2}Mathématique : Opérateurs}{10}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Relations entre opérateurs}{10}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}L'opérateur nabla}{10}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Postulats fondamentaux de l'électromagnétisme}{11}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Force de Lorentz}{11}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Équations de Maxwell}{11}{subsection.1.3.2}%
+\contentsline {subsubsection}{Cas statique}{11}{section*.2}%
+\contentsline {subsubsection}{Remarques}{11}{section*.3}%
+\contentsline {subsubsection}{Linéarité}{11}{section*.4}%
+\contentsline {subsubsection}{Couplage}{12}{section*.5}%
+\contentsline {subsubsection}{Application : Vérification de la conservation de la charge}{12}{section*.6}%
+\contentsline {subsection}{\numberline {1.3.3}Loi d'Ohm}{12}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}Symétries du champ électromagnétique}{13}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Champ électromagnétique dans le vide}{13}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Opérateur Laplacien vectoriel}{13}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Équations de Maxwell dans le vide}{14}{subsection.1.5.2}%
+\contentsline {section}{\numberline {1.6}Formulation intégrale de l'électromagnétisme}{15}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Outil mathématique}{15}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Théorème de Gauss}{15}{subsection.1.6.2}%
+\contentsline {subsubsection}{Cas du vide}{15}{section*.7}%
+\contentsline {subsection}{\numberline {1.6.3}Conservation du flux magnétique}{16}{subsection.1.6.3}%
+\contentsline {subsubsection}{Conséquence}{16}{section*.8}%
+\contentsline {subsection}{\numberline {1.6.4}Loi de Faraday}{16}{subsection.1.6.4}%
+\contentsline {subsubsection}{Cas stationaire}{16}{section*.9}%
+\contentsline {subsection}{\numberline {1.6.5}Théorème d'Ampère}{17}{subsection.1.6.5}%
+\contentsline {subsubsection}{Intensité du courant de déplacement}{17}{section*.10}%
+\contentsline {subsection}{\numberline {1.6.6}Cas des distributions surfaciques}{17}{subsection.1.6.6}%
+\contentsline {subsubsection}{Champ électrique}{17}{section*.11}%
+\contentsline {subsubsection}{Champ magnétique}{18}{section*.12}%
+\contentsline {section}{\numberline {1.7}Potentiel scalaire et potentiel vecteur, Approximation des Régimes Quasi Stationaires}{19}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Définitions}{19}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Indétermination}{19}{subsection.1.7.2}%
+\contentsline {subsection}{\numberline {1.7.3}Jauge de Coulomb}{19}{subsection.1.7.3}%
+\contentsline {subsection}{\numberline {1.7.4}Jauge de Lorentz}{20}{subsection.1.7.4}%
+\contentsline {subsection}{\numberline {1.7.5}Equations de Poisson retardées}{20}{subsection.1.7.5}%
+\contentsline {subsection}{\numberline {1.7.6}Solutions des potentiels retardés}{20}{subsection.1.7.6}%
+\contentsline {subsection}{\numberline {1.7.7}Valabilité d'ARQS}{20}{subsection.1.7.7}%
+\contentsline {subsection}{\numberline {1.7.8}Champ magnétique ARQS}{21}{subsection.1.7.8}%
+\contentsline {subsection}{\numberline {1.7.9}Champ électrique ARQS}{21}{subsection.1.7.9}%
+\contentsline {chapter}{\numberline {2}Aspects énergétiques de l'électromagnétisme}{22}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Énergie Électromagnétique}{22}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Densité d'énergie électromagnétique}{22}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Énergie électromagnétique}{22}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Situation statiques}{23}{subsection.2.1.3}%
+\contentsline {subsubsection}{Condensateur plan}{23}{section*.13}%
+\contentsline {subsubsection}{Sphère chargée en surface}{23}{section*.14}%
+\contentsline {subsubsection}{Bobine parcourue par un courant}{23}{section*.15}%
+\contentsline {section}{\numberline {2.2}Transferts d'énergie électromagnétique}{24}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Révision: Puissance volumique locale fournie aux charges}{24}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Vecteur de Poynting}{24}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Équation locale de Poynting}{24}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Bilan local dans le vide}{25}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Bilan intégral d'énergie électromagnétique}{25}{subsection.2.2.5}%
+\contentsline {section}{\numberline {2.3}Exemples}{26}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Solénoïde parcouru par un courant variable}{26}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Condensateur plan circulaire}{27}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Résistance}{27}{subsection.2.3.3}%
+\contentsline {chapter}{\numberline {3}Induction conducteurs immobiles}{28}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Conducteur dans un champ magnétique variable}{28}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Loi d'Ohm locale}{28}{subsection.3.1.1}%
+\contentsline {subsubsection}{Modèle de Drude}{28}{section*.16}%
+\contentsline {subsubsection}{Analyse dimensionnelle}{28}{section*.17}%
+\contentsline {subsubsection}{Analyse mécanique}{28}{section*.18}%
+\contentsline {subsection}{\numberline {3.1.2}Charge dans un conducteur ohmique}{29}{subsection.3.1.2}%
+\contentsline {subsubsection}{Équation de conservation de la charge et loi d'Ohm locale}{29}{section*.19}%
+\contentsline {subsubsection}{Solutions de l'équation différentielle}{29}{section*.20}%
+\contentsline {subsubsection}{Régime sinusoïdal}{30}{section*.21}%
+\contentsline {subsubsection}{Conclusion}{30}{section*.22}%
+\contentsline {subsection}{\numberline {3.1.3}Exemple de courant induit}{30}{subsection.3.1.3}%
+\contentsline {subsubsection}{Condition ARQS magnétique}{30}{section*.23}%
+\contentsline {subsubsection}{Champ électrique}{30}{section*.24}%
+\contentsline {subsection}{\numberline {3.1.4}Effet de peau}{31}{subsection.3.1.4}%
+\contentsline {subsubsection}{Le courant de déplacement est négligeable devant le courant de conduction}{31}{section*.25}%
+\contentsline {subsubsection}{Équations de Maxwell modifiées}{31}{section*.26}%
+\contentsline {subsubsection}{Équation de diffusion du type}{32}{section*.27}%
+\contentsline {subsubsection}{Notation complexe}{32}{section*.28}%
+\contentsline {chapter}{\numberline {4}Conducteurs en mouvement, Induction de Lorentz}{33}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Ondes électromagnétiques dans le vide}{34}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Structure des ondes électromagnétiques}{35}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Le champ électromagnétique dans le vide}{35}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Ondes Electromagnétiques Planes}{36}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Ondes Electromagnétiques Planes Progressives}{37}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Aspects énergétiques de l'OEMPP dans le vide}{38}{subsection.5.1.4}%
+\contentsline {section}{\numberline {5.2}Ondes Electromagnétiques Planes Progressives Harmoniques}{39}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Définitions}{39}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Relation de dispersion}{40}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Polarisation des OEMPPH}{40}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}La lumière comme onde électromagnétique}{44}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Signal Lumineux}{44}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Polarisation de la lumière}{44}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Lois de Malus}{48}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}Exercices}{49}{section.5.4}%
+\contentsfinish 

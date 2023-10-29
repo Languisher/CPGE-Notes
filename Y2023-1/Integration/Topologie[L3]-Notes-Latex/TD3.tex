@@ -1,0 +1,88 @@
+\begin{question}{Complétude}{}
+L'espace $(\mathbb{R},d )$  est-il complet si $d$ est :
+\begin{enumerate}
+
+    \item $d(x,y) = |x ^{3} - y ^{3} |$
+    \item $d(x,y) = |e^{x} - e^{y}|$
+    \item $d(x,y) = \ln (1 + | x- y | )$
+
+\end{enumerate}
+\end{question}
+
+\begin{myproof}{}{}
+\begin{enumerate}
+
+    \item 
+Soit $(u_n) \in \mathbb{R} ^{ \mathbb{N}}$, une suite de Cauchy de $(\mathbb{R}, d)$. C'est-à-dire, $\forall \varepsilon >0, \exists n \in \mathbb{N}, \forall p,q \ge N, d(u_p, u_q) = |u_p ^{3} - u_q ^{3}| < \varepsilon$
+
+Donc, $(u_n ^{3})$ est une suite de Cauchy de $( \mathbb{R}, |.|)$ qui est complet, donc $\exists l \in \mathbb{R}$, $u_n ^{3}\underset{n \to + \infty}{\longrightarrow} l$. 
+
+Trouver $l'$ tel que $u_n \to l' \iff d(u_n, l') = |u_n ^{3} - l ^{'3} |\underset{n \to + \infty}{\longrightarrow} 0$. On a  $|u_n ^{3} - (\sqrt[3]{l}) ^{3} |  \underset{n \to + \infty}{\longrightarrow} 0$,
+
+donc $u_n \to \sqrt[3]{l}$ et $(\mathbb{R}, d)$ est complet.
+\item  Dans ce cas, est-ce qu'il y a vraiment une bijection entre $\exp(l') \to l$ ... Ça nous inspire que la réponse est non. 
+
+On pose $u_n = -n$, $d(u_p, u_q) = |e^{-p} - e ^{-q}| \le q e ^{-p}  \underset{p \to + \infty, p \le q}{\longrightarrow} 0$
+
+Donc $(u_n)$ est une fonction de Cauchy dans $(\mathbb{R}, d)$. 
+
+$|e^{u_n} - 0| \to 0$, donc si $d(u_n, l)\to 0$, on a $e ^{l} = 0$, ce qui est impossible. Alors $(\mathbb{R}, d)$ n'est pas complet.
+
+\item Pour $u$ au voisiange de $0$, $\frac{1}{2} u \le \ln (1+ u) \le 2u$, c'est suiffisant pour montrer que :
+  \begin{itemize}
+
+      \item Une suite de Cauchy pour $d$ est une suite de Cauchy pour $|.|$
+      \item Une suite convergente pour $|.|$ converge vers la même limite pour $d$
+  \end{itemize}
+
+  Donc $(\mathbb{R}, d)$ est complet.
+\end{enumerate}
+\end{myproof}
+
+\begin{question}{Théorème du point fixe}{}
+Soit $(E, d)$ un espace complet, $\sum_{}^{}a_n$ série réele, $a_n >0$ et $\sum_{}^{}a_n$ converge. $f : E \to E$ une application pour laquelle $\forall(x,y) \in E ^{2}$ et $n \in \mathbb{N}$, 
+\[
+  d(f ^{n}(x) , f ^{n}(y)) \le a_n d(x, y)
+\]
+\begin{enumerate}
+
+    \item $f$ possède un unique point fixe $p \in E$.
+    \item Pour tout point initial $x_0 \in E$, $(x_n= f ^{n}(x_0))$ converge vers $p$
+
+\end{enumerate}\end{question}
+
+\begin{myproof}{}{}
+\begin{enumerate}
+
+    \item On suppose que $f(x) = x$ et $f(y) =y$, $d(f(x), f(y)) = d(x, y) \le a_1 d(x, y)$ (On ne peut pas conclure cas $a_1$ peut être supérièur à 1)
+
+      \begin{itemize}
+
+          \item $\forall n \in \mathbb{N}$, $f ^{n}(x) = x$ et $f ^{n}(y)=y$
+          \item $a_n > 0$ et $\sum_{}^{}a_n$ converge donc $a_n \to 0$ donc $\exists N \in \mathbb{N}, \forall n \ge N, a_n \le 1/2$et $d(f ^{N}(x) , f ^{N}(y)) \le a_N d(x, y) \le 1 / 2 d(x, y)$
+
+      \end{itemize}
+
+      Alors $d(x, y) = 0$ donc $x= y$
+
+    \item Soit $x_0 \in E$, on pose $x_n = f ^{n}(x_0)$, $x _{n+1} = f(x_n)$. Soit $p, q \in \mathbb{N}$, $p \le q$ 
+
+      \begin{align*}
+        d(x_p, x_q) &\le \sum_{i= p}^{q-1} d(x_i , x _{i+1}) = \sum_{i= q}^{q-1} d(f ^{i}(x_0), f ^{i}(x_1)) \\
+                    &\le \sum_{i= p}^{q-1} a_i d(x_0, x_1) \\ 
+                    &\le d(x_0, x_1) \sum_{i = p}^{+ \infty} a_i
+      \end{align*}
+
+      $\sum_{}^{} a_i$ est convergente, son reste tend vers 0, c'est-à-dire $\sum_{i=p}^{+ \infty} \underset{p \to + \infty}{\longrightarrow} 0$ alors $(x_n)$ est une suite de Cauchy.
+      
+      Alors $x_n \underset{n \to + \infty}{\longrightarrow} l \in E$ car $E$ est complet, de plus $x _{n+1} =f(x_n) \underset{n \to + \infty}{\longrightarrow}  l\in E = f(l)$ car $f$ est continue.
+
+      Donc $f(l) = l$ car unicité de la limite.
+
+      $d(f(x), f(y)) \le a_1 d(x, y)$, donc $f$ est $a_1$-lipschitizenne et $f$ est continue
+
+\end{enumerate}
+\end{myproof}
+
+
+

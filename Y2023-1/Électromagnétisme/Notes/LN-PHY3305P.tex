@@ -1,0 +1,49 @@
+\documentclass{report}
+\usepackage{pdfpages}
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+\title{\Huge{Électromagnétisme}}
+\author{\huge{Brandon LIN}}
+\date{\today}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{tcolorbox}
+    Préliminaire :
+    \begin{itemize}
+
+        \item Électrostatique, Magnétostatique 
+
+    \end{itemize}
+
+    Recommandé : 
+    \begin{itemize}
+
+        
+        \item Mécanique I 
+        \item Ondes unidimensionnelles
+
+    \end{itemize}
+\end{tcolorbox}
+\newpage% or \cleardoublepage
+% \pdfbookmark[<level>]{<title>}{<dest>}
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
+
+\pagebreak
+
+
+\input{C1}
+\input{C2}
+\input{C3}
+
+
+\chapter{Conducteurs en mouvement, Induction de Lorentz}
+\input{C5}
+
+\end{document}

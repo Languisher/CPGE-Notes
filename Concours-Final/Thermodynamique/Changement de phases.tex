@@ -1,0 +1,118 @@
+\chapter{Changement de Phase} % (fold)
+\label{chap:Changement de Phase}
+
+\section{Diagramme d'équilibre} % (fold)
+\label{sec:Diagramme d'équilibre}
+
+\begin{figure}[H] %h:当前位置, t:顶部, b:底部, p:浮动页
+  \centering
+  \includegraphics[width=\textwidth]{./assets/Diagramme (P,T) dans le cas général puis dans le cas particulier de l'eau.png}
+  \caption{Diagramme (P,T) dans le cas général puis dans le cas particulier de l'eau}
+  \label{fig:Diagramme (P,T) dans le cas général puis dans le cas particulier de l'eau}
+\end{figure}
+
+Mémoire : considérer $PV = nRT \implies \rho =PM/RT$
+
+
+\section{Enthalpie} % (fold)
+\label{sec:Enthalpie}
+
+\subsection{Enthalpie de changement de phase} % (fold)
+\label{sub:Enthalpie de changement de phase}
+
+Deux phases 1 et 2 existent à $T$ et une pression $P = P _{eq}(T)$. 
+
+On appelle \textbf{enthalpie molaire de changement de phase} (1 vers 2) : 
+\begin{equation}
+  \Delta _{12} H_m(T) = H _{m2} (T , P _{eq}(T)) - H _{m1}(T, P _{eq}(T))
+\end{equation}
+
+\subsubsection{Transformation monobare} % (fold)
+\label{sec:Transformation monobare}
+\begin{itemize}
+
+    \item Premier principe : 
+      \begin{equation}
+        [H] _i ^{f} = Q _{ext}
+      \end{equation}
+
+    \item Variation d'enthalpie : 
+      \begin{equation}
+        [H] _i ^{f} = n \times\Delta _{12} H_m(T)
+      \end{equation}
+
+    \item Finalement,
+      \begin{equation}
+        \Delta _{12}H_m(T) = \frac{
+          Q _{ext}
+        }{n} 
+      \end{equation}
+
+\end{itemize}
+% subsubsection Transformation monobare (end)
+\subsubsection{Ordre} % (fold)
+\label{sec:Ordre}
+
+% subsubsection Ordre (end)
+\textbf{ODG} : $\Delta _{\text{vap}}H_m >0$, $\Delta _{\text{fus}}H_m >0$, $\Delta _{sub} H_m >0$.
+
+Si la phase 2 est plus d'esordonn'ee que la phase 1, alors $\Delta _{12}H_m >0$
+
+% subsection Enthalpie de changement de phase (end)
+% section Enthalpie (end)
+% section Diagramme d'équilibre (end)
+
+\subsection{Enthalpie d' un sysème biphasé} % (fold)
+\label{sub:Enthalpie d' un sysème biphasé}
+
+Soit un corps pur comprenant une quantité $n_1 = X_1n$ et $n_2 = X_2n$, l'enthalpie est :
+\begin{equation}
+  \boxed{H = n_1 \times H _{m1} + n_2 \times H _{m2}}
+\end{equation}
+
+ou encore 
+\begin{equation}
+  X_2 = \frac{H_m - H _{m1}}{\Delta _{12}H_m} 
+\end{equation}
+% subsection Enthalpie d' un sysème biphasé (end)
+
+\subsection{Transformation générale} % (fold)
+\label{sub:Transformation générale}
+L'état initial : phase 1, $T_i$, $P= P _{eq}(T_i)$ à phase 2, $T_f$, $X_{2f}$, $P = P _{eq}(T_f)$ = Transformation monobare + Changement de phase à $(T_f, P = P _{eq}(T_f))$
+\begin{equation}
+  [H]_i ^{f} = n \times (C _{pm1} \times(T_f - T_i) + X _{2f} \times \Delta _{12}H_m(T_f))
+\end{equation}
+
+\begin{figure}[H] %h:当前位置, t:顶部, b:底部, p:浮动页
+  \centering
+  \includegraphics[width=0.8\textwidth]{./assets/Enthalpie - transformation générale.png}
+  \caption{Enthalpie - transformation générale}
+\end{figure}
+
+Note : État initial : $T_i, X _{1i} = 1$, État intermédiaire : $T_f, X _{1i}=1$
+
+
+\section{Entropie} % (fold)
+\label{sec:Entropie}
+
+
+\subsection{Entropie molaire de changement de phase} % (fold)
+\label{sub:Entropie molaire de changement de phase}
+\begin{equation}
+  \Delta _{12} S_m(T) = S _{m2}(T, P _{eq}(T) ) - S _{m1} (T, P _{eq}(T))
+\end{equation}
+% subsection Entropie molaire de changement de phase (end)
+
+\subsection{Relation avec l'enthalpie} % (fold)
+\label{sub:Relation avec l'enthalpie}
+
+\begin{equation}
+  \Delta _{12}S_m(T) = \frac{
+    \Delta _{12}H_m(T)
+  }{T} 
+\end{equation}
+% subsection Relation avec l'enthalpie (end)
+% section Entropie (end)
+
+% subsection Transformation générale (end)
+% chapter Changement de Phase (end)

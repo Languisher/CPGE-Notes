@@ -1,0 +1,800 @@
+
+\chapter{Intégrabilité} % (fold)
+
+
+
+\begin{tcolorbox}
+Requirements : 
+\begin{itemize}
+
+    \item Topologie
+      \begin{itemize}
+
+      \item Notions de bases
+
+      \end{itemize}
+
+    \item Probabilité
+
+\end{itemize}
+\end{tcolorbox}
+
+\label{chap:Intégrabilité}
+
+% chapter Intégrabilité (end)
+
+\section{Mesure positive} % (fold)
+\label{sec:Mesure positive}
+
+\subsection{Topologie} % (fold)
+\label{sub:Topologie}
+
+% subsection Topologie (end)
+
+Rappel : $\mathbb{R} \to \mathbb{R} ^{n} \to E \text{ de dimension finie} \to (E,d) \to E \text{ muni d'une topologie}$
+
+\begin{Definition}[colbacktitle=red!75!black]{Topologie}{}
+  Une \textbf{topologie} sur $E$ est un \underline{ensemble $\mathcal{TO}$ de parties de $E$} qui vérifie l'\underline{ensembles des ouverts de $E$}
+  \begin{itemize}
+
+      \item $\emptyset \in \mathcal{TO}$, $E \in \mathcal{TO}$ 
+      \item Stabilité par réunion quelconque des ouverts : Si $(O_i) _{i \in I} \in \mathcal{TO} ^{I}$, alors $\bigcup _{i \in I} O_i \in \mathcal{TO}$ 
+      \item Stabilité par intersection finie des ouverts : Si $n \in \mathbb{N} ^{*}$, $(O_1, \dots, O_n) \in \mathcal{TO} ^{n}$, $\bigcap _{k=1} ^{n} O_k \in \mathcal{TO}$.
+
+  \end{itemize}
+\end{Definition} 
+
+\begin{note}{}{}
+Ouf ! On ne va pas utiliser cette formalisation. Mais, on va souvent considérér $\mathcal{TO}$ \underline{les ouverts de $E$.}
+\end{note}
+
+
+
+\subsection{Tribu} % (fold)
+\label{sub:Tribu}
+
+% subsection Tribu (end)
+\begin{Definition}[colbacktitle=red!75!black]{Tribu}{}
+Pour les probabilités, on avait la notion de \textbf{tribu} ($\sigma$-algèbre) :
+\begin{itemize}
+
+    \item Stabilité par \underline{passage au complémentaire} : $\forall A \in \mathcal{T}$, $A ^{c} \in \mathcal{T}$
+    \item Stabilité par \underline{réunion dénombrable} : Soit $(A_n) _{n \in \mathbb{N}} \in \mathcal{T} ^{\mathbb{N}}$, alors $\bigcup _{n \in \mathbb{N}} A _n \in \mathcal{T}$
+
+\end{itemize}
+
+
+\end{Definition}
+
+\begin{Definition}[colbacktitle=red!75!black]{Espace mesurable}{}
+Un ensemble muni d'une \textbf{tribu} est dit \textbf{espace mesurable}. Les parties de $\mathcal{T}$ sont dites \textbf{parties mesurables}. On le note $(\Omega, \mathcal{T})$.
+\end{Definition}
+
+
+
+Mais on travaille la plupart du temps dans un espace vectoriel normé (ou un espace métrique). 
+
+Pour faire le lien, on aimerait que les ouverts soient des parties mesurables. 
+
+\begin{Definition}[colbacktitle=red!75!black]{Tribu borélienne}{}
+  Si $(E,d)$ un espace métrique (donc on peut définir des boules), on appelle \textbf{tribu borélienne} \underline{la plus petite tribu} contenant les ouverts de $E$. On la note $\boxed{\mathcal{BO}(E)}$
+\end{Definition}
+
+\begin{myproof}{}{} Existence du \textbf{tribu borélienne} : 
+  $\mathcal{F}= \{ \mathcal{T} \text{ tribu sur } E, \; \mathcal{T} \supset \mathcal{TO}\}$ (Rappel : $\mathcal{TO}$ est l'ensemble des ouverts de $E$)
+  \begin{itemize}
+
+      \item $\mathcal{F} \ne \emptyset$ car $\mathscr{P}(E) \in \mathcal{F}$ 
+      \item $\mathcal{F}$ stable par intersection (très simple)
+
+  \end{itemize}
+  Donc, $\mathcal{BO}(E) = \bigcap _{\mathcal{T} \in \mathcal{F}} \mathcal{T}$ est la plus petite tribu contenant $\mathcal{TO}$
+\end{myproof}
+
+
+\begin{Example}{$\mathcal{BO}(\mathbb{R})$}{}
+  $BO(\mathbb{R})$ = la plus petite tribu contenant tous les $]a,b[$ où $a \in \mathbb{R}$, $b \in ]a, + \infty[$. Montrer que tous les intervalles de $\mathbb{R}$ sont dans $\mathcal{BO}(\mathbb{R})$.
+\end{Example}
+
+
+(...)
+
+
+
+\begin{Prop}{Tribu produit}{}
+Soient $(\Omega_1, \mathcal{T}_1)$ et $(\Omega_2, \mathcal{T}_2)$ deux \textbf{espaces mesurables}, on appelle \textbf{tribu produit} sur $\Omega_1 \times \Omega_2$ et on note $\mathcal{T}_1 \otimes \mathcal{T}_2$ \underline{la plus petite tribu} contenant $A_1 \times A_2$ où $A_1 \in \mathcal{T}_1$ et $A_2 \in \mathcal{T}_2$.
+\end{Prop}
+
+\subsection{Mesure} % (fold)
+\label{sub:Mesure}
+
+% subsection Mesure (end)
+\begin{Definition}[colbacktitle=red!75!black]{Mesure (positive)}{}
+  Soit $(\Omega, \mathcal{T})$  un espace mesurable, on appelle \textbf{mesure (positive)} sur $\Omega$, toute \underline{application} $\mu : \mathcal{T} \to \mathbb{R}_+ \cup \{ + \infty\}$ et qui vérifie :
+  \begin{itemize}
+
+      \item $\mu(\emptyset) = \emptyset$ 
+      \item \underline{$\sigma$-additivité (dénombrable)} : $\forall (A_n) _{n \in \mathbb{N}} \in \mathcal{T} ^{\mathbb{N}}$, disjointes 2 à 2, $\mu(A_n) _{n \in \mathbb{N}}$ nécessairement sommable.
+        \begin{equation}
+          \forall (A_n) _{n \in \mathbb{N}} \in \mathcal{T} ^{\mathbb{N}}, \; \left[\forall (i,j) \in \mathbb{N} ^{2}, [i \ne j] \implies [A_i \cap A_j = \emptyset]\right] \implies \boxed{\mu \left( \bigcup _{n \in \mathbb{N}} A_n \right) = \sum_{n \in \mathbb{N}}^{} \mu(A_n)}
+        \end{equation}
+
+  \end{itemize}
+
+  $(\Omega, \mathcal{T}, \mu)$ s'appelle \textbf{espace mesuré}.
+\end{Definition}
+
+\begin{Theorem}{Mesure de Lebesgne ($\mathbb{R}$)}{}
+ Dans $\mathbb{R}$, il \underline{existe} une \underline{unique} mesure (dite \textbf{mesure de Lebesgne} et notée $\lambda$) sur $\mathcal{BO}(\mathbb{R})$ qui vérifie
+\begin{equation}
+  \forall (a,b) \in \mathbb{R} ^{2}, \; [a<b] \implies [\lambda(]a,b[) = b-a]
+\end{equation}
+\end{Theorem}
+
+\begin{myproof}{}{}
+Admis.
+\end{myproof}
+\begin{Theorem}{Mesure de Lebesgne ($\mathbb{R} ^{n}$)}{}
+ Dans $\mathbb{R}$, il \underline{existe} une \underline{unique} mesure (dite \textbf{mesure de Lebesgne} et notée $\lambda$) sur $\mathcal{BO}(\mathbb{R } ^{n})$ qui vérifie
+
+\begin{equation}
+  \forall k \in [\!1, n]\!], [a_k \le b_k] \implies \lambda \left( \prod_{k=1}^{n}]a_k, b_k[ \right) = \prod_{k=1}^{n} (b_k - a_k)
+\end{equation}
+\end{Theorem}
+
+\begin{Example}{Mesure de comptage sur les parties}{}
+\begin{equation}
+  \forall A \subset \Omega, \; \mu(A) = \begin{cases}
+  + \infty \text{ si } A \text{ est infini} \\ 
+  \mathrm{card}(A) \text{ sinon }
+  \end{cases}
+\end{equation}
+\end{Example}
+
+\begin{Example}{Mesure de comptage des entiers sur les parties de $\mathbb{R}$}{}
+\begin{equation}
+  \forall A \subset \Omega, \; \mu(A) = \begin{cases}
+  + \infty \text{ si } A \in \mathbb{N} \text{ est infini} \\ 
+  \mathrm{card}(A \cap \mathbb{N}) \text{ sinon }
+  \end{cases}
+\end{equation}
+\end{Example}
+
+
+
+
+\begin{Definition}[colbacktitle=red!75!black]{$\mu$-négligeable}{}
+Soit $(\Omega, \mathcal{T}, \mu)$ un ensemble mesuré, soit $A \subset \Omega$, on dit que $A$ est $\mu$-\textbf{négligeable} si :
+
+\begin{equation}
+  \exists T \in \mathcal{T}, \; A \subset T, \text{ et } \mu(T) = 0
+\end{equation}
+\end{Definition}
+
+
+\begin{Prop}{}{}
+Dans $\mathbb{R}$ ($\mathbb{R} ^{n}$), tout ensemble dénombrable est de mesure nulle. 
+\end{Prop}
+
+
+\begin{Example}{Mesure nulle}{}
+\begin{itemize}
+
+    \item Ensemble dénombrable : $\lambda ( \mathbb{Q}) = 0$ en effet, $\mathbb{Q} = \bigcup _{q \in \mathbb{Q}} \{q\}$ donc $\lambda(\mathbb{Q}) = \sum_{q \in \mathbb{Q}}^{}\lambda(\{q\}) = q-q =0$
+    \item Ensemble non dénombrable (Ensemble de Cantor) : 
+      \begin{equation}
+        K = \left\{ x \in [0,1], \; \exists (\varepsilon_k) _{k \in \mathbb{N}} \in \{0, 2 \} ^{\mathbb{N}}, \; x = \sum_{k=0}^{ + \infty} \frac{\varepsilon_k}{3 ^{k+1}} \right\}
+      \end{equation}
+      est $\lambda$-négligeable mais pas dénombrable.
+\end{itemize}
+\end{Example}
+
+
+
+
+\begin{Prop}{Propriétés d'un espace mesuré}{}
+Soit $(\Omega, \mathcal{T},\mu)$ un espace mesuré (resp. $(\Omega, \mathcal{T}, \mathbb{P})$ un espace probabilisé) : 
+
+\begin{note}{}{}
+Remplacer $\mu$ par $\mathbb{P}$ et on retrouve les résultats dans le cours de probabilité.
+\end{note}
+
+
+\begin{itemize}
+
+    \item Croissance : 
+      \begin{equation}
+        \forall (A, B) \in \mathcal{T} ^{2}, \; [A \subset B] \implies [\mu(A) \le \mu(B)]
+      \end{equation}
+
+    \item Réunion + Intersection : 
+      \begin{equation}
+        \forall (A, B) \in \mathcal{T} ^{2}, \; \mu(A) + \mu(B) = \mu(A \cap B) + \mu (A \cup B)
+      \end{equation} 
+
+    \item Limite croissante : 
+
+      \begin{equation}
+        \forall (A_n) _{n \in \mathbb{N}} \in \mathcal{T} ^{\mathbb{N}}, \; [\forall n \in \mathbb{N}, A_n \subset A _{n+1}] \implies \left[ \mu \left( \bigcup _{n\in \mathbb{N}} A_n \right)\right] = \lim _{n \to + \infty} \mu (A_n)
+      \end{equation}
+
+    \item Limite décroissante 
+
+      \begin{tcolorbox}
+        On note les deux limites : 
+        \begin{equation}
+          \lim _{n \to + \infty} \uparrow \mu (A_n), \quad 
+          \lim _{n \to + \infty} \downarrow \mu (A_n)
+          \label{eq: 2.11}
+        \end{equation}
+      \end{tcolorbox}
+    \item Sous-addivité : 
+      \begin{equation}
+        \forall (A_n) _{n \in \mathbb{N}} \in \mathcal{T} ^{\mathbb{N}}, \; \mu \left( \bigcup _{n \in \mathbb{N}} A_n\right) \le \sum_{k \in \mathbb{N}}^{} \mu(A_k)
+      \end{equation}
+
+\end{itemize}
+\end{Prop}
+
+\begin{myproof}{}{}
+Soit $(A,B) \in \mathcal{T} ^{2}$, 
+\begin{itemize}
+
+    \item $A \subset B$ donc $B = A \cup (B \backslash A)$. De plus $B \backslash A = B \cap A ^{c}$, donc 
+      \begin{equation}
+        \mu(B) = \mu(A) + \mu(B \backslash A) \ge \mu(A)
+      \end{equation}
+
+    \item Si $\mu(A \cup B) = + \infty$ alors $\mu(A) = + \infty$ ou $\mu(B) = +\infty$. Puisque, sinon, 
+      \begin{equation}
+        A \cup B = A \cup (B \backslash A) \implies \mu (A \cup B) = \mu(A) + \mu(B \backslash A)\le \mu(A) + \mu(B)
+      \end{equation}
+
+      Si $\mu(A \cup B) < + \infty$, considérer $B = (A \cap B) \cup (B \backslash A)$
+
+\end{itemize}
+
+\end{myproof}
+
+
+\begin{Definition}[colbacktitle=red!75!black]{$\mu$-presque partout, $\mu$-presque sûrement}{}
+\begin{itemize}
+
+  \item Soit $(\Omega, \mathcal{T}, \mu)$ un espace \underline{mesuré} et $P$ une propriété définie sur $\Omega$. On dit que $P$ est \textbf{vraie ($\mu$)-presque partout} si 
+    \begin{center}
+      $\{\omega \in \Omega, \; P(\omega) \text{ est fausse}\}$ est $\mu$-négligeable
+    \end{center}
+  \item Soit $(\Omega, \mathcal{T}, \mathbb{P})$ un espace \underline{probabilisé} et $P$ une propriété définie sur $\Omega$. On dit que $P$ est \textbf{vraie ($\mu$)-presque sûrement} si 
+    \begin{center}
+      $\{\omega \in \Omega, \; P(\omega) \text{ est fausse}\}$ est $\mu$-négligeable
+    \end{center}
+
+\end{itemize}
+
+On les note resp. $P$ vraie $(\mu)$-p.p. et $P$ vraie ($\mathbb{P}$)-p.s.
+\end{Definition}
+
+\begin{Example}{}{}
+Soit $(\Omega, \mathcal{T}, \mathbb{P})$. Soit $X$ une variable aléatoire réelle suivant une loi uniforme $\mathcal{U}(0,1)$, alors : $X \in [0,1]$ p.s.
+\end{Example}
+
+\begin{Definition}[colbacktitle=red!75!black]{Partie $\mu$-négligeable}{}
+
+  Soit $(\Omega, \mathcal{T}, \mu)$ un espace mesuré. Une partie $A$ de $\Omega$ est dite $\mu$-\textbf{négligeable} s'il existe 
+  \begin{equation}
+    T \in \mathcal{T}, \; A \subset T, \; \mu(T) = 0
+  \end{equation}
+\end{Definition}
+
+
+\begin{Definition}[colbacktitle=red!75!black]{$\mu$-complétée}{}
+Soit $(\Omega, \mathcal{T}, \mu)$ un espace mesuré, on pose 
+\begin{equation}
+  \mathcal{N} = \{A \subset \Omega , A \;\mu-\text{négligeable}\}
+\end{equation}
+
+
+
+On appelle \textbf{tribu $\mu$-complétée} de $\mathcal{T}$ la tribu définie par 
+\begin{equation}
+  \boxed{\mathcal{T} ^{*} = \{ T \cup N,\; T \in \mathcal{T}, \; N \in \mathcal{N}\}}
+\end{equation}
+
+Le mesure $\mu$ se prolonge à $\mathcal{T} ^{*}$ par $\forall A \in \mathcal{T} ^{*}, \; \mu ^{*}(T \cup N) = \mu(T)$.
+\end{Definition}
+
+
+
+
+\newpage
+
+\section{Intégrabilité} % (fold)
+\label{sec:Intégrabilité}
+
+\subsection{Fonction mesurable} % (fold)
+\label{sub:Fonction mesurable}
+
+\begin{tcolorbox}
+    On voulait créer une intégrale sur des fonctions $f: \Omega \to \mathbb{R}$ où $(\Omega, \mathcal{T},\mu)$ un espace mesuré. Quelle propriété faut-il à $f$ pour pouvoir définir son intégrale ?
+\end{tcolorbox}
+
+\begin{Definition}[colbacktitle=red!75!black]{Fonction mesurable}{}
+Soit $(\Omega, \mathcal{T})$, $(\Omega', \mathcal{T}')$ deux espaces mesurables. 
+$f: \Omega \to \Omega'$ est dite \textbf{mesurable} si 
+\begin{equation}
+  \forall T' \in \mathcal{T} ', \; f ^{-1} (T') \in \mathcal{T}
+\end{equation}
+\end{Definition}
+
+% subsection Fonction mesurable (end)
+Remarque : 
+\begin{itemize}
+
+    \item Lorsque $(\Omega', \mathcal{T}')= (\mathbb{R}, \mathcal{BO}(\mathbb{R}))$, si $f$ est \textbf{mesurable}, $f ^{-1}(]a,b[) \in \mathcal{T}$. (Rappel : La plus petite tribu contenant les ouverts de $\mathbb{R}$)
+    \item De plus, si $\mathcal{T}$ est la tribu borélienne de $(\Omega, d)$ alors, $f$ continue sur $\Omega$ donc $f$ mesurable sur $\Omega$.
+
+\end{itemize}
+\begin{Definition}[colbacktitle=red!75!black]{Fonction mesurable (2eme édition)}{}
+
+  
+Soit $(\Omega, \mathcal{T})$ et $f : \Omega \to [-\infty, + \infty]$, on dit que $f$ est \textbf{mesurable} si 
+\begin{equation}
+  \forall A \in \mathcal{BO}(\mathbb{R}),\; f ^{-1}(A) \in \mathcal{T}
+\end{equation}
+\end{Definition}
+
+\subsection{Fonction étagée} % (fold)
+\label{sub:Fonction étagée}
+
+\begin{note}{}{}
+  Rappel : Notation semblable à \textbf{Fonctions en escalier}, découplage de $[a,b]$
+\end{note}
+% subsection Fonction étagée (end)
+\begin{Definition}[colbacktitle=red!75!black]{Fonctions étagées}{}
+
+Soit $(\Omega, \mathcal{T})$ et $f : \Omega \to [-\infty, + \infty]$ à valeurs réels, on dit que $f$ est \textbf{étagée} si 
+\begin{itemize}
+
+    \item $f$ est \textbf{mesurable}
+    \item et $\mathrm{card}(f(\Omega))$ est fini
+
+\end{itemize}
+\end{Definition}
+
+\begin{Prop}{}{}
+  Une \textbf{fonction en escalier} sur $[a,b]$ est étagée.
+\end{Prop}
+
+\begin{myproof}{}{}
+\begin{itemize}
+
+    \item Continue par morceaux donc mesurable 
+    \item Prenant un nombre fini de valeurs
+
+\end{itemize}
+\end{myproof}
+
+\begin{Example}{Fonction étagée}{}
+  Fonction étagée $\xi_ \mathbb{Q} : \mathbb{R} \to \mathbb{R}$ :
+\begin{equation}
+  \xi _{\mathbb{Q}} : x \mapsto \mathbb{1} _{\mathbb{Q}}
+\end{equation}
+\end{Example}
+
+\begin{Prop}{}{}
+Soit $(\Omega, \mathcal{T}, \mu)$, toute focntion positive et mesurable est \underline{limite croissante} d'une suite de fonctions \underline{étagées positives}.
+\end{Prop}
+
+\subsection{Intégrale} % (fold)
+\label{sub:Intégrale}
+
+% subsection Intégrale (end)
+\begin{Definition}[colbacktitle=red!75!black]{Intégrale}{}
+\begin{enumerate}
+
+    \item Soit $f$ une fonction \underline{étagée}, positive, définie sur $\Omega$, on pose 
+      \begin{equation}
+        \int_{\Omega}^{} f \mathrm{d} \mu = \sum_{\alpha \in f(\Omega)}^{} \alpha \mu (f ^{-1} ( \{\alpha\})) \in [0, + \infty]
+      \end{equation}
+
+    \item Soit $f$ une fonction \underline{positive}, mesurable définie sur $\Omega$, donc 
+      \begin{equation}
+        \int_{\Omega}^{} f \mathrm{d} \mu = \underset{g \in \Sigma_f}{\sup} \left( \int_{\Omega}^{} g \mathrm{d} \mu\right) \in [0, + \infty]
+      \end{equation}
+      où $\Sigma _f = \{g : \Omega \to \mathbb{R}_ + , \; g \text{ étagée et } g \le f \}$. 
+
+      Notation : Si $\alpha = 0$ et $\mu(f ^{-1}(\{0\})) = + \infty$, alors $\alpha \mu( f ^{-1} (\{\alpha\})) = 0$
+
+\end{enumerate}
+\end{Definition}
+
+
+\subsection{Intégrabilité} % (fold)
+\label{sub:Intégrabilité}
+
+% subsection Intégrabilité (end)
+\begin{Definition}[colbacktitle=red!75!black]{Intégrable}{}
+Soit $(\Omega, \mathcal{T}, \mu)$, 
+
+Considérer une fonction $f: \Omega \to [- \infty, + \infty]$ mesurable sur $\Omega$. 
+\begin{enumerate}
+
+    \item Si $f$ est positive, on dit $f$ est \textbf{intégrable} si 
+
+      \begin{equation}
+        \int_{\Omega}^{} f \mathrm{d} \mu < + \infty
+      \end{equation}
+
+    \item Si $f$ n'est plus toujours positive, on dit $f$ est \textbf{intégrable} si 
+      \begin{equation}
+        \int_{\Omega}^{}|f| \mathrm{d}\mu < + \infty
+      \end{equation}
+      et on pose 
+      \begin{equation}
+        \int_{\Omega}^{} |f| \mathrm{d}\mu = \int_{\Omega}^{} f^+ \mathrm{d}\mu - \int_{\Omega}^{} f ^{-} \mathrm{d} \mu
+      \end{equation}
+      où $f ^{+} (\omega) = \max ( 0, f(\omega))$ et $f ^{-}(\omega) = \max ( 0, - f(\omega))$
+
+\end{enumerate}
+
+\end{Definition}
+
+\begin{Prop}{}{}
+  Si $f$ et $g$ intégrables sur $\Omega$ et si $(\alpha, \beta) \in \mathbb{R} ^{2}$, alors : 
+\begin{enumerate}
+
+
+    \item Linéarité  
+  \begin{equation}
+    \alpha f+\mu g \text{ intégrable sur }\Omega,\quad \int_{\Omega}^{} (\alpha f + \mu g) \mathrm{d} \mu = \alpha \int_{\Omega}^{} f \mathrm{d} \mu + \beta \int_{\Omega}^{} g \mathrm{d}\mu
+  \end{equation}
+    \item Croissance  
+
+      \begin{equation}
+        f \le g \text{ p.p.} \implies \int_{\Omega}^{} f \mathrm{d}\mu \le \int_{\Omega}^{} g \mathrm{d}\mu
+      \end{equation}
+
+    \item Restriction 
+      \begin{equation}
+        A \in \mathcal{T} \implies f _{|A} \text{ intégrable sur } A, \quad \int_{A}^{} f _{|A}  \mathrm{d} \mu _{|A} = \int_{\Omega}^{} \mathbb{1} _A f \mathrm{d}\mu
+      \end{equation}
+    \item Relation de Chasles
+      \begin{equation}
+        (A, B) \in \mathcal{T} ^{2}, \; \mu(A \cap B) = 0 \implies \int_{A \cup B}^{} f \mathrm{d}\mu = \int_{A}^{} f \mathrm{d}\mu + \int_{B}^{} f \mathrm{d}\mu
+      \end{equation}
+
+\end{enumerate}
+\end{Prop}
+
+
+
+
+
+
+
+
+
+
+
+
+% section Intégrabilité (end)
+
+\newpage
+\section{Convergence monotone} % (fold)
+\label{sec:Convergence monotone}
+
+\subsection{Rappel : intégration généralisée} % (fold)
+\label{sub:Rappel : intégration généralisée}
+
+
+
+On a énoncé : Si $f : I \to \mathbb{R} \in \mathcal{C}_{pm} ^{0}$, posons que $a = \inf I$, $b = \sup I$, $f$ intégrable sur $I$ si et seulement si $\int_{a}^{b} |f(t) | \mathrm{d}t$.
+
+On a de plus : 
+\begin{itemize}
+
+  \item La possibilité  de faire des intégrales de fonctions $f : \Omega \to [- \infty, + \infty]$ où $(\Omega, \mathcal{T}, \mu)$est un espace mesuré ($\Omega$ n'est pas nécessairement un intervalle)
+
+  \item On s'intéresse aux fonctions mesurables (ce n'est plus nécessairement une fonction continue par morceaux)
+
+\end{itemize}
+
+\subsection{Théorème de convergence monotone} % (fold)
+\label{sub:Théorème de convergence monotone}
+
+
+% subsection Théorème de convergence monotone (end)
+% subsection Rappel : intégration généralisée (end)
+\begin{Theorem}{de convergence monotone}{}
+Soit $(\Omega, \mathcal{T}, \mu)$ un espace mesuré et $(f_n ) _{n \in \mathbb{N}}$ une suite \underline{croissante} de fonctions \underline{positives, mesurables} sur $\Omega$ : 
+
+\begin{itemize}
+
+    \item Positivité veut dire :  
+      \begin{equation}
+        \forall n \in \mathbb{N}, \; f_n (\Omega) \subset [0, + \infty]
+      \end{equation}
+
+    \item Croissance veut dire : 
+
+\begin{equation}
+  \forall n\in \mathbb{N}, \; \forall \omega \in \Omega, \; f_n(\omega) \le f _{n+1} (\omega)
+\end{equation}
+\end{itemize}
+
+
+Alors, il existe une fonction $f$ \underline{positive, mesurable} sur $\Omega$ telle que  (voir notation \ref{eq: 2.11})
+\begin{equation}
+  \forall \omega \in \Omega, \; f(\omega) = \underset{n \to + \infty}{\lim}\uparrow f_n(\omega)
+\end{equation}
+
+et plus important, on a : 
+\begin{equation}
+  \boxed{\int_{\Omega}^{} f \mathrm{d}\mu = \underset{n \to + \infty}{\lim} \uparrow \left( \int_{\Omega}^{} f_n \mathrm{d}\mu \right)}
+\end{equation}
+Autre écriture : \textbf{interversion de limites}
+\begin{equation}
+  \boxed{\int_{\Omega}^{} \left( \underset{n \to + \infty}{\lim} f_n \right) \mathrm{d}\mu = \underset{n \to + \infty}{\lim}  \left( \int_{\Omega}^{} f_n \mathrm{d}\mu \right)}
+\end{equation}
+\end{Theorem}
+
+\begin{note}{}{}
+  \begin{itemize}
+
+      \item 
+On ne nous dit pas que $f$ est intégrable sur $\Omega$. (seulement mesurable)
+
+\item 
+L'existence de $f$ n'est pas une information nouvelle, mais ce qui est nouveau : $f$ est mesurable sur $\Omega$.
+
+  \end{itemize}
+
+\end{note}
+
+\begin{Prop}{}{}
+$f$ intégrable sur $\Omega$ si et seulement si $\exists l \in \mathbb{R}_+$, $\int_{\Omega}^{}f_n \mathrm{d}\mu  \underset{n \to + \infty}{\longrightarrow} l$
+\end{Prop}
+
+\begin{note}{Comment utiliser ce théorème ?}{}
+
+  \begin{itemize}
+
+      \item Comment montrer qu'une fonction est mesurable ? 
+      \item Un problème étant donné, comment se ramener à une suite croissante ? 
+
+  \end{itemize}
+\end{note}
+
+\begin{Prop}{Mesurabilité}{}
+Soit $f : \Omega \to [0, + \infty]$, est-elle mesurable ? 
+
+\begin{enumerate}
+
+    \item Si $B \in \mathcal{T}$, $\mathbb{1}_B$ est mesurable.
+    \item $\Omega \subset (E, d)$, il y a une notion d'ouverts et de fermés dans $\Omega$ et $\mathcal{T} \supset BO(\Omega)$. 
+
+      Alors : 
+      \begin{center}
+      Si $f$ continue, $f$ sera mesurable. 
+      \end{center}
+
+    \item De même, 
+      \begin{center}
+      Si $f$ continue par morceuax, $f$ sera mesurable.
+      \end{center}
+
+
+
+\end{enumerate}
+
+\end{Prop}
+
+
+
+
+\begin{Example}{}{}
+  Montrer que $F : ]0, +\infty[ \to \mathbb{R}$ est mesurable sur $]0, + \infty[$ : 
+  \begin{equation}
+    a \mapsto \int_{0}^{1} \frac{\mathrm{d}x}{\sqrt{(x ^{2}+1)(x ^{2}+a ^{2})}} 
+  \end{equation}
+\end{Example}
+
+\begin{myproof}{}{}
+\begin{itemize}
+
+  \item $F$ est mesurable sur $]0, +\infty[$ par continuité
+  \item Comportement en $0 ^{+}$. $F_n \to _{n \to + \infty} F$ croissante. 
+
+    Soit $(a_n) _{n \in \mathbb{N}} \in ]0, + \infty[ ^{\mathbb{N}}$ décroissante, $a_n \to _{n \to \infty} 0 ^{+}$. 
+
+  \begin{itemize}
+
+
+      \item \textbf{Discrétisation monotone} : Construisons 
+        \begin{align}
+          f_n : [0, 1] &\to \mathbb{R}_+ \\ 
+          x &\mapsto \frac {1}{\sqrt{(x ^{2}+1 ) (x ^{2}+ a_n ^{2})}}  \underset{n \to +\infty}{\longrightarrow} f : \begin{cases}
+            [0,1] \to ]0, + \infty[ \\ x \mapsto  \begin{cases}
+            + \infty \text{ si } x = 0 \\ 
+            \frac{1}{\sqrt{1 + x ^{2}} \times x} \text{ si } x \in ]0, 1]
+          \end{cases}
+          \end{cases}       
+          \end{align}
+
+      \item D'après le théorème de convergence monotone, 
+        \begin{equation}
+          f(x) = \underset{ n \to  + \infty}{\lim} \uparrow f_n(x)
+        \end{equation}
+
+      \item Comme $f$ n'est pas intégrable sur $[0,1]$ minorée par $x \mapsto 1/(2x)$, on en déduit que $F(a_n)  \underset{n \to + \infty}{\longrightarrow} + \infty$ don 
+        \begin{equation}
+          F(a)  \underset{a \to 0 ^{+}}{\longrightarrow}  + \infty
+        \end{equation}
+  \end{itemize}
+
+\end{itemize}
+\end{myproof}
+
+
+
+
+
+
+
+
+
+
+% section Convergence monotone (end)
+
+\newpage
+\section{Convergence dominée} % (fold)
+\label{sec:Convergence dominée}
+
+P273 : Le théorème de convergence \textit{monotone} a des hypothèses très fortes. Et pourtant, on aimerait pouvoir dire 
+\begin{equation}
+  \int_{\Omega}^{} f_n \mathrm{d}\mu  \underset{n \to +\infty}{\longrightarrow} \int_{\Omega}^{} f \mathrm{d}\mu \text{ avec } \forall \omega \in \Omega, \; f_n(\omega)  \underset{n \to +\infty}{\longrightarrow} f(\omega)
+\end{equation}
+
+Mais, \textbf{Fausse} en général. Sinon, on parle d'\textbf{interversion de limites}.
+
+
+
+
+
+
+Donc on va chercher des conditions suffisantes pour avoir ce résultat.
+
+\begin{Theorem}{
+    \color{red} de convergence dominée
+  }{}
+  Soit $(\Omega, \mathcal{T}, \mu)$ un espace mesuré, et des applications $(f_n) \in (\Omega \to \mathbb{K}) ^{\mathbb{N}}$ mesurables sur $\Omega$ et vérifiant : 
+  \begin{enumerate}
+
+      \item \textit{Convergence simple} 
+
+        Il existe une fonction $f: \Omega \to \mathbb{K}$ mesurable telle que : 
+        \begin{equation}
+          \forall \omega \in \Omega, \; f_n(\omega)  \underset{n \to + \infty}{\longrightarrow} f(\omega) \quad \mu-\text{p.p.}
+        \end{equation}
+
+      \item \textit{Domination uniforme} 
+
+        Il existe une fonction $\varphi : \Omega \to [0, + \infty]$ intégrable sur $\Omega$, telle que :
+        \begin{equation}
+          \forall \omega \in \Omega, \; \forall n \in \mathbb{N},\;  |f_n(\omega) | \le \varphi(\omega) \quad \mu-\text{p.p.}
+        \end{equation}
+  \end{enumerate}
+
+  Alors, 
+  \begin{enumerate}
+
+      \item $\forall n \in \mathbb{N}$, $f_n$ intégrable sur $\Omega$ 
+      \item $f$ intégrable sur $\Omega$ 
+      \item De plus 
+        \begin{equation}
+          \int_{\Omega}^{} f_n \mathrm{d}\mu  \underset{n \to + \infty}{\longrightarrow} \int_{\Omega}^{} f \mathrm{d}\mu
+        \end{equation}
+
+  \end{enumerate}
+
+\end{Theorem}
+
+\begin{Example}{}{}
+Cherchons le comportement asymptotique de :
+\begin{equation}
+  I _ n = \int_{0}^{n} \left( 1-  \frac{x}{n} \right) ^{n} e ^{-x} \mathrm{d}x
+\end{equation}
+\end{Example}
+
+\begin{solution}
+    \begin{enumerate}
+
+      \item Problème de $\Omega$. $\Omega \ne [0, n]$ car il ne doit pas dépendre de $n$. 
+        On a deux méthodes : 
+        \begin{itemize}
+
+            \item Fixer $\Omega$ en prolongement les fonctions par 0 :  $f_n : [0, + \infty[ \to \mathbb{R}$ : 
+              \begin{equation}
+                x \mapsto \begin{cases}
+                  \left( 1- \frac{x}{n}  \right) ^{n} e ^{-x}, \quad x \in [0, n] \\ 
+                  0 \quad \text{sinon}
+                \end{cases}
+              \end{equation}
+
+            \item Faire un changement de variables pour fixer $\Omega$ : 
+              \begin{equation}
+                \int_{0}^{n} \left( 1- \frac{x}{n}  \right) ^{n} e ^{-x} \mathrm{d}x = \int_{0}^{1} n(1-u) ^{n} e 
+                ^{-n.u} \mathrm{d}u
+              \end{equation}
+
+              On observe la contion dans l'intégrale 
+              \begin{itemize}
+
+                  \item est mesurable car elle est continue 
+                  \item Si $u \in [0,1]$, $f_n(i)  \underset{n \to +\infty}{\longrightarrow} + \infty$ si $u=0$. 
+
+              \end{itemize}
+
+              On n'y arrive pas. Mais, ça nous inspire que, si on pose la question inversement, on peut penser à faire un changement de variable.
+
+
+
+
+        \end{itemize}
+
+      \item Limite de la suite de fonctions : 
+        \begin{equation}
+          f_n(x)  \underset{n \to +\infty}{\longrightarrow} e ^{-2x} = f(x)
+        \end{equation}
+        car $ \left( 1 + \frac{u}{n}   \right) ^{n} \to e ^{u}$
+
+      \item Domination : Soit $x \in [0, + \infty[$, $n \in \mathbb{N}$, 
+        \begin{equation}
+          |f_n(x) | = |\left( 1 - \frac{x}{n}  \right) ^{n} e ^{-x} | + 0 \le e ^{-x} = \varphi(x)
+        \end{equation}
+
+        \begin{itemize}
+
+            \item {\color{red} $\varphi$ ne dépend pas de $n$}
+
+            \item $\varphi$ mesurable sur $\mathbb{R}_+$ car elle est continue 
+            \item $\varphi$ est intégrable sur $\mathbb{R} _+$ car 
+              \begin{equation}
+                \int_{0}^{+ \infty} e ^{-x} \mathrm{d}x = 1
+              \end{equation}
+
+        \end{itemize}
+
+      \item Le théorème de convergence dominée s'applique et 
+        \begin{equation}
+          I _n = \int_{[0, +\infty]}^{} f_n \mathrm{d}\lambda  \underset{n \to +\infty}{\longrightarrow} \int_{[0, +\infty[}^{} f \mathrm{d} \lambda = \int_{0}^{+ \infty} e ^{-2x} \mathrm{d}x = \frac{1}{2} 
+        \end{equation}
+
+    \end{enumerate}
+\end{solution}
+
+
+
+% section Convergence dominée (end)
+
+\newpage
+\section{Changement de variable} % (fold)
+\label{sec:Changement de variable}
+
+\begin{Definition}[colbacktitle=red!75!black]{Tribu image, Mesure image}{}
+Soit $(\Omega, \mathcal{T}, \mu)$ un \textit{espace mesuré}, $\Omega '$ un ensemble, $f : \Omega \to \Omega'$ 
+
+
+On appelle 
+\begin{itemize}
+
+    \item \textbf{tribu image} de $\Omega'$ : 
+      \begin{equation}
+        \mathcal{T}_f ' =  \{ A' \subset \Omega', f ^{-1}(A') \in \mathcal{T}\}
+      \end{equation}
+
+\end{itemize}
+\end{Definition}
+
+
+% section Changement de variable (end)
