@@ -440,11 +440,11 @@ Soit $f$ une fonction de classe $\mathcal{C} ^{1}$ sur $I$ de $\mathbb{R}$, soit
 
 \end{Example}
 
-\begin{myproof}{}{}
+\begin{myproof}{}{} Soit $x \in [a,b]$
 \begin{gather}
   f(x) = f(a) + \int_{a}^{x} f'(t) \mathrm{d} t = \int_{a}^{x} f'(t) \mathrm{d}t \\ 
-  f ^{2}(x) \le \int_{a}^{x} 1 ^{2} \mathrm{d} t \int_{a}^{x} f^{'2}(t) \mathrm{d} t \le (x-a) \int_{a}^{b} f ^{'2}(t) \mathrm{d} t \\ 
-  \int_{a}^{b} f ^{2}(t) \mathrm{d} t \int_{a}^{b}(x-a) \mathrm{d}x  = \frac{b-a) ^{2}}{2}  \int_{a}^{b} f ^{'2}(t) \mathrm{d} t \implies C = \frac{b-a}{\sqrt{2}} 
+  (\text{Cauchy-Schwarz})\implies f ^{2}(x) \le \int_{a}^{x} 1 ^{2} \mathrm{d} t \int_{a}^{x} f^{'2}(t) \mathrm{d} t \le (x-a) \int_{a}^{b} f ^{'2}(t) \mathrm{d} t \\ 
+  \int_{a}^{b} f ^{2}(t)  \mathrm{d} t \le \int_{a}^{b}f ^{'2}(t) \mathrm{d}t \times \int_{a}^{b}(x-a) \mathrm{d}x  = \frac{(b-a) ^{2}}{2}  \int_{a}^{b} f ^{'2}(t) \mathrm{d} t \implies C = \frac{b-a}{\sqrt{2}} 
 \end{gather} 
 \end{myproof}
 
@@ -583,7 +583,7 @@ Si la fonction $f$ de classe $\mathscr{C} ^{1}$, on sait que
 
 Faisons une IPP à la dernière terme, et supposons que $f$ de classe $\mathscr{C} ^{2}$. Donc, en admettant que 
 \begin{equation}
-  f(x) = f(a) + [tf'(t)] _a ^{x} - \int_{a}^{x} tf"(x) \mathrm{d}t = f(a) + xf'(x) - af'(a) - \int_{a}^{x} tf"(t) \mathrm{d}t
+  f(x) = f(a) + [tf'(t)] _a ^{x} - \int_{a}^{x} tf"(t) \mathrm{d}t = f(a) + xf'(x) - af'(a) - \int_{a}^{x} tf"(t) \mathrm{d}t
 \end{equation}
 
 On ne sait pas $f'(x)$. Maintenant, considérons la primitive de $g : t \mapsto 1$ s'annule en $x$

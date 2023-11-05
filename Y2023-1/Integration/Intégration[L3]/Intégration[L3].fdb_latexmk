@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1698306145 "Intégration[L3].xdv" "Intégration[L3].pdf" "Intégration[L3]" 1698306146
-  "Intégration[L3].xdv" 1698306144 731780 160e51d6a69525db1cf633a643c04c2f "xelatex"
+["xdvipdfmx"] 1698549764 "Intégration[L3].xdv" "Intégration[L3].pdf" "Intégration[L3]" 1698549765
+  "Intégration[L3].xdv" 1698549763 732156 e5d9af4debc9fb345ccd07e5e25c4dc0 "xelatex"
   (generated)
   "Intégration[L3].pdf"
-["xelatex"] 1698306138 "Intégration[L3].tex" "Intégration[L3].xdv" "Intégration[L3]" 1698306146
+["xelatex"] 1698549757 "Intégration[L3].tex" "Intégration[L3].xdv" "Intégration[L3]" 1698549765
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -240,10 +240,10 @@
   "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1655629763 5459476 783cf268605e3478e2099c4cdff1b12f ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "C1.tex" 1698306137 27529 4e4480fb395208830e0ba997ca71f90e ""
-  "Int[L2].tex" 1697251712 24770 2b99497cc84808bebabc8d07ca22c5fc ""
-  "Intégration[L3].aux" 1698306144 11695 507d1f2152601bb52ffbf49fb3c4d88d "xelatex"
+  "Int[L2].tex" 1698549755 24869 d315d236b28a629fa9bbedf239013234 ""
+  "Intégration[L3].aux" 1698549763 11695 507d1f2152601bb52ffbf49fb3c4d88d "xelatex"
   "Intégration[L3].tex" 1697695875 383 c1f9820fb798bd41ca40ad319fafa84c ""
-  "Intégration[L3].toc" 1698306144 4025 85a76a0904ef474f64981d76bc7b5d3d "xelatex"
+  "Intégration[L3].toc" 1698549763 4025 85a76a0904ef474f64981d76bc7b5d3d "xelatex"
   "assets/Approximation d'une fonction 1.png" 1696829647 143595 35d447d4d582759cd7aa5af07d91f02d ""
   "assets/Approximation d'une fonction 2.png" 1696830314 100733 fe3878061cdbf198b434abea39e9ca8a ""
   "assets/Encadrement d'une intégrale.png" 1696834062 34442 de5014908c53566c24be5ccf2c23e932 ""

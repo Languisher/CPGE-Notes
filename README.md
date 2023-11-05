@@ -1,11 +1,21 @@
 # CPGE Notes
 
-Dernière mise à jour : *Octobre, 2023*, Shanghai
+Dernière mise à jour : *Novembre, 2023*, Shanghai
 
-**Brandon Lin**
+## Introduction
 
-Ce dossier contient ces fichiers :
+本仓库包含了我在上海交通大学大一至大二年级，读 [CPGE (Classes préparatoires aux grandes écoles)](https://www.enseignementsup-recherche.gouv.fr/fr/classes-preparatoires-aux-grandes-ecoles-cpge-46496) （法国预科）期间所做的所有笔记，并且提供了一些教材和辅助材料。
 
+**本仓库未来的规划**：在 2023 年第 1 学期所有的课程结束之后，我将会上传本学期所有的材料，随后本仓库宣告终结、未来不再更新。也许未来有一天我会再重新整理我所写的所有笔记，但至少不在短期规划内。诚实地说，Concours 于我而言是一个极其痛苦的回忆，将来再也不愿意回首这段备考的时期。
+
+**如何使用本仓库**：
+- 在 `Math` 和 `Physique - Chimie` 文件夹中，我放了所有我们课上讲的练习以及课本。
+- 在 `Notes` 文件夹中， `Notes-Essentiels` 文件夹包含了我在 Concours 考试前所有重置整理过的笔记，具体介绍见下一个小节。
+- 非常推荐参考的课外书籍：
+	- [Physique 1re année PCSI](Physique%20-%20Chimie/REFERENCE/Physique%20-%201re%20année%20-%20PCSI%20-%20Référence%20Prépas%20(Proetudes.blogspot.com).pdf), [Physique 2e année PC](Physique%20-%20Chimie/REFERENCE/Reference%20prepa%20-%20Physique%20-%202e%20année%20-%20PC%20(Proetudes.blogspot.com).pdf)  基本覆盖了所有知识点以及对其有个比较清晰的整理，非常有用，相见恨晚。
+	- [Mathématique SUP](Math/REFERENCES/cours-sup-pré-2003.pdf), [Mathématique SPE](Math/REFERENCES/cours-spé-2014.pdf), [Mathématique SUP(2)](Math/REFERENCES/livre%20archive%202012.pdf) 可以对课内知识点做查漏补缺
+	- H-Prépa Physique 系列书籍：物理层面对每一块知识更详细的讲解。
+	- [100% Concours Algèbre et géométrie](Math/REFERENCES/Algèbre%20et%20géométrie%20exercices%20PC.pdf), [100% Concours Analyse](Math/REFERENCES/Tous%20les%20exercices%20danalyse%20MP%20by%20El%20Haj%20Laamri,%20Philippe%20Chateaux,%20Gérard%20Eguether,%20Marc%20Rezzouk,%20Collectif%20(z-lib.org).pdf) 提供了对于每一块知识点非常好的数学习题，也对于 Concours 口试有所帮助。
 ## Notes - Essentiels
 
 ### Maths
@@ -15,11 +25,22 @@ Ce dossier contient ces fichiers :
 | [Suites et Séries](Notes/Notes%20-%20Essentiels/Suites-et-Séries.pdf)              | Août, 2023           | 44    |
 | [Algèbre Linéaire](Notes/Notes%20-%20Essentiels/Algèbre%20Linéaire.pdf)            | Septembre, 2023      | 72    |
 | [Analyse 导数、微分与积分](Notes/Notes%20-%20Essentiels/Calcul%20différentiel.pdf) | Août, 2023           | 30    |
-| [**Topologie**(L2)](Notes/Notes%20-%20Essentiels/Topologie%20NewNew.pdf)               | Septembre, 2023      | 24    |
-| [Topologie(L3)](Notes/Notes%20-%20Essentiels/Topologie[L3].pdf)                    | Octobre, 2023        |  21     |
-| ~~Probabilité~~                                                                    |                      |       |
+| [**Topologie**(L2)](Notes/Notes%20-%20Essentiels/Topologie%20NewNew.pdf)           | Septembre, 2023      | 24    |
+| [Topologie(L3)](Y2023-1/Integration/Topologie[L3]-Notes-Latex/Topologie[L3].pdf)   | Octobre, 2023        | 31    |
+| [Intégration](Y2023-1/Integration/Intégration[L3]/Intégration[L3].pdf)             | Octobre, 2023        | 27    |
+### Physique
+| Titre                                                                                   | Dernière mise à jour | Pages |     |
+| --------------------------------------------------------------------------------------- | -------------------- | ----- | --- |
+| [Électrocinétique](Notes/Notes%20-%20Essentiels/Électrocinétique.pdf)                   | Août, 2023           | 49    |     |
+| [Optique Ondulatoire](Notes/Notes%20-%20Essentiels/Optique-Ondulatoire.pdf)             | Août, 2023           | 41    |     |
+| [Ondes Unidimensionnelles](Notes/Notes%20-%20Essentiels/Ondes%20Unidimensionnelles.pdf) | Septembre, 2023      | 24    |     |
+| [Électromagnétisme](Notes/Notes%20-%20Essentiels/ElectroMag.pdf)                        | Septembre, 2023      | 35    |     |
+| [Mécanique](Notes/Notes%20-%20Essentiels/Mécanique.pdf)                                 | Septembre, 2023      | 32    |     |
+| [Thermodynamique](Notes/Notes%20-%20Essentiels/Thermodynamique.pdf)                     | Octobre, 2023        | 28      |     |
 
-Contenu :
+### Contenu
+
+Mathématiques :
 - **Suites et Séries** : 
 	- Suites numériques
 	- Séries numériques
@@ -47,16 +68,8 @@ Contenu :
 	- Compacité
 	- Connexité
 	- Espaces vectoriels normé
-### Physique
-| Titre                                                                       | Dernière mise à jour | Pages |
-| --------------------------------------------------------------------------- | -------------------- | ----- |
-| [Électrocinétique](Notes/Notes%20-%20Essentiels/Électrocinétique.pdf)                   | Août, 2023           | 49    |
-| [Optique Ondulatoire](Notes/Notes%20-%20Essentiels/Optique-Ondulatoire.pdf)             | Août, 2023           | 41    |
-| [Ondes Unidimensionnelles](Notes/Notes%20-%20Essentiels/Ondes%20Unidimensionnelles.pdf) | Septembre, 2023           | 24    |
-| [Électromagnétisme](Notes/Notes%20-%20Essentiels/ElectroMag.pdf)                                | Septembre, 2023             | 35    |
-| [Mécanique](Notes/Notes%20-%20Essentiels/Mécanique.pdf)                                                                   | Septembre, 2023      | 32      |
 
-Contenu :
+Physique :
 - **Électrocinétique** :
 	- Lois générales
 	- Modélisations ARQS
@@ -114,12 +127,6 @@ Contenu :
 | P12  | Fondements de l'électromagnétisme 电磁学基础 ([PHY3305P-2023 autumn])                                                                                     | Y3S1     |
 | P13  | 量子力学导论 ([PHY3306P-2023 autumn])                                                                                                                     | Y3S1         |
 
-### Informatique
-
-| Type | Titre | Semestre |
-| ---- | ----- | -------- |
-| I01  | [Mathematical Foundation for Artificial Intelligence](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1168)      | Y2S2         |
-
 ## Notes de cours
 
 Les notes suivantes ont été prises en classe au fur et à mesure, elles ne sont pas aussi bien organisées que les précédentes. Je vous recommande d'utiliser la version la plus récente et intégrée !
@@ -148,12 +155,7 @@ Les notes suivantes ont été prises en classe au fur et à mesure, elles ne son
 | Cours - Mécanique I                 | [Méc I-1](Notes/Notes%20-%20Cours/01%202.pdf), [Méc I-2](Notes/Notes%20-%20Cours/02%202.pdf), [Méc I-3](Notes/Notes%20-%20Cours/03%20M%202.pdf), [Méc I-4](Notes/Notes%20-%20Cours/04%20M%203.pdf), [Méc I-5](Notes/Notes%20-%20Cours/05%20M%203.pdf)                          | Juin, 2022           |
 | Cours - Optique Géométrique         | Optique Géométrique
 | Résumé(Latex) - Optique Ondulatoire | [Optique Ondulatoire](Notes/Notes%20-%20Cours/Optique-Ondulatoire(Résumé).pdf)                                                                                                                         | Juin, 2023                     |
+
 ## Concours Site
 
 https://gargantua.polytechnique.fr/siatel-web/app/explorer/fVaJXpYYYK
-
-## Références
-
-- H-Prépa Physique : la collection de référence en physique pour les étudiants en classe préparatoire scientifique.
-- [Site mathématique de Prof. Christophe BERTAULT](http://christophebertault.fr/cours-et-exercices/), [Site mathématique de Prof. Mickaël PROST](http://mickaelprost.fr)
-- [Mathématique sup](Math/REFERENCES/cours-sup-pré-2003.pdf), [Mathématique spé](Math/REFERENCES/cours-spé-2014.pdf), de Prof. David Delaunay

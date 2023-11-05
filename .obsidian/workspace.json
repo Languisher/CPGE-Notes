@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5acb653fdf484472",
+        "id": "f4f82f3afa80a1be",
         "type": "tabs",
         "children": [
           {
-            "id": "de5f7793d9aad7d0",
+            "id": "d10ce3574ad19c65",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 374.5
   },
   "right": {
     "id": "c515df8bb3999eb4",
@@ -143,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,19 +156,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "de5f7793d9aad7d0",
+  "active": "d10ce3574ad19c65",
   "lastOpenFiles": [
-    "Math/M04 Suites et Séries/Livres/Y2S1 Suites et Séries 2021.pdf",
-    "Math/M04 Suites et Séries/Exercices/DS/SS_midterm_exam_c.pdf",
-    "Y2023-1/Électromagnétisme/Notes/LN-PHY3305P.synctex(busy)",
-    "Y2023-1/Électromagnétisme/Notes/xelatex89778.fls",
-    "Y2023-1/Électromagnétisme/Notes/xelatex89774.fls",
-    "Y2023-1/Électromagnétisme/Notes/xelatex89709.fls",
-    "Y2023-1/Électromagnétisme/Notes/xelatex89598.fls",
-    "Y2023-1/Électromagnétisme/Notes/xelatex89281.fls",
-    "Y2023-1/Électromagnétisme/Notes/xelatex89146.fls",
-    "Y2023-1/Électromagnétisme/Notes/xelatex89113.fls",
-    "Y2023-1/Électromagnétisme/Notes/xelatex89108.fls",
+    "Notes/Notes - Essentiels/Thermodynamique.pdf",
+    "README.md",
+    "Notes/Notes - Essentiels/template.pdf",
+    "Notes/template.pdf",
+    "Math/REFERENCES/Tous les exercices danalyse MP by El Haj Laamri, Philippe Chateaux, Gérard Eguether, Marc Rezzouk, Collectif (z-lib.org).pdf",
+    "Math/REFERENCES/Analyse fonctionnelle et calcul différentiel MP.pdf",
+    "Math/REFERENCES/Algèbre et géométrie exercices MP.pdf",
+    "Math/REFERENCES/livre archive 2012.pdf",
+    "Physique - Chimie/REFERENCE/Reference prepa - Physique - 2e année - PC (Proetudes.blogspot.com).pdf",
+    "Physique - Chimie/REFERENCE/Physique - 1re année - PCSI - Référence Prépas (Proetudes.blogspot.com).pdf",
+    "Math/REFERENCES/QCM Maths MPSI.pdf",
     "Y2023-1/Électromagnétisme/Notes/assets/Solénoïde parcouru par un courant variable.png",
     "Y2023-1/Électromagnétisme/Notes/assets/截屏2023-10-26 22.07.17.png",
     "Y2023-1/Électromagnétisme/Notes/assets/截屏2023-10-26 22.07.04.png",
@@ -179,7 +178,6 @@
     "Y2023-1/Électromagnétisme/Notes/assets/截屏2023-10-26 22.02.27.png",
     "Y2023-1/Électromagnétisme/Notes/assets/Condensateur plan.png",
     "Y2023-1/Électromagnétisme/Notes/assets/截屏2023-10-26 21.50.58.png",
-    "README.md",
     "Test.md"
   ]
 }
