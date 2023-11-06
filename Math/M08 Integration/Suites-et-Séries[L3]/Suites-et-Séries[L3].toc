@@ -1,0 +1,6 @@
+\contentsline {chapter}{\numberline {1}Suites et séries de fonctions}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Position des problèmes}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Types de convergences}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Convergence simple}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Convergence uniforme}{4}{subsection.1.2.2}%
+\contentsfinish 

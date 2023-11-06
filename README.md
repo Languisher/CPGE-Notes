@@ -20,23 +20,26 @@ Dernière mise à jour : *Novembre, 2023*, Shanghai
 
 ### Maths
 
-| Titre                                                                              | Dernière mise à jour | Pages |
-| ---------------------------------------------------------------------------------- | -------------------- | ----- |
-| [Suites et Séries](Notes/Notes%20-%20Essentiels/Suites-et-Séries.pdf)              | Août, 2023           | 44    |
-| [Algèbre Linéaire](Notes/Notes%20-%20Essentiels/Algèbre%20Linéaire.pdf)            | Septembre, 2023      | 72    |
-| [Analyse 导数、微分与积分](Notes/Notes%20-%20Essentiels/Calcul%20différentiel.pdf) | Août, 2023           | 30    |
-| [**Topologie**(L2)](Notes/Notes%20-%20Essentiels/Topologie%20NewNew.pdf)           | Septembre, 2023      | 24    |
-| [Topologie(L3)](Y2023-1/Integration/Topologie[L3]-Notes-Latex/Topologie[L3].pdf)   | Octobre, 2023        | 31    |
-| [Intégration](Y2023-1/Integration/Intégration[L3]/Intégration[L3].pdf)             | Octobre, 2023        | 27    |
+| Titre                                                                                       | Dernière mise à jour | Pages |
+| ------------------------------------------------------------------------------------------- | -------------------- | ----- |
+| [Suites et Séries(L2)](Notes/Notes%20-%20Essentiels/Suites-et-Séries.pdf)                   | Août, 2023           | 44    |
+| [Algèbre Linéaire (L2)](Notes/Notes%20-%20Essentiels/Algèbre%20Linéaire.pdf)                | Septembre, 2023      | 72    |
+| [Analyse (L1) 实变函数、导数、微分](Notes/Notes%20-%20Essentiels/Calcul%20différentiel.pdf) | Août, 2023           | 30    |
+| [**Topologie**(L2)](Notes/Notes%20-%20Essentiels/Topologie%20NewNew.pdf)                    | Septembre, 2023      | 24    |
+| [**Topologie(L3)**](Math/M08%20Integration/Topologie[L3]-Notes-Latex/Topologie[L3].pdf), Latex | Octobre, 2023        | 31    |
+| [**Intégration**](Math/M08%20Integration/Intégration[L3]/Intégration[L3].pdf), Latex           | Octobre, 2023        | 27    |
+| [Suites et Séries(L3)](Math/M08%20Integration/Suites-et-Séries[L3]/Suites-et-Séries[L3].pdf), Latex                                                               | Novembre, 2023       | En cours      |
+
+
 ### Physique
-| Titre                                                                                   | Dernière mise à jour | Pages |     |
-| --------------------------------------------------------------------------------------- | -------------------- | ----- | --- |
-| [Électrocinétique](Notes/Notes%20-%20Essentiels/Électrocinétique.pdf)                   | Août, 2023           | 49    |     |
-| [Optique Ondulatoire](Notes/Notes%20-%20Essentiels/Optique-Ondulatoire.pdf)             | Août, 2023           | 41    |     |
-| [Ondes Unidimensionnelles](Notes/Notes%20-%20Essentiels/Ondes%20Unidimensionnelles.pdf) | Septembre, 2023      | 24    |     |
-| [Électromagnétisme](Notes/Notes%20-%20Essentiels/ElectroMag.pdf)                        | Septembre, 2023      | 35    |     |
-| [Mécanique](Notes/Notes%20-%20Essentiels/Mécanique.pdf)                                 | Septembre, 2023      | 32    |     |
-| [Thermodynamique](Notes/Notes%20-%20Essentiels/Thermodynamique.pdf)                     | Octobre, 2023        | 28      |     |
+| Titre                                                                                   | Dernière mise à jour | Pages | 
+| --------------------------------------------------------------------------------------- | -------------------- | ----- |
+| [Électrocinétique](Notes/Notes%20-%20Essentiels/Électrocinétique.pdf)                   | Août, 2023           | 49    |
+| [Optique Ondulatoire](Notes/Notes%20-%20Essentiels/Optique-Ondulatoire.pdf)             | Août, 2023           | 41    |
+| [Ondes Unidimensionnelles](Notes/Notes%20-%20Essentiels/Ondes%20Unidimensionnelles.pdf) | Septembre, 2023      | 24    |
+| [Électromagnétisme](Notes/Notes%20-%20Essentiels/ElectroMag.pdf)                        | Septembre, 2023      | 35    |
+| [Mécanique](Notes/Notes%20-%20Essentiels/Mécanique.pdf)                                 | Septembre, 2023      | 32    |
+| [Thermodynamique](Notes/Notes%20-%20Essentiels/Thermodynamique.pdf), Latex                     | Octobre, 2023        | 28    | 
 
 ### Contenu
 
@@ -108,7 +111,7 @@ Physique :
 | M05  | Algèbre linéaire et bilinéaire 线性代数 ([MATH2306P-2022 autumn](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1065))                                 | Y2S1     |
 | M06  | Topologie et calcul différentiel 拓扑学与微分学 ([MATH2308P-2023 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1167))                         | Y2S2     |
 | M07  | Algèbre linéaire et bilinéaire avancé 高等线性代数 ([MATH2307P-2023 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1166))                      | Y2S2     |
-| M08  | 积分、级数与傅里叶分析 ([MATH3305P-2023 autumn])                                                                                                           |  Y3S1        |
+| M08  | 积分、级数与傅里叶分析 ([MATH3305P-2023 autumn](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1288))                                                                                                           |  Y3S1        |
 
 ### Physique
 | Type | Titre                                                                                                                                                     | Semestre |
@@ -124,8 +127,8 @@ Physique :
 | P09  | Optique ondulatoire 波动光学 ([PHY2303P-2023 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1170))                                            | Y2S2     |
 | P10  | Mécanique II 力学 II （[PHY2304P-2023 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1171))                                                   | Y2S2     |
 | P11  | Électromagnétisme en régime statique 静电磁学 ([PHY2304P-2023 spring](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1171))                           | Y2S2     |
-| P12  | Fondements de l'électromagnétisme 电磁学基础 ([PHY3305P-2023 autumn])                                                                                     | Y3S1     |
-| P13  | 量子力学导论 ([PHY3306P-2023 autumn])                                                                                                                     | Y3S1         |
+| P12  | Fondements de l'électromagnétisme 电磁学基础 ([PHY3305P-2023 autumn](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1293))                                                                                     | Y3S1     |
+| P13  | 量子力学导论 ([PHY3306P-2023 autumn](http://moodle.speit.sjtu.edu.cn/course/view.php?id=1292))                                                                                                                     | Y3S1         |
 
 ## Notes de cours
 
