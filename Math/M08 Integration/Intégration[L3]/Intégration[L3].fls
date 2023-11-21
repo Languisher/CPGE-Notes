@@ -1,4 +1,4 @@
-PWD /Users/linnan/Desktop/CPGE-Notes/Y2023-1/Integration/Intégration[L3]
+PWD /Users/linnan/Desktop/CPGE-Notes/Math/M08 Integration/Intégration[L3]
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt
@@ -1456,14 +1456,6 @@ OUTPUT Intégration[L3].xdv
 INPUT ./Intégration[L3].toc
 INPUT Intégration[L3].toc
 INPUT Intégration[L3].toc
-OUTPUT Intégration[L3].toc
-INPUT ./Int[L2].tex
-INPUT ./Int[L2].tex
-INPUT ./Int[L2].tex
-INPUT Int[L2].tex
-INPUT ./Int[L2].tex
-INPUT ./Int[L2].tex
-INPUT Int[L2].tex
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/rm-lmr6.tfm
@@ -1494,6 +1486,24 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newpx/zplsyc.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/lm/rm-lmr9.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newpx/zplmi.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newpx/zplsy.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newpx/zplexx.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newpx/zplmia.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newpx/zplsym.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newpx/zplsyc.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newpx/zplexa.tfm
+OUTPUT Intégration[L3].toc
+INPUT ./Int[L2].tex
+INPUT ./Int[L2].tex
+INPUT ./Int[L2].tex
+INPUT Int[L2].tex
+INPUT ./Int[L2].tex
+INPUT ./Int[L2].tex
+INPUT Int[L2].tex
 INPUT ./assets/Fonction continue par morceaux sur un segment.png
 INPUT ./assets/Fonction continue par morceaux sur un segment.png
 INPUT ./assets/Fonction continue par morceaux sur un segment.png
@@ -1513,4 +1523,10 @@ INPUT C1.tex
 INPUT ./C1.tex
 INPUT ./C1.tex
 INPUT C1.tex
+INPUT ./assets/Ensemble de Cantor.svg.png
+INPUT ./assets/Ensemble de Cantor.svg.png
+INPUT ./assets/Ensemble de Cantor.svg.png
+INPUT ./assets/Convergence dominée.png
+INPUT ./assets/Convergence dominée.png
+INPUT ./assets/Convergence dominée.png
 INPUT Intégration[L3].aux

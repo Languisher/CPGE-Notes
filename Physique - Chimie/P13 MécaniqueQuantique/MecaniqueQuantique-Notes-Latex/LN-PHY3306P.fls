@@ -1,4 +1,4 @@
-PWD /Users/linnan/Desktop/CPGE-Notes/Y2023-1/MécaniqueQuantique/MecaniqueQuantique-Notes-Latex
+PWD /Users/linnan/Desktop/CPGE-Notes/Physique - Chimie/P13 MécaniqueQuantique/MecaniqueQuantique-Notes-Latex
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt
@@ -1530,4 +1530,13 @@ INPUT C5.tex
 INPUT ./C5.tex
 INPUT ./C5.tex
 INPUT C5.tex
+INPUT ./assets/Barrière de Potentiel.png
+INPUT ./assets/Barrière de Potentiel.png
+INPUT ./assets/Barrière de Potentiel.png
+INPUT ./assets/Puits de Potentiel Infini.png
+INPUT ./assets/Puits de Potentiel Infini.png
+INPUT ./assets/Puits de Potentiel Infini.png
+INPUT ./assets/Puits de Potentiel Fini.png
+INPUT ./assets/Puits de Potentiel Fini.png
+INPUT ./assets/Puits de Potentiel Fini.png
 INPUT LN-PHY3306P.aux

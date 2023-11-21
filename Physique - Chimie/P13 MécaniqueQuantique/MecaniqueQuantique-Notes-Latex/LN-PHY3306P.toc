@@ -1,60 +1,80 @@
-\contentsline {chapter}{\numberline {1}Ondes et Particules, Fonction d'onde}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Introduction}{2}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Pourquoi Faire}{2}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Phénomène d'interférence}{2}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Électrons : Particule ou onde ?}{4}{subsection.1.1.3}%
-\contentsline {section}{\numberline {1.2}Fonction d'onde, Statistiques}{6}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Définitions}{6}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Condition de normalisation}{7}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Produit scalaire - Notation de Dirac}{7}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Prédiction statistiques}{8}{subsection.1.2.4}%
-\contentsline {subsection}{\numberline {1.2.5}Distribution Gaussienne}{9}{subsection.1.2.5}%
-\contentsline {subsection}{\numberline {1.2.6}Distribution de Dirac}{10}{subsection.1.2.6}%
-\contentsline {subsection}{\numberline {1.2.7}Ondes de de Broglie}{10}{subsection.1.2.7}%
-\contentsline {subsection}{\numberline {1.2.8}Principe de superposition}{11}{subsection.1.2.8}%
-\contentsline {chapter}{\numberline {2}Représentation en position et en impulsion, Opérateurs}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Mathématiques}{12}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Transformée de Fourier en impulsion}{12}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Égalité de Parseval-Plancherel}{12}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Transformée de Fourier et dérivation}{13}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Exemples}{13}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}Fonction d'onde en implusion}{15}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Définition}{15}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Mesure de l'impulsion}{15}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Valeurs moyennes de grandeurs dépendant de l'impulsion}{15}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Opérateur impulsion}{15}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}1 dimension}{15}{subsection.2.3.1}%
-\contentsline {subsubsection}{Quantité de mouvement $p$}{15}{section*.2}%
-\contentsline {subsubsection}{Fonction $g(p)$ développable en série}{16}{section*.3}%
-\contentsline {subsection}{\numberline {2.3.2}3 dimension}{17}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Cas d'ondes de de Broglie}{17}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Notation de Dirac}{17}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Commutateur}{17}{subsection.2.3.5}%
-\contentsline {subsubsection}{Exemple}{18}{section*.4}%
-\contentsline {section}{\numberline {2.4}Principe de correspondance}{18}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Relation entre la position et l'impulsion}{18}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Principe de correspondance}{18}{subsection.2.4.2}%
-\contentsline {subsubsection}{Exemples}{18}{section*.5}%
-\contentsline {subsection}{\numberline {2.4.3}Application en mécanique}{19}{subsection.2.4.3}%
-\contentsline {chapter}{\numberline {3}Relation de Heisenberg}{20}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Relation d'incertitude de Heisenberg (Inégalité spectrale)}{20}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Inégalité spectrale}{20}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Remarques}{20}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Régime classique et quantique}{21}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Exemple macroscopique}{21}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Exemple microscopique}{21}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Stabilité des atomes}{22}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Relation de Heisenberg temps-énergie}{23}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Mécanique ondulatoire}{24}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Équation de Schrödinger}{24}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Forme générale}{24}{subsection.4.1.1}%
-\contentsline {subsubsection}{Équation de Schrödinger 3D et 1D}{24}{section*.6}%
-\contentsline {subsection}{\numberline {4.1.2}Propriétés}{25}{subsection.4.1.2}%
-\contentsline {subsubsection}{Linéarité}{25}{section*.7}%
-\contentsline {subsubsection}{Conservation de la norme}{25}{section*.8}%
-\contentsline {subsubsection}{Justification d'une onde de de Broglie}{26}{section*.9}%
-\contentsline {subsection}{\numberline {4.1.3}Équation de Schrödinger indépendante du temps}{26}{subsection.4.1.3}%
-\contentsline {subsubsection}{Forme générale}{26}{section*.10}%
-\contentsline {subsubsection}{État stationnaire}{26}{section*.11}%
-\contentsline {subsection}{\numberline {4.1.4}Courant de probabilité}{26}{subsection.4.1.4}%
+\contentsline {chapter}{\numberline {1}Ondes et Particules, Fonction d'onde}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Pourquoi Faire}{3}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Phénomène d'interférence}{3}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Électrons : Particule ou onde ?}{5}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}Fonction d'onde, Statistiques}{7}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Définitions}{7}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Condition de normalisation}{8}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Produit scalaire - Notation de Dirac}{8}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Prédiction statistiques}{9}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Distribution Gaussienne}{10}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.6}Distribution de Dirac}{11}{subsection.1.2.6}%
+\contentsline {subsection}{\numberline {1.2.7}Ondes de de Broglie}{11}{subsection.1.2.7}%
+\contentsline {subsection}{\numberline {1.2.8}Principe de superposition}{12}{subsection.1.2.8}%
+\contentsline {chapter}{\numberline {2}Représentation en position et en impulsion, Opérateurs}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Transformée de Fourier}{13}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Transformée de Fourier en impulsion}{13}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Égalité de Parseval-Plancherel}{13}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Transformée de Fourier et dérivation}{14}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Exemples}{14}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Fonction d'onde en implusion}{16}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Définition}{16}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Mesure de l'impulsion}{16}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Valeurs moyennes de grandeurs dépendant de l'impulsion}{16}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Opérateur impulsion}{17}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}1 dimension}{17}{subsection.2.3.1}%
+\contentsline {subsubsection}{Quantité de mouvement $p$}{17}{section*.2}%
+\contentsline {subsubsection}{Fonction $g(p)$ développable en série}{17}{section*.3}%
+\contentsline {subsection}{\numberline {2.3.2}3 dimension}{18}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Cas d'ondes de de Broglie}{18}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Notation de Dirac}{18}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Commutateur}{19}{subsection.2.3.5}%
+\contentsline {subsubsection}{Exemple}{19}{section*.4}%
+\contentsline {section}{\numberline {2.4}Principe de correspondance}{19}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Relation entre la position et l'impulsion}{19}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Principe de correspondance}{19}{subsection.2.4.2}%
+\contentsline {subsubsection}{Exemples}{20}{section*.5}%
+\contentsline {subsection}{\numberline {2.4.3}Application en mécanique}{20}{subsection.2.4.3}%
+\contentsline {chapter}{\numberline {3}Relation de Heisenberg}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Relation d'incertitude de Heisenberg (Inégalité spectrale)}{21}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Inégalité spectrale}{21}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Remarques}{21}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Régime classique et quantique}{22}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Exemple macroscopique}{22}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Exemple microscopique}{22}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Stabilité des atomes}{23}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Relation de Heisenberg temps-énergie}{24}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Mécanique ondulatoire}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Équation de Schrödinger}{26}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Forme générale}{26}{subsection.4.1.1}%
+\contentsline {subsubsection}{Équation de Schrödinger 3D et 1D}{26}{section*.6}%
+\contentsline {subsection}{\numberline {4.1.2}Propriétés}{27}{subsection.4.1.2}%
+\contentsline {subsubsection}{Linéarité}{27}{section*.7}%
+\contentsline {subsubsection}{Conservation de la norme}{27}{section*.8}%
+\contentsline {subsubsection}{Justification d'une onde de de Broglie}{27}{section*.9}%
+\contentsline {subsection}{\numberline {4.1.3}Équation de Schrödinger indépendante du temps}{28}{subsection.4.1.3}%
+\contentsline {subsubsection}{Forme générale}{28}{section*.10}%
+\contentsline {subsubsection}{État stationnaire}{28}{section*.11}%
+\contentsline {subsection}{\numberline {4.1.4}Résoudre une équation de Schrödinger}{28}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}Courant de probabilité}{29}{subsection.4.1.5}%
+\contentsline {section}{\numberline {4.2}Particule libre}{31}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Parquet d'ondes de de Broglie}{31}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Quantité de mouvement moyenne}{31}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Barrière de potentiel}{32}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Continuité de fonction d'onde}{32}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}État d'une marche de potentiel}{32}{subsection.4.3.2}%
+\contentsline {subsubsection}{Marche de potentiel - Faible énergie}{32}{section*.12}%
+\contentsline {subsubsection}{Marche de potentiel - Haute énergie}{33}{section*.13}%
+\contentsline {subsubsection}{Marche de potentiel - Énergie négative}{33}{section*.14}%
+\contentsline {subsection}{\numberline {4.3.3}Densité de courant de probabilité}{34}{subsection.4.3.3}%
+\contentsline {subsubsection}{Faible énergie}{34}{section*.15}%
+\contentsline {subsubsection}{Haute énergie}{34}{section*.16}%
+\contentsline {subsection}{\numberline {4.3.4}Effet tunnel}{35}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}État d'une barrière de potentiel}{35}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}Puits de potentiel}{36}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Puits de potentiel infini}{36}{subsection.4.4.1}%
+\contentsline {subsubsection}{État stationnaire}{36}{section*.17}%
+\contentsline {subsubsection}{Mesure de l'énergie}{37}{section*.18}%
+\contentsline {subsection}{\numberline {4.4.2}Puits de potentiel fini}{38}{subsection.4.4.2}%
 \contentsfinish 

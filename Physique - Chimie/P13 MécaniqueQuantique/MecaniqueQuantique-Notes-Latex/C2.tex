@@ -16,8 +16,9 @@
 
   \end{itemize}
 \end{tcolorbox}
-\section{Mathématiques}
+\section{Transformée de Fourier}
 \subsection{Transformée de Fourier en impulsion}
+\label{Transformée de Fourier}
 
 \begin{Definition}[colbacktitle=red!75!black]{Transformée de Fourier en implusion}{}
 Pour une fonction de la position $f(x)$, on peut écrire $g(p)$ qui est appelée \textbf{Transformée de Fourier en impulsion} de la fonction $f(x)$ :
@@ -55,8 +56,8 @@ En particulier, en prenant $f_1(x) = f_2(x) = f(x)$ donc $g_1(p) = g_2(p) = g(p)
 \begin{Prop}{Transformée de Fourier et dérivation}{}
 Si $f(x)$. 
 \begin{equation}
-  f(x) \underset{T.F.}{\iff} g(p) \implies f_n(x) = \frac{\partial ^{(n) }f(x)}{\partial x ^{(n)}} \underset{T.F}{\iff} g_n(p) = \left( \frac{ip}{\hbar}  \right) ^{n} g(p)
-  \label{eq:2}
+  \left[ f(x) \underset{T.F.}{\iff} g(p) \right] \implies \left[  f_n(x) = \frac{\partial ^{(n) }f(x)}{\partial x ^{(n)}} \underset{T.F}{\iff} g_n(p) = \left( \frac{ip}{\hbar}  \right) ^{n} g(p)
+ \right] \label{eq:2}
 \end{equation}
 \end{Prop}
 
@@ -67,7 +68,7 @@ Soit $f_1(x) = f'(x)$, donc
   g_1(p) &= \frac{1}{\sqrt{2 \pi \hbar}}  \displaystyle\int_{- \infty}^{+\infty} f'(x) \exp(-i \frac{p x}{\hbar} ) \mathrm{d}x \\
          &= \frac{1}{\sqrt{2 \pi \hbar}}  \displaystyle\int_{- \infty}^{+\infty}  \exp(-i \frac{p x}{\hbar} ) \mathrm{d}f \\
          &= \frac{1}{\sqrt{2 \pi \hbar}}  \left[ f \exp\left( - i \frac{p x}{\hbar} \right)| _{- \infty} ^{+ \infty} - \left( - \frac{ip}{\hbar}  \right) \int_{- \infty}^{+\infty} f \exp \left( - i \frac{p x}{\hbar}  \right)\mathrm{d}x\right] \\ 
-         &=  \frac{i p }{\hbar}  \frac{1}{\sqrt{2 \pi \hbar}} \int_{- \infty}^{+\infty} f(x) \exp \left( -i \frac{p x}{\hbar}  \right) \mathrm{d} x \\ 
+         &= 0 +  \frac{i p }{\hbar}  \frac{1}{\sqrt{2 \pi \hbar}} \int_{- \infty}^{+\infty} f(x) \exp \left( -i \frac{p x}{\hbar}  \right) \mathrm{d} x \\ 
          &= \frac{ip}{\hbar}  g(p)
 \end{align*}
 
@@ -176,6 +177,7 @@ On obtient immédiatement :
 \end{itemize}
 % subsection Valeurs moyennes de grandeurs dépendant de l'impulsion (end)
 
+\newpage
 \section{Opérateur impulsion} % (fold)
 \label{sec:Opérateur impulsion}
 
@@ -201,7 +203,7 @@ On obtient enfin,
 
 
 \begin{equation}
-  \langle p \rangle(t) = \int_{- \infty}^{+ \infty} \varphi ^{*}(p,t) \times p \varphi(p,t) \mathrm{d}p = \int_{- \infty}^{+ \infty} \psi ^{*}(x, t) \frac{\hbar}{i}  \frac{\partial }{\partial x} \psi (x,t) \mathrm{d}x
+  \boxed{\langle p \rangle(t) = \int_{- \infty}^{+ \infty} \varphi ^{*}(p,t) \times p \varphi(p,t) \mathrm{d}p = \int_{- \infty}^{+ \infty} \psi ^{*}(x, t) \frac{\hbar}{i}  \frac{\partial }{\partial x} \psi (x,t) \mathrm{d}x}
 \end{equation}
 
 On définit :
@@ -313,7 +315,7 @@ Rappel :
 
 On introduit de façon, pour un opérateur $\hat{A}$ linéaire agissant sur les fonctions d'onde : 
 \begin{equation}
-  \langle \psi_1 | \hat{A} | \psi_2 \rangle = \int_{-\infty}^{+\infty} \psi_1 ^{*}(x,t) (\hat{A} \psi_2)(x,t) \mathrm{d}x
+  \boxed{\langle \psi_1 | \hat{A} | \psi_2 \rangle = \int_{-\infty}^{+\infty} \psi_1 ^{*}(x,t) (\hat{A} \psi_2)(x,t) \mathrm{d}x}
 \end{equation}
 
 Par exemple, on a déjà vu : 

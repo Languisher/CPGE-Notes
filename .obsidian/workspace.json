@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f4f82f3afa80a1be",
+        "id": "3fdeafa4aaa4d9c2",
         "type": "tabs",
         "children": [
           {
-            "id": "d10ce3574ad19c65",
+            "id": "21920a24f66c0393",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "Physique - Chimie/P13 MécaniqueQuantique/MecaniqueQuantique.pdf"
               }
             }
           }
@@ -69,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374.5
+    "width": 222.5,
+    "collapsed": true
   },
   "right": {
     "id": "c515df8bb3999eb4",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Physique - Chimie/P13 MécaniqueQuantique/MecaniqueQuantique.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Physique - Chimie/P13 MécaniqueQuantique/MecaniqueQuantique.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Physique - Chimie/P13 MécaniqueQuantique/MecaniqueQuantique.pdf"
               }
             }
           }
@@ -143,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,29 +156,30 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0f26edbb6c973a85",
+  "active": "21920a24f66c0393",
   "lastOpenFiles": [
-    "Math/M08 Integration/Suites-et-Séries[L3]/Suites-et-Séries[L3].synctex(busy)",
-    "Math/M08 Integration/Suites-et-Séries[L3]/xelatex89311.fls",
-    "Math/M08 Integration/Suites-et-Séries[L3]/Suites-et-Séries[L3].pdf",
-    "Math/M08 Integration/Suites-et-Séries[L3]/xelatex89285.fls",
-    "Math/M08 Integration/Suites-et-Séries[L3]/xelatex89274.fls",
-    "Math/M08 Integration/Suites-et-Séries[L3]/Suites-et-Séries[L3].synctex.gz",
-    "Math/M08 Integration/Suites-et-Séries[L3]/Suites-et-Séries[L3].toc",
-    "Math/M08 Integration/Suites-et-Séries[L3]/Suites-et-Séries[L3].xdv",
-    "Math/M08 Integration/Suites-et-Séries[L3]/Suites-et-Séries[L3].log",
-    "Math/M08 Integration/Suites-et-Séries[L3]/Suites-et-Séries[L3].fls",
-    "Math/M08 Integration/Suites-et-Séries[L3]/xelatex89271.fls",
+    "Physique - Chimie/P13 MécaniqueQuantique/MecaniqueQuantique-Notes-Latex/LN-PHY3306P.synctex(busy)",
+    "Physique - Chimie/P13 MécaniqueQuantique/MecaniqueQuantique-Notes-Latex/xelatex97476.fls",
+    "Physique - Chimie/P13 MécaniqueQuantique/MecaniqueQuantique-Notes-Latex/xelatex97406.fls",
+    "Physique - Chimie/P13 MécaniqueQuantique/MecaniqueQuantique-Notes-Latex/xelatex97404.fls",
+    "Physique - Chimie/P13 MécaniqueQuantique/MecaniqueQuantique-Notes-Latex/xelatex97345.fls",
+    "Physique - Chimie/P13 MécaniqueQuantique/MecaniqueQuantique-Notes-Latex/xelatex97300.fls",
+    "Physique - Chimie/P13 MécaniqueQuantique/MecaniqueQuantique-Notes-Latex/xelatex97139.fls",
+    "Physique - Chimie/P13 MécaniqueQuantique/MecaniqueQuantique-Notes-Latex/xelatex97033.fls",
+    "Physique - Chimie/P13 MécaniqueQuantique/MecaniqueQuantique-Notes-Latex/xelatex97019.fls",
+    "Physique - Chimie/P13 MécaniqueQuantique/MecaniqueQuantique-Notes-Latex/xelatex96891.fls",
+    "Physique - Chimie/P13 MécaniqueQuantique/MecaniqueQuantique-Notes-Latex/xelatex96843.fls",
+    "Physique - Chimie/P13 MécaniqueQuantique/MecaniqueQuantique-Notes-Latex/assets/Barrière de Potentiel.png",
+    "Physique - Chimie/P13 MécaniqueQuantique/MecaniqueQuantique-Notes-Latex/assets/截屏2023-11-15 08.59.33.png",
     "README.md",
+    "Math/M08 Integration/Intégration[L3]/assets/Ensemble de Cantor.svg.png",
+    "Math/M08 Integration/Intégration[L3]/assets/1458px-Cantor_set_in_seven_iterations.svg.png",
+    "Math/M08 Integration/Intégration[L3]/assets/Convergence dominée.png",
+    "Math/M08 Integration/Intégration[L3]/assets/截屏2023-11-11 15.42.34.png",
     "Physique - Chimie/P12 Électromagnétisme/Notes/assets/Solénoïde parcouru par un courant variable.png",
     "Y2023-1/Électromagnétisme/Notes/assets/截屏2023-10-26 22.07.17.png",
     "Y2023-1/Électromagnétisme/Notes/assets/截屏2023-10-26 22.07.04.png",
     "Physique - Chimie/P12 Électromagnétisme/Notes/assets/Distribution anti-symétrique.png",
-    "Y2023-1/Électromagnétisme/Notes/assets/截屏2023-10-26 22.02.44.png",
-    "Physique - Chimie/P12 Électromagnétisme/Notes/assets/Distribution symétrique.png",
-    "Y2023-1/Électromagnétisme/Notes/assets/截屏2023-10-26 22.02.27.png",
-    "Physique - Chimie/P12 Électromagnétisme/Notes/assets/Condensateur plan.png",
-    "Y2023-1/Électromagnétisme/Notes/assets/截屏2023-10-26 21.50.58.png",
     "Test.md"
   ]
 }

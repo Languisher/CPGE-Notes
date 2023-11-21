@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1698549764 "Intégration[L3].xdv" "Intégration[L3].pdf" "Intégration[L3]" 1698549765
-  "Intégration[L3].xdv" 1698549763 732156 e5d9af4debc9fb345ccd07e5e25c4dc0 "xelatex"
+["xdvipdfmx"] 1699809797 "Intégration[L3].xdv" "Intégration[L3].pdf" "Intégration[L3]" 1699809798
+  "Intégration[L3].xdv" 1699809796 950296 30a0c06b2b13514ccf30171d4d2441ea "xelatex"
   (generated)
   "Intégration[L3].pdf"
-["xelatex"] 1698549757 "Intégration[L3].tex" "Intégration[L3].xdv" "Intégration[L3]" 1698549765
+["xelatex"] 1699809789 "Intégration[L3].tex" "Intégration[L3].xdv" "Intégration[L3]" 1699809798
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -239,14 +239,16 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1655629763 5459476 783cf268605e3478e2099c4cdff1b12f ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "C1.tex" 1698306137 27529 4e4480fb395208830e0ba997ca71f90e ""
-  "Int[L2].tex" 1698549755 24869 d315d236b28a629fa9bbedf239013234 ""
-  "Intégration[L3].aux" 1698549763 11695 507d1f2152601bb52ffbf49fb3c4d88d "xelatex"
-  "Intégration[L3].tex" 1697695875 383 c1f9820fb798bd41ca40ad319fafa84c ""
-  "Intégration[L3].toc" 1698549763 4025 85a76a0904ef474f64981d76bc7b5d3d "xelatex"
+  "C1.tex" 1699809786 52699 e699ea68caf8716d1c6cbf77d39ac5f5 ""
+  "Int[L2].tex" 1699688360 25834 8ca887a6197a2448e59951ff25c7e30a ""
+  "Intégration[L3].aux" 1699809796 14322 02f75b964de5504c6b9f35506453931a "xelatex"
+  "Intégration[L3].tex" 1699636821 386 1aa77f713fcc793d1de394c55a6bd1fc ""
+  "Intégration[L3].toc" 1699809796 5301 bdda1b2bf69843c9a26295aee994b1cd "xelatex"
   "assets/Approximation d'une fonction 1.png" 1696829647 143595 35d447d4d582759cd7aa5af07d91f02d ""
   "assets/Approximation d'une fonction 2.png" 1696830314 100733 fe3878061cdbf198b434abea39e9ca8a ""
+  "assets/Convergence dominée.png" 1699688555 43662 60508dd3b172af5faaef824ca0390ae1 ""
   "assets/Encadrement d'une intégrale.png" 1696834062 34442 de5014908c53566c24be5ccf2c23e932 ""
+  "assets/Ensemble de Cantor.svg.png" 1699692172 1997 f1d130d3a418169dc7b2bec9ba23e1fe ""
   "assets/Fonction continue par morceaux sur un segment.png" 1696903010 90385 24d84a2b8c208ba602c3187520c19617 ""
   "letterfonts.tex" 1694422884 8702 ef32ca12e97530ef5734ca4adcb1f6b1 ""
   "macros.tex" 1694422884 3389 93000260d2aea292d29c76d4ace77a29 ""

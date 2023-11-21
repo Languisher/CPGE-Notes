@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1698114415 "LN-PHY3306P.xdv" "LN-PHY3306P.pdf" "LN-PHY3306P" 1698114417
-  "LN-PHY3306P.xdv" 1698114415 576308 1b82e6833baaa70c45d6e52c11934540 "xelatex"
+["xdvipdfmx"] 1700069232 "LN-PHY3306P.xdv" "LN-PHY3306P.pdf" "LN-PHY3306P" 1700069234
+  "LN-PHY3306P.xdv" 1700069232 690580 d54a645951f7603cd8ff1df30414c3a6 "xelatex"
   (generated)
   "LN-PHY3306P.pdf"
-["xelatex"] 1698114410 "LN-PHY3306P.tex" "LN-PHY3306P.xdv" "LN-PHY3306P" 1698114417
+["xelatex"] 1700069227 "LN-PHY3306P.tex" "LN-PHY3306P.xdv" "LN-PHY3306P" 1700069234
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -239,18 +239,21 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1655629763 5459476 783cf268605e3478e2099c4cdff1b12f ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "C1.tex" 1698114399 19360 b03895a4daf78f55e49ea6cf6072a0e8 ""
-  "C2.tex" 1697896730 16403 10026fee685e89123ef18925f576b9c8 ""
-  "C3.tex" 1697895525 7748 c283f01ffecd2074e3bcf5ca36480601 ""
-  "C5.tex" 1698064205 7796 1284a6dd170ec551a17733187640bd02 ""
-  "LN-PHY3306P.aux" 1698114415 14097 ca8f7b6b7586560c340e45777780a726 "xelatex"
+  "C1.tex" 1700029642 19359 93cb3feb459dd696070fe333e112054c ""
+  "C2.tex" 1700065202 16503 54074c6c7bf1320f3f477154d3bb1e33 ""
+  "C3.tex" 1700066127 7779 c95791d3ada2c29c754dbff16702bf7b ""
+  "C5.tex" 1700069221 29349 895270d65f756482bd8dd63953b47aa9 ""
+  "LN-PHY3306P.aux" 1700069232 18953 6b393547904f344ec1f1e790c41d53cd "xelatex"
   "LN-PHY3306P.tex" 1698064259 387 c1422da4a7f81227002512c5a4ca1873 ""
-  "LN-PHY3306P.toc" 1698114415 5268 e5a2a4ed640f3d0ae4108c128fb3f672 "xelatex"
+  "LN-PHY3306P.toc" 1700069232 7045 06c49c8085bfe06634078d77acd780c1 "xelatex"
+  "assets/Barrière de Potentiel.png" 1700009976 34530 3167a5ec5872ed57dd7102b6dbd29ab0 ""
   "assets/Fonction d'onde Gaussienne 1D.png" 1696524079 27295 1f5e33ec97d25f7f4442276de4140cc4 ""
   "assets/Interférence de Young - Balles.png" 1694485519 49869 7860f2600a2e9c681a020291541a0022 ""
   "assets/Interférence de Young - Électrons.png" 1694485938 51550 cdcf001efb311c20b37e3ed032911184 ""
   "assets/Interférence de Young - Onde d'eau.png" 1694485755 81054 22a4037ef350daaa5f2e61048fc90fd6 ""
   "assets/Opérateurs utiles.png" 1697882910 229396 2d7d4aeea2f41af89aee478bc8076148 ""
+  "assets/Puits de Potentiel Fini.png" 1700068357 18171 ba65482943c00a2c88811661da618ed8 ""
+  "assets/Puits de Potentiel Infini.png" 1700015903 31650 0ab6a46ea4c6a32f4d78ce49493c5243 ""
   "letterfonts.tex" 1694436187 8702 ef32ca12e97530ef5734ca4adcb1f6b1 ""
   "macros.tex" 1694436187 3389 93000260d2aea292d29c76d4ace77a29 ""
   "preamble.tex" 1696491078 20311 f63ac759111da1869fecd9e8c9ced632 ""

@@ -39,7 +39,7 @@ Une fonction \underline{continue} sur un \underline{segment} est uniformément c
 \label{sub:Subdivision d'un segment}
 
 \begin{Definition}[colbacktitle=red!75!black]{Subdivision}{}
-  Une \textbf{subdivision} de $[a,]$ est une suite finie $\sigma = (a_k) _{k \in [\![0,n]\!]}$ strictement croissante avec $a_0 = a$ et $a_n = b$. On peut alors écrire :
+  Une \textbf{subdivision} de $[a,b]$ est une suite finie $\sigma = (a_k) _{k \in [\![0,n]\!]}$ strictement croissante avec $a_0 = a$ et $a_n = b$. On peut alors écrire :
   \begin{equation}
     a = a_0 < a_1 < a_2 < \dots <a _{n-1} < a_n = b
   \end{equation}
@@ -75,8 +75,18 @@ Remarque : La subdivision $\sigma$ introduite eset \textbf{subordonnée} à $\va
 
 \subsection{Propriétés de l'intégrale d'une fonction en escaliers} % (fold)
 \label{sub:Propriétés de l'intégrale d'une fonction en escaliers}
-Linéarité
+\begin{itemize}
 
+    \item \textbf{Linéarité} : L'intégrale d'une somme de fonctions en escalier est égale à la somme des intégrales de chaque fonction. De même, l'intégrale d'une fonction en escalier multipliée par un scalaire est égale au scalaire multiplié par l'intégrale de la fonction.
+
+    \item Additivité : L'intégrale sur un segment peut être divisée en intégrales sur des sous-segments. Si le segment est divisé en sous-segments, l'intégrale sur le segment entier est la somme des intégrales sur chaque sous-segment.
+
+    \item Valeur Absolue : L'intégrale de la valeur absolue d'une fonction en escalier est toujours supérieure ou égale à la valeur absolue de l'intégrale de la fonction.
+
+    \item Inégalité de l'intégrale : Si une fonction en escalier est toujours supérieure ou égale à une autre sur un segment, alors son intégrale sur ce segment est également supérieure ou égale à celle de l'autre fonction.
+
+
+\end{itemize}
 % subsection Propriétés de l'intégrale d'une fonction en escaliers (end)
 
 % subsection Intégrale d'une fonction en escalier (end)

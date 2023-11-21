@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.19)  24 OCT 2023 10:26
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.6.19)  16 NOV 2023 01:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1222,68 +1222,78 @@ Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
-)
+[1
+
+])
 \tf@toc=\write5
 \openout5 = `LN-PHY3306P.toc'.
 
- [1
-
-] (./C1.tex
+ [2] (./C1.tex
 Chapter 1.
 File: ./assets/Interférence de Young - Balles.png Graphic file (type bmp)
 <./assets/Interférence de Young - Balles.png>
-[2
+[3
 
 ]
 File: ./assets/Interférence de Young - Onde d'eau.png Graphic file (type bmp)
 <./assets/Interférence de Young - Onde d'eau.png>
 File: ./assets/Interférence de Young - Électrons.png Graphic file (type bmp)
 <./assets/Interférence de Young - Électrons.png>
- [3] [4] [5]
+ [4] [5] [6]
 Missing character: There is no 2 ("32) in font nullfont!
 Missing character: There is no 6 ("36) in font nullfont!
-[6]
+[7]
 \g__tikzsymbols_savebox_F_gray 0.5_10_Laughey_1_none_none_box=\box146
 
 Overfull \hbox (6.79173pt too wide) detected at line 231
 []
  []
 
-[7] [8]
+[8] [9]
 File: ./assets/Fonction d'onde Gaussienne 1D.png Graphic file (type bmp)
 <./assets/Fonction d'onde Gaussienne 1D.png>
- [9] [10]) (./C2.tex [11]
+ [10] [11]) (./C2.tex [12]
 Chapter 2.
-[12
+[13
 
-] [13] [14] [15]
+] [14] [15] [16]
 Missing character: There is no 2 ("32) in font nullfont!
 Missing character: There is no 7 ("37) in font nullfont!
-[16] [17] [18]
+[17] [18] [19]
 File: ./assets/Opérateurs utiles.png Graphic file (type bmp)
 <./assets/Opérateurs utiles.png>
-) (./C3.tex [19]
+) (./C3.tex [20]
 Chapter 3.
-[20
+[21
 
-] [21] [22]) (./C5.tex [23]
+] [22] [23]) (./C5.tex [24]
 Chapter 4.
+[25
+
+]
 Missing character: There is no 2 ("32) in font nullfont!
 Missing character: There is no 8 ("38) in font nullfont!
-[24
-
-] [25]) [26] (./LN-PHY3306P.aux)
+[26] [27] [28] [29] [30] [31]
+File: ./assets/Barrière de Potentiel.png Graphic file (type bmp)
+<./assets/Barrière de Potentiel.png>
+ [32] [33] [34] [35]
+File: ./assets/Puits de Potentiel Infini.png Graphic file (type bmp)
+<./assets/Puits de Potentiel Infini.png>
+ [36]
+File: ./assets/Puits de Potentiel Fini.png Graphic file (type bmp)
+<./assets/Puits de Potentiel Fini.png>
+ [37]) [38] (./LN-PHY3306P.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 36763 strings out of 475883
- 743943 string characters out of 5802515
- 1153336 words of memory out of 5000000
- 57109 multiletter control sequences out of 15000+600000
+ 36820 strings out of 475883
+ 745545 string characters out of 5802515
+ 1156398 words of memory out of 5000000
+ 57163 multiletter control sequences out of 15000+600000
  507834 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  96i,23n,102p,469b,1926s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on LN-PHY3306P.xdv (27 pages, 576308 bytes).
+Output written on LN-PHY3306P.xdv (39 pages, 690580 bytes).
